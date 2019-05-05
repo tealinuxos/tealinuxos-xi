@@ -1,0 +1,1138 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+/* Navbar */
+/* -------------------------------- */
+.navbar{
+    background-color: #39c892ff; 
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar .navbar-menu{
+    /* padding: 15px 0; */
+}
+.navbar .navbar-brand a.navbar-item img{
+    margin-right: 5px; 
+}
+.navbar .navbar-brand a.navbar-item{
+    color: #fff;
+}
+.navbar .navbar-menu a.navbar-item{
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+}
+.navbar .navbar-menu p i.fas{
+    color: #4d6469ff;
+}
+.navbar .navbar-brand a.navbar-item:hover{
+    color:none;
+}
+.navbar .navbar-end a.navbar-item:hover{
+    color: #39c892ff; 
+    /* border-bottom: 1px solid #39c892ff; */
+    background-color: #385b6bff;
+}
+span.navbar-item{
+    /* position: relative; */
+}
+.navbar .navbar-menu .navbar-end .navbar-item p{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 23px;
+    cursor: pointer;
+    background-color: #fff; 
+}
+/* -------------------------------- */
+
+/* Header */
+/* -------------------------------- */
+.hero{
+    background-image: url("../img/hero2.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+.hero .hero-body{
+    text-align: left;
+}
+.hero .title{
+    font-size: 4rem;
+}
+.hero a.button{
+    width: 6.5rem;
+    height: 3rem;
+    margin-top: 16px;
+    font-size: 1.25rem;
+    color: #e7ededff; 
+    background-color: #39c892ff;
+}
+.hero a.button:hover{
+    color: #39c892ff; 
+    border-color: #39c892ff;
+    background-color: #385b6bff;
+}
+
+/* -------------------------------- */
+
+/* ABOUT */
+/* -------------------------------- */
+.about .media + .media {
+    border: 0;
+}
+.about{
+    padding-bottom: 150px;
+}
+.about .about-head h1{
+    margin-bottom: 50px;
+}
+.about .about-head p{
+    /* font-family: 'Roboto', sans-serif; */
+}
+.about .about-head{
+    padding: 100px 0;
+}
+.about .about-body .columns .column .media .media-content h1.title{
+    font-size: 1.5rem;
+}
+.about .about-body .columns{
+    margin: 0;
+}
+.about .about-body .columns .column:last-child{
+    padding: 35px 0;
+}
+.about .about-body .columns .flex-column{
+    justify-content: space-between;
+}
+.about .media h1.title{
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 28px; 
+}
+.about .media p{
+    /* font-size: 1.10rem; */
+}
+.about .media .media-content .content h1{
+    font-weight: 600;
+}
+.about .media .media-content .content p{
+    font-size: 1rem;
+    /* font-family: 'Roboto', sans-serif; */
+}
+/* -------------------------------- */
+
+/* FITUR */
+/* -------------------------------- */
+.fitur .columns{
+    margin: 0;
+    margin-bottom: 150px;
+}
+.fitur .fitur-head{
+    margin-bottom: 80px;
+}
+.fitur .fitur-body .columns .column h1{
+    font-size: 1.80 rem;
+    margin-bottom: 20px;
+}
+.fitur .fitur-body .columns .column p{
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: "Droid Serif"; */
+}
+/* -------------------------------- */
+
+/* RESEP TEA LINUX OS */
+/* -------------------------------- */
+.resep-tealinux{
+    background-color: #385b6bff; 
+    padding: 80px 0; 
+}
+.resep-tealinux .resep-body{
+    margin: 0 130px;
+}
+.resep-tealinux .resep-head{
+    margin-bottom: 40px;
+}
+.resep-tealinux .resep-head h1{
+    color: #fff;
+}
+.resep-tealinux .resep-body .card .card-content img{
+    margin-bottom: 30px;
+}
+.resep-tealinux .resep-body .card .card-content .columns .column{
+    padding: 26px;
+}
+.resep-tealinux .resep-body .card{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.resep-tealinux .resep-body .card .card-content .columns .column{
+    padding: 26px;
+}
+.resep-tealinux .resep-body .card .card-content .columns .column h1{
+    margin-bottom: 40px;
+}
+.resep-tealinux .resep-body .card .card-content .columns .column .donasi-download a{
+    background-color: #39c892ff;
+    color: #e7ededff; 
+}
+.resep-tealinux .resep-body .card .card-content .columns .column ul li{
+    margin: 15px 0;
+}
+.resep-tealinux .resep-body .card .card-content .columns .column h1{
+    margin-bottom: 20px;
+}
+.resep-tealinux .resep-body .card .card-content .columns .column span.line{
+    content: "";
+    display: block;
+    margin-bottom: 40px;
+    width: 178px;
+    height: 2px;
+    background-color: #39c892ff;
+}
+.resep-tealinux .resep-body .card .card-content .columns .column table tr td{
+    padding: 6px 0;
+}
+.resep-tealinux .resep-body .card .card-content .columns .column table tr td p{
+    margin: 0 10px;
+    font-size: 1.10rem;
+}
+.resep-tealinux .resep-body .card footer.card-footer .card-footer-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 18px;
+}
+.resep-tealinux .resep-body .card footer.card-footer .card-footer-item span{
+    cursor: pointer;
+    color: #39c892ff;
+}
+/* -------------------------------- */
+
+/* FOOTER */
+/* -------------------------------- */
+.footer {
+    padding-bottom: 48px;
+    background-color: #1e252cff;
+}
+.footer p{
+    color: #e7ededff;
+    font-size: 1rem;
+}
+.footer a.button{
+    width: 50px;
+    height: 50px;
+    background-color: #39c892ff;
+    color: #e7ededff;
+    border: 0;
+}
+.footer .rounded{
+    border-radius: 50%;
+}
+.footer .transtale .dropdown{
+    margin-bottom: 20px;
+}
+/* Footer */
+
+.footer a.button i{
+    font-size: 1.25rem;
+}
+/* -------------------------------- */
+
+/* CUSTOM */
+/* -------------------------------- */
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.justify-content-center{
+    display: flex;
+    justify-content: center;
+}
+.align-items-center{
+    display: flex;
+    align-items: center;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+/* HALAMAN KONTRIBUSI */
+/* ------------------------------------------ */
+/* Berkontribusi */
+/* -------------------------------- */
+.kontribusi {
+    margin-top: 200px;
+    margin-bottom: 80px; 
+}
+.kontribusi-konten{
+    padding: 25px 0;
+}
+.kontribusi .kontribusi-konten h1.title{
+    margin-bottom: 40px;
+}
+.kontribusi .kontribusi-konten p{
+    margin: auto 10%;
+}
+.kontribusi span.line{
+    content: "";
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    height: 2px;
+    background-color: #39c892ff;
+}
+/* -------------------------------- */
+
+/* Devisi */
+/* -------------------------------- */
+.devisi{
+    margin-bottom: 170px;
+}
+.devisi a{
+    width: 250px;
+    padding: 22px;
+    margin: 0 5px;
+    background-color: #39c892ff;
+    color: #fff;
+}
+.tim-pengembang .tim-pengembang-head span.line{
+    content: "";
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    height: 2px;
+    background-color: #39c892ff;
+}
+.tim-pengembang .tim-pengembang-head{
+    margin-bottom: 50px; 
+}
+.tim-pengembang .tim-pengembang-body .card{
+    background-color: #39c892ff;
+    color: #fff;
+    padding: 30px;
+    margin-bottom: 150px; 
+    border-radius: 16px;    
+}
+.tim-pengembang .tim-pengembang-body .card .title{
+    color: #fff;
+}
+.tim-pengembang .tim-pengembang-body .card .card-content hr{
+    height: 1px;
+}
+.tim-pengembang .tim-pengembang-body .card .card-content .deskripsi h1{
+    margin-bottom: 12px;
+}
+.tim-pengembang .tim-pengembang-body .card .card-content .tugas ul{
+    list-style-type: disc;
+    margin-left: 18px;
+}
+.tim-pengembang .tim-pengembang-body .card .card-content .deskripsi span.line{
+    content: "";
+    margin-bottom: 12px;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+.tim-pengembang .tim-pengembang-body .card .card-content hr{
+    margin-bottom: 12px;
+    margin-top: 12px; 
+}
+.tim-pengembang .tim-pengembang-body .card .card-content .tugas h1{
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+}
+.tim-pengembang .tim-pengembang-body .card .card-content .tugas ul li i{
+    margin-right: 10px; 
+}
+/* -------------------------------- */
+/* Konten Panduan */
+/* -------------------------------- */
+.konten-panduan{
+    margin-bottom: 150px;
+}
+.konten-panduan .konten-panduan-head{
+    margin-bottom: 40px;
+}
+.konten-panduan .konten-panduan-head span.line{
+    content: "";
+    margin: 0 auto;
+    display: block;
+    width: 248px;
+    height: 2px;
+    background-color: #39c892ff;
+}
+.konten-panduan .konten-panduan-body .konten-panduan-deskripsi{
+    padding: 0 16%;
+    margin-bottom: 160px;
+}
+.konten-panduan .konten-panduan-body .konten-panduan-deskripsi span.line{
+    content: "";
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    margin-bottom: 24px;
+    height: 1px;
+    background-color: #39c892ff;
+}
+.konten-panduan .konten-panduan-body .konten-panduan-deskripsi p{
+    margin-bottom: 15px;
+}
+.konten-panduan .konten-panduan-body .konten-panduan-langkah{
+    padding: 0 10%;
+}
+.konten-panduan .konten-panduan-body .konten-panduan-langkah .card{
+    border: 1px solid #39c892ff;    
+    color: #39c892ff;
+    padding: 30px;
+    border-radius: 16px;
+}
+.konten-panduan .konten-panduan-body .konten-panduan-langkah .card .title{
+    color: #39c892ff;
+}
+.konten-panduan .konten-panduan-body .konten-panduan-langkah h1{
+    margin-top: 24px;
+}
+.konten-panduan .konten-panduan-body .konten-panduan-langkah span.line{
+    content: "";
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #39c892ff;
+}
+.konten-panduan .konten-panduan-body .konten-panduan-langkah .card .card-content .columns{
+    margin-bottom: 50px;
+}
+.konten-panduan .konten-panduan-body .konten-panduan-langkah .card .card-content .columns:last-child{
+    margin-bottom: 24px;
+}
+.konten-panduan .konten-panduan-body .konten-panduan-langkah .card .card-content .columns:last-child{
+    /* margin-bottom: 25px; */
+}
+.konten-panduan .konten-panduan-body .konten-panduan-langkah .card .card-content .columns .column{
+    /* padding: 0 25px; */
+}
+.konten-panduan .konten-panduan-body .konten-panduan-langkah .card .card-content .columns .column img{
+    width: 85%;
+}
+/* -------------------------------- */
+/* Pelaporan */
+/* -------------------------------- */
+.pelaporan .pelaporan-head span.line{
+    content: "";
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: block;
+    width: 148px;
+    height: 2px;
+    background-color: #39c892ff;
+}
+.pelaporan .pelaporan-body .columns .column ul li{
+    list-style-type: disc;
+    margin-left: 18px;
+    text-align: justify;
+}
+.pelaporan .pelaporan-body .columns .column .card .card-content h1.title{
+    font-size: 1.5rem;
+}
+.pelaporan .pelaporan-body .columns .column ul p{
+    margin-top: 20px;
+}
+.pelaporan .pelaporan-body .columns .column ul li ul.list-circle li{
+    list-style-type: circle;
+}
+.pelaporan .pelaporan-body .columns .column span.line{
+    content: "";
+    margin: 0 auto;
+    margin-bottom: 26px;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+.pelaporan .pelaporan-body .columns .column img{
+    margin-top: 24px;
+}
+.pelaporan .pelaporan-body .card .title{
+    color: #fff;
+}
+.pelaporan .pelaporan-body .card{
+    background-color: #39c892ff;
+    color: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 18px 0 rgba(0, 0, 0, 0.19); */
+}
+.pelaporan .pelaporan-body .columns .column .card{
+    height: 500px;
+    padding: 30px;
+    border-radius: 16px;
+}
+.pelaporan .pelaporan-body .note{
+    margin-bottom: 150px;
+}
+.pelaporan .pelaporan-body .note h1.title{
+    font-size: 1.5rem;
+}
+.pelaporan .pelaporan-body .note span.line{
+    content: "";
+    margin: 0 auto;
+    margin-bottom: 26px;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+/* -------------------------------- */
+/* ------------------------------------------ */
+
+/* PANDUAN */
+/* ------------------------------------------ */
+/* Sidebar Right */
+.sidebar-right{
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    overflow: auto;
+    z-index: 10;
+    position: fixed;
+    padding: 26px;
+    padding-top: 80px;
+    background-color: #eee;
+}
+.sidebar-right .bd-categories .bd-category ul.bd-category-list li{
+    margin: 5px 0;
+    font-size: 0.85rem;
+}
+.sidebar-right .bd-categories .bd-category ul.bd-category-list li a{
+    color: #39c892ff;
+}
+
+/* Content */
+.content-main{
+    width: 900px;
+    margin: 0 30% 0 20%;
+    padding: 50px 16px;
+}
+.content .content-body{
+    margin: 24px;
+}
+.content-main footer.content-footer{
+    padding: 0 24px;
+}
+.content-main footer.content-footer .pagination{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24px;
+}
+
+
+/* ------------------------------------------ */
+
+/* -------------------------------- */
+/* RESPONSIVE INDEX */
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1088px) and (max-width: 1280px) {
+    .navbar .navbar-menu .navbar-end a.navbar-item{
+        color: #385b6bff;
+    }
+    .hero .hero-body .title{
+        font-size: 3rem;
+    }
+    .hero .hero-body .subtitle{
+        font-size: 1rem;
+    }
+    .hero .hero-body a.button{
+        font-size: 1rem;
+        width: 5.5rem;
+        height: 2.5rem;
+        margin-top: 16px;
+    }
+    .resep-tealinux .resep-body{
+        margin: 0 30px;
+    }    
+}
+@media (min-width: 1025px) and (max-width: 1088px) {
+    .container{
+        margin: 0 24px;
+    }
+    .navbar .navbar-menu .navbar-end .navbar-item p{
+        bottom: 14px;
+    }
+    .navbar .container{
+        margin: 0 0;
+    }
+    .navbar .navbar-menu .navbar-end a.navbar-item{
+        color: #385b6bff;
+    }
+    .resep-tealinux .resep-body{
+        margin: 0 40px;
+    }
+    .hero .hero-body .title{
+        font-size: 3rem;
+    }
+    .hero .hero-body .subtitle{
+        font-size: 1rem;
+    }
+    .hero .hero-body a.button{
+        font-size: 1rem;
+        width: 5.5rem;
+        height: 2.5rem;
+        margin-top: 16px;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container{
+        margin: 0 30px;
+    }
+    .navbar .navbar-menu .navbar-end a.navbar-item{
+        color: #385b6bff;
+    }
+    /* Hero */
+    .hero .hero-body .title{
+        font-size: 3rem;
+    }
+    .hero .hero-body .subtitle{
+        font-size: 1rem;
+    }
+    .hero .hero-body a.button{
+        font-size: 1rem;
+        width: 5.5rem;
+        height: 2.5rem;
+        margin-top: 16px;
+    }
+    /* Navbar */
+    .navbar .navbar-menu .navbar-end .navbar-item p{
+        bottom: 15px;
+    }
+    .navbar .container{
+        margin: 0 0;
+    }
+    /* About */
+    .about .about-head{
+        padding: 50px 0;
+    }
+    .about{
+        padding-bottom: 100px;
+    }
+    .about .about-head h1{
+        margin-bottom: 30px;
+    }
+    /* Fitur */
+    .fitur .columns{
+        margin: 0;
+        margin-bottom: 100px;
+    }
+    .fitur .fitur-head{
+        margin-bottom: 30px;
+    }
+    /* Resep */
+    .resep-tealinux .resep-body{
+        margin: 0 40px;
+    }
+    .resep-tealinux .resep-body .columns{
+        display: block;
+    }
+    .resep-tealinux .resep-body .card .card-content .columns .column:first-child{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .resep-tealinux .resep-body .card .card-content .columns .column h1{
+        text-align: center;
+    }
+    .resep-tealinux .resep-body .card .card-content .columns .column span.line{
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+    .resep-tealinux .resep-body .card .card-content .columns .column table{
+        margin: 0 12%;
+        text-align: center;
+    }
+    /* Kontribusi */
+    .kontribusi {
+        margin-top: 130px;
+        margin-bottom: 50px; 
+    }
+    .kontribusi .kontribusi-konten h1.title{
+        margin-bottom: 40px;
+    }
+    /* Devisi */
+    .devisi{
+        margin-bottom: 130px;
+    }
+    /* Tim Pengembang */
+    .tim-pengembang .tim-pengembang-head{
+        margin-bottom: 40px; 
+    }
+    .tim-pengembang .tim-pengembang-body .card{
+        padding: 30px;
+        margin-bottom: 130px;     
+    }
+
+    .konten-panduan{
+        margin-bottom: 130px;
+    }
+    .konten-panduan .konten-panduan-body .konten-panduan-deskripsi{
+        padding: 0 16%;
+        margin-bottom: 130px;
+    }
+    /* Pelaporan */
+    .pelaporan .pelaporan-head span.line{
+        margin-bottom: 40px;
+    }
+    .pelaporan .pelaporan-body .note{
+        margin-bottom: 130px;
+    }
+    .devisi a{
+        margin: 10px 5px;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (max-width: 767px) {
+    .container{
+        margin: 0 26px;
+    }
+    .navbar .navbar-menu .navbar-end a.navbar-item{
+        color: #385b6bff;
+    }
+    .navbar .navbar-menu .navbar-end .navbar-item p{
+        bottom: 14px;
+    }
+    .hero .hero-body .title{
+        font-size: 2.5rem;
+    }
+    .hero .hero-body .subtitle{
+        font-size: 1rem;
+    }
+    .hero .hero-body a.button{
+        font-size: 1rem;
+        width: 5rem;
+        height: 2.5rem;
+        margin-top: 14px;
+    }
+    .navbar .container{
+        margin: 0 0;
+    }
+     /* About */
+     .about .about-head{
+        padding: 40px 0;
+    }
+    .about{
+        padding-bottom: 80px;
+    }
+    .about .about-head h1{
+        margin-bottom: 24px;
+    }
+    /* Fitur */
+    .fitur .columns{
+        margin: 0;
+        margin-bottom: 80px;
+    }
+    .fitur .fitur-head{
+        margin-bottom: 24px;
+    }
+    /* Resep */
+    .resep-tealinux .resep-body{
+        margin: 0 2%;
+    }
+    .resep-tealinux .resep-body .card .card-content .columns .column:first-child{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .resep-tealinux .resep-body .card .card-content .columns .column h1{
+        text-align: center;
+    }
+    .resep-tealinux .resep-body .card .card-content .columns .column table{
+        margin: 0 0;
+        text-align: center;
+        font-size: 0.90rem;
+    }
+    .resep-tealinux .resep-body .card .card-content .columns .column table tr td p{
+        font-size: 0.90rem;
+    }
+    .resep-tealinux .resep-body .card .card-content .columns .column span.line{
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+    /* Footer */
+    .footer p{
+        font-size: 0.90rem;
+    }
+    .footer a.button{
+        padding: 2px 6px;
+    }
+    .footer a.button i{
+        font-size: 0.90rem;
+    }
+    /* Kontribusi */
+    .kontribusi {
+        margin-top: 100px;
+        margin-bottom: 30px; 
+    }
+    .kontribusi span.line{
+        width: 230px;
+    }
+    .kontribusi .kontribusi-konten h1.title{
+        font-size: 1.75rem;
+        margin-bottom: 30px;
+    }
+    .kontribusi .kontribusi-konten p{
+        margin: auto 0;
+    }
+    /* Devisi */
+    .devisi{
+        margin-bottom: 100px;
+    }
+    .devisi a{
+        margin: 10px 5px;
+    }
+    /* Tim Pengembang */
+    .tim-pengembang .tim-pengembang-head{
+        margin-bottom: 30px; 
+    }
+    .tim-pengembang .tim-pengembang-head h1.title{
+        font-size: 1.75rem;
+    }
+    .tim-pengembang .tim-pengembang-head span.line{
+        width: 270px;
+    }
+    .tim-pengembang .tim-pengembang-body .card{
+        padding: 24px;
+        margin-bottom: 100px;     
+    }
+    .tim-pengembang-body .deskripsi h1.title{
+        font-size: 1.5rem;
+    }
+    /* Konten-panduan */
+    .konten-panduan{
+        margin-bottom: 100px;
+    }
+    .konten-panduan .konten-panduan-head h1.title{
+        font-size: 1.75rem;
+    }
+    .konten-panduan .konten-panduan-head span.line{
+        width: 225px;
+    }
+    .konten-panduan .konten-panduan-body .konten-panduan-deskripsi{
+        padding: 0 0;
+        margin-bottom: 100px;
+    }
+    .konten-panduan .konten-panduan-body .konten-panduan-langkah{
+        padding: 0 0;
+    }
+    .konten-panduan .konten-panduan-body .konten-panduan-langkah h1{
+        font-size: 1.75rem;
+    }
+    .konten-panduan .konten-panduan-body .konten-panduan-langkah .card{
+        padding: 0;
+    }
+    .konten-panduan .konten-panduan-body .konten-panduan-langkah h1{
+        margin-top: 0;
+    }
+    .konten-panduan .konten-panduan-body .konten-panduan-langkah .card .card-content .columns:last-child{
+        margin-bottom: 0;
+    }
+    /* Pelaporan */
+    .pelaporan .pelaporan-head h1.title{
+        font-size: 1.75rem;
+    }
+    .pelaporan .pelaporan-head span.line{
+        width: 140px;
+        margin-bottom: 30px;
+    }
+    .pelaporan .pelaporan-body .note{
+        margin-bottom: 100px;
+    }
+    .pelaporan .pelaporan-body .columns .column .card{
+        height: auto;
+        padding: 24px;
+    }   
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .container{
+        margin: 0 3%;
+    }
+    .navbar .navbar-menu .navbar-end a.navbar-item{
+        color: #385b6bff;
+    }
+    .navbar .navbar-menu .navbar-end .navbar-item p{
+        bottom: 14px;
+    }
+    .hero .hero-body{
+        text-align: center;
+    }
+    .hero .hero-body .title{
+        font-size: 2.5rem;
+    }
+    .hero .hero-body .subtitle{
+        font-size: 1rem;
+    }
+    .hero .hero-body a.button{
+        font-size: 1rem;
+        width: 5rem;
+        height: 2.5rem;
+        margin-top: 14px;
+    }
+    .navbar .container{
+        margin: 0 0;
+    }
+     /* About */
+     .about .about-head{
+        padding: 40px 0;
+    }
+    .about{
+        padding-bottom: 50px;
+    }
+    .about .about-head h1.title{
+        font-size: 1.75rem;
+        margin-bottom: 20px;
+    }
+    .about .about-head img{
+        width: 26px;
+    }
+    .about .about-head p{
+        font-size: 0.85rem;
+    }
+    .about .about-body .columns .column .media .media-content h1.title{
+        font-size: 1.25rem;
+    }
+    .about .about-body .columns .column .media .media-content p{
+        font-size: 0.85rem;
+    }
+    /* Fitur */
+    .fitur .columns{
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .fitur .fitur-head{
+        margin-bottom: 20px;
+    }
+    .fitur .fitur-head h1.title{
+        font-size: 1.75rem;
+    }
+    .fitur .fitur-head img{
+        width: 26px;
+    }
+    .fitur .fitur-body .columns .column h1.title{
+        font-size: 1.25rem;
+    }
+    .fitur .fitur-body .columns .column p{
+        font-size: 0.85rem;
+    }
+    /* Resep */
+    .resep-tealinux .resep-body{
+        margin: 0 0;
+    }
+    .resep-tealinux .resep-body .card .card-content .columns .column:first-child{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .resep-tealinux .resep-body .card .card-content{
+        padding: 1%;
+    }
+    .resep-tealinux .resep-body .card .card-content .columns .column{
+        padding: 24px;
+    }
+    .resep-tealinux .resep-body .card .card-content .columns .column h1{
+        text-align: center;
+    }
+    .resep-tealinux .resep-body .card .card-content .columns .column table{
+        margin: 0 0;
+        text-align: center;
+        font-size: 0.75rem;
+    }
+    .resep-tealinux .resep-body .card .card-content .columns .column table tr td p{
+        font-size: 0.75rem;
+    }
+    .resep-tealinux .resep-body .card .card-content .columns .column table tr td:first-child{
+        /* width: 60%; */
+    }
+    .resep-tealinux .resep-body .card .card-content .columns .column span.line{
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+    /* Footer */
+    .footer p{
+        font-size: 0.85rem;
+    }
+    .footer a.button{
+        padding: 2px 6px;
+    }
+    .footer a.button i{
+        font-size: 0.85rem;
+    }
+    /* Kontribusi */
+    .kontribusi {
+        margin-top: 80px;
+        margin-bottom: 24px; 
+    }
+    .kontribusi span.line{
+        width: 200px;
+    }
+    .kontribusi .kontribusi-konten h1.title{
+        font-size: 1.25rem;
+        margin-bottom: 24px;
+    }
+    .kontribusi .kontribusi-konten p{
+        font-size: 0.85rem;
+    }
+    /* Devisi */
+    .devisi{
+        margin-bottom: 80px;
+    }
+    .devisi a{
+        font-size: 0.85rem;
+        margin: 10px 5px;
+    }
+    /* Tim Pengembang */
+    .tim-pengembang .tim-pengembang-head{
+        margin-bottom: 24px; 
+    }
+    .tim-pengembang .tim-pengembang-head h1.title{
+        font-size: 1.25rem;
+        margin-bottom: 18px;
+    }
+    .tim-pengembang .tim-pengembang-head span.line{
+        width: 190px;
+    }
+    .tim-pengembang-body .deskripsi h1.title{
+        font-size: 1rem;
+    }
+    .tim-pengembang-body .deskripsi p{
+        font-size: 0.85rem;
+    }
+    .tim-pengembang .tim-pengembang-body .card{
+        padding: 8px;
+        margin-bottom: 18px;     
+    }
+    .tim-pengembang .tim-pengembang-body .card:last-child{
+        margin-bottom: 80px;     
+    }
+    .tim-pengembang .tim-pengembang-body .card .card-content .tugas h1{
+        font-size: 1rem;
+    }
+    .tim-pengembang .tim-pengembang-body .card .card-content .tugas ul li{
+        font-size: 0.85rem;
+    }
+    /* Konten-panduan */
+    .konten-panduan{
+        margin-bottom: 80px;
+    }
+    .konten-panduan .konten-panduan-head{
+        margin-bottom: 24px;
+    }
+    .konten-panduan .konten-panduan-head h1.title{
+        font-size: 1.25rem;
+        margin-bottom: 18px;
+    }
+    .konten-panduan .konten-panduan-head span.line{
+        width: 160px;
+    }
+    .konten-panduan .konten-panduan-body .konten-panduan-deskripsi{
+        padding: 0 0;
+        margin-bottom: 80px;
+    }
+    .konten-panduan .konten-panduan-body .konten-panduan-deskripsi p{
+        font-size: 0.85rem;
+    }
+    .konten-panduan .konten-panduan-body .konten-panduan-langkah{
+        padding: 0 0;
+    }
+    .konten-panduan .konten-panduan-body .konten-panduan-langkah h1{
+        font-size: 1.25rem;
+        margin-bottom: 18px;
+    }
+    .konten-panduan .konten-panduan-body .konten-panduan-langkah span.line{
+        margin-bottom: 24px;
+    }
+    .konten-panduan .konten-panduan-body .konten-panduan-langkah .card{
+        padding: 0;
+    }
+    .konten-panduan .konten-panduan-body .konten-panduan-langkah .card .card-content .columns{
+        margin-bottom: 24px;
+    }
+    /* Pelaporan */
+    .pelaporan .pelaporan-head h1.title{
+        font-size: 1.25rem;
+        margin-bottom: 18px;
+    }
+    .pelaporan .pelaporan-head span.line{
+        width: 140px;
+        margin-bottom: 24px;
+    }
+    .pelaporan .pelaporan-body .columns .column .card .card-content h1.title{
+        font-size: 1rem;
+        margin-bottom: 18px;
+    }
+    .pelaporan .pelaporan-body .columns .column .card .card-content span.line{
+        margin-bottom: 24px;
+    }
+    .pelaporan .pelaporan-body .columns .column .card .card-content ul li{
+        font-size: 0.85rem;
+    }
+    .pelaporan .pelaporan-body .note{
+        margin-bottom: 80px;
+    }
+    .pelaporan .pelaporan-body .note h1.title{
+        font-size: 1rem;
+        margin-bottom: 18px;
+    }
+    .pelaporan .pelaporan-body .note span.line{
+        margin-bottom: 24px;
+    }
+    .pelaporan .pelaporan-body .note p{
+        font-size: 0.85rem;
+    }
+    .pelaporan .pelaporan-body .columns .column .card{
+        height: auto;
+        padding: 24px;
+    }   
+}
+
+/* Sidebar */
+#sidebar{
+    position: fixed;
+    z-index: 10;
+    height: 100vh;
+    width: 280px;
+    margin-left: 0;
+    padding-top: 60px;
+    overflow: auto;
+    background-color: #000;
+    transition: all 0.5s ease-out;
+}
+#sidebar ul li.title-menu{
+    font-size: 0.90rem; 
+}

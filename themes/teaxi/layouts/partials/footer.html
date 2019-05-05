@@ -1,0 +1,90 @@
+    <section class="footer">
+        <div class="container">
+            <div class="columns center">
+                <div class="column has-text-left align-items-center">
+                    <div class="transtale">
+                        <div class="dropdown">
+                            <div class="dropdown-trigger">
+                                <p aria-haspopup="true" aria-controls="dropdown-menu">
+                                <span>Translation</span>
+                                <span class="icon is-small">
+                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                </span>
+                                </p>
+                            </div>
+                            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                                <div class="dropdown-content">
+                                <a href="#" class="dropdown-item">
+                                    Indonesia
+                                </a>
+                                <a class="dropdown-item">
+                                    English
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="subtitle">Released under the MIT License 2009-2018 Maintenance by Doscom.</p>
+                </div>
+                <div class="column has-text-right">
+                    <a class="button"><i class="fas fa-2x fa-chevron-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="lib/main.js"></script>
+    <script type="text/javascript" src="lib/jquery-3.4.0.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+            
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 400, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+                // Scroll to specific values
+        // scrollTo is the same
+        window.scroll({
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth'
+        });
+
+        // Scroll certain amounts from current position 
+        window.scrollBy({ 
+        top: 0, // could be negative value
+        left: 0, 
+        behavior: 'smooth' 
+        });
+
+        // Scroll to a certain element
+        document.querySelector('.hello').scrollIntoView({ 
+        behavior: 'smooth' 
+        });
+        $("a[href^='#']").click(function(e) {
+            e.preventDefault();
+            
+            var position = $($(this).attr("href")).offset().top;
+
+            $("body, html").animate({
+                scrollTop: position
+            },1000 /* speed */ );
+        });
+    </script>
