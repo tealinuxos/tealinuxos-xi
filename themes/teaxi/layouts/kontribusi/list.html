@@ -2,7 +2,7 @@
 
 {{ define "main" }}
 {{ partial "sidebar.html" . }}
-<section class="kontribusi">
+<section id="kontribusi" class="kontribusi">
         <div class="container">
             <div class="kontribusi-konten">
                 <h1 class="title has-text-centered">Berkontribusi Pada Proyek TeaLinuxOS</h1>
@@ -29,7 +29,7 @@
                     <div class="card-content">
                         <div class="columns">
                             <div class="column has-text-centered">
-                                <img src="img/mockup-kosong.jpeg" alt="desktop">
+                                <img src="{{ $.Site.BaseURL }}{{ $.Site.Params.mockup }}" alt="desktop">
                             </div>
                             <div class="column">
                                 <div class="deskripsi">
@@ -54,7 +54,7 @@
                     <div class="card-content">
                         <div class="columns">
                             <div class="column has-text-centered">
-                                <img src="img/mockup-kosong.jpeg" alt="desktop">
+                                <img src="{{ $.Site.BaseURL }}{{ $.Site.Params.mockup }}" alt="desktop">
                             </div>
                             <div class="column">
                                 <div class="deskripsi">
@@ -80,7 +80,7 @@
                     <div class="card-content">
                         <div class="columns">
                             <div class="column has-text-centered">
-                                <img src="img/mockup-kosong.jpeg" alt="desktop">
+                                <img src="{{ $.Site.BaseURL }}{{ $.Site.Params.mockup }}" alt="desktop">
                             </div>
                             <div class="column">
                                 <div class="deskripsi">
@@ -103,7 +103,7 @@
                     <div class="card-content">
                         <div class="columns">
                             <div class="column has-text-centered">
-                                <img src="img/mockup-kosong.jpeg" alt="desktop">
+                                <img src="{{ $.Site.BaseURL }}{{ $.Site.Params.mockup }}" alt="desktop">
                             </div>
                             <div class="column">
                                 <div class="deskripsi">
@@ -150,17 +150,12 @@
                             <span class="line"></span>
                             <div class="columns">
                                 <div class="column">
-                                    <img src="img/mockup-kosong.jpeg" alt="langkah1">
+                                    <img src="{{ $.Site.BaseURL }}{{ $.Site.Params.langkah1 }}" alt="langkah1">
                                 </div>
                             </div>
                             <div class="columns">
                                 <div class="column">
-                                    <img src="img/mockup-kosong.jpeg" alt="langkah2">
-                                </div>
-                            </div>
-                            <div class="columns">
-                                <div class="column">
-                                    <img src="img/mockup-kosong.jpeg" alt="langkah3">
+                                    <img src="{{ $.Site.BaseURL }}{{ $.Site.Params.langkah2 }}" alt="langkah2">
                                 </div>
                             </div>
                         </div>
@@ -187,7 +182,7 @@
                                     <li>Pastikan Hama belum pernah dilaporkan. (Gunakan fitur pencarian)</li>
                                     <li>Pastikan sudah menggunakan TeaLinuxOS versi terbaru</li>
                                     <li>Memberi label pada setiap Hama yang dilaporkan. (label bisa dilihat di sini)</li>
-                                    <img src="img/logo.png" width="25%" alt="i  con-laporhama">
+                                    <img src="{{ $.Site.BaseURL }}{{ $.Site.Params.iconLaporhama }}" width="25%" alt="i  con-laporhama">
                                 </ul>
                             </div>
                         </div>
