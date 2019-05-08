@@ -1,0 +1,8 @@
+{{ $jquery := resources.Get "js/jquery-3.4.0.min.js" }}
+{{ $main := resources.Get "js/main.js" }}
+{{ $script := resources.Get "js/script.js" }}
+{{ $sidebar := resources.Get "js/sidebar-menu.js" }}
+{{ $bundle := slice $jquery $main $script $sidebar | resources.Concat "js/bundle.js" }}
+{{ $js := $bundle | resources.Minify | resources.Fingerprint "sha512" }}
+
+<script src="{{ $js.Permalink }}"></script>

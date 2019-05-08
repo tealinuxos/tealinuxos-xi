@@ -2,11 +2,11 @@
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="container">
             <div class="navbar-brand">
-                <a href="/" class="navbar-item is-size-4 has-text-weight-bold">
-                    <img src="img/logo.png" alt="logo-tealinux">
+                <a href="{{ $.Site.BaseURL }}" class="navbar-item is-size-4 has-text-weight-bold">
+                    <img src="{{ $.Site.BaseURL }}{{ $.Site.Params.logo }}" alt="logo-tealinux">
                     TeaLinuxOS
                 </a>
-                <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                <a role="button" class="navbar-burger" data-target="sidebar" aria-label="menu" aria-expanded="false">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -14,9 +14,9 @@
             </div>
             <div class="navbar-menu" id="navMenu">
                 <div class="navbar-end">
-                    <a href="./dokumentasi.html" class="navbar-item">Dokumentasi</a>
-                    <a class="navbar-item" href="kontribusi.html">Kontribusi</a>
-                    <a class="navbar-item">Blog</a>
+                    <a class="navbar-item" href="/dokumentasi/">Dokumentasi</a>
+                    <a class="navbar-item" href="/kontribusi/">Kontribusi</a>
+                    <a class="navbar-item" target="blank" href="https://medium.com/tealinuxos">Blog</a>
                     <span class="navbar-item">
                         <input class="input is-rounded" type="text">
                         <p class="center"><i class="fas fa-search align-items-center"></i></p>

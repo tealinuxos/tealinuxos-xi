@@ -151,7 +151,7 @@ span.navbar-item{
 /* -------------------------------- */
 .resep-tealinux{
     background-color: #385b6bff; 
-    padding: 80px 0; 
+    padding: 120px 0; 
 }
 .resep-tealinux .resep-body{
     margin: 0 130px;
@@ -233,9 +233,9 @@ span.navbar-item{
 .footer .rounded{
     border-radius: 50%;
 }
-.footer .transtale .dropdown{
+/* .footer .transtale .dropdown{
     margin-bottom: 20px;
-}
+} */
 /* Footer */
 
 .footer a.button i{
@@ -268,11 +268,12 @@ span.navbar-item{
 /* Berkontribusi */
 /* -------------------------------- */
 .kontribusi {
-    margin-top: 200px;
+    margin-top: 52px;
     margin-bottom: 80px; 
 }
 .kontribusi-konten{
-    padding: 25px 0;
+    padding: 26px 0;
+    padding-top: 168px;
 }
 .kontribusi .kontribusi-konten h1.title{
     margin-bottom: 40px;
@@ -669,8 +670,10 @@ span.navbar-item{
     }
     /* Kontribusi */
     .kontribusi {
-        margin-top: 130px;
         margin-bottom: 50px; 
+    }
+    .kontribusi-konten{
+        padding-top: 128px
     }
     .kontribusi .kontribusi-konten h1.title{
         margin-bottom: 40px;
@@ -791,8 +794,10 @@ span.navbar-item{
     }
     /* Kontribusi */
     .kontribusi {
-        margin-top: 100px;
         margin-bottom: 30px; 
+    }
+    .kontribusi-konten{
+        padding-top: 68px;
     }
     .kontribusi span.line{
         width: 230px;
@@ -995,11 +1000,13 @@ span.navbar-item{
     }
     /* Kontribusi */
     .kontribusi {
-        margin-top: 80px;
         margin-bottom: 24px; 
     }
     .kontribusi span.line{
         width: 200px;
+    }
+    .kontribusi-konten{
+        padding-top: 48px;
     }
     .kontribusi .kontribusi-konten h1.title{
         font-size: 1.25rem;
@@ -1124,15 +1131,43 @@ span.navbar-item{
 /* Sidebar */
 #sidebar{
     position: fixed;
+    top: 0;
     z-index: 10;
     height: 100vh;
     width: 280px;
-    margin-left: 0;
+    margin-left: -280px;
     padding-top: 60px;
     overflow: auto;
-    background-color: #000;
+    background-color: #e7ededff;
     transition: all 0.5s ease-out;
 }
 #sidebar ul li.title-menu{
+    font-size: 0.90rem; 
+}
+#sidebar p{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 23px;
+    bottom: 14px;
+    cursor: pointer;
+    color: #1e3338ff;
+    background-color: #fff; 
+}
+
+/* Menu Dokumentasi */
+/* Sidebar */
+#menu-doc{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    height: 100vh;
+    width: 280px;
+    padding-top: 60px;
+    overflow: auto;
+    background-color: #e7ededff;
+    transition: all 0.5s ease-out;
+}
+#menu-doc ul li.title-menu{
     font-size: 0.90rem; 
 }

@@ -1,14 +1,14 @@
 $(document).ready(function() {
     $.sidebarMenu($('.sidebar-menu'))
 
-    $(window).resize(function(){
-        if($(document).width() > 1087){
-            $("#sidebar").css('margin-left', 0);
-        }
-        if($(document).width() < 1087){
-            $("#sidebar").css('margin-left', '-250px');
-        }
-    });
+    // $(window).resize(function(){
+    //     if($(document).width() > 1087){
+    //         $("#sidebar").css('margin-left', 0);
+    //     }
+    //     if($(document).width() < 1087){
+    //         $("#sidebar").css('margin-left', '-250px');
+    //     }
+    // });
     // Check for click events on the navbar burger icon
     $(".navbar-burger").click(function() {
 
@@ -17,7 +17,7 @@ $(document).ready(function() {
         // $(".navbar-menu").toggleClass("is-active");
         if($('#sidebar').hasClass('is-active')){
             $('#sidebar').removeClass('is-active');
-            $('#sidebar').css('margin-left','-250px');
+            $('#sidebar').css('margin-left','-280px');
         }
         else{
             $('#sidebar').addClass('is-active');

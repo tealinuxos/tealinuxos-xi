@@ -1,0 +1,7 @@
+{{ $main := resources.Get "css/main.css" }}
+{{ $style := resources.Get "css/style.css" }}
+{{ $sidebar := resources.Get "css/sidebar-menu.css" }}
+{{ $bundle := slice $main $style $sidebar | resources.Concat "css/bundle.css" }}
+{{ $css := $bundle | resources.Minify | resources.Fingerprint "sha512" }}
+
+<link rel="stylesheet" href="{{ $css.Permalink }}">

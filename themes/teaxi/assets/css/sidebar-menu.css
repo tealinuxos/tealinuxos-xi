@@ -28,7 +28,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  background-color: #222d32; }
+  background-color: #e9eeeeff; }
   .sidebar-menu > li {
     position: relative;
     margin: 0;
@@ -37,13 +37,12 @@
       padding: 12px 5px 12px 15px;
       display: block;
       border-left: 3px solid transparent;
-      color: #b8c7ce; }
+      color: #1e3338ff; }
       .sidebar-menu > li > a > .fa {
         width: 20px; }
     .sidebar-menu > li:hover > a, .sidebar-menu > li.active > a {
-      color: #fff;
-      background: #1e282c;
-      border-left-color: #3c8dbc; }
+      color: #39c892ff;
+      background: #193541ff;}
     .sidebar-menu > li .label,
     .sidebar-menu > li .badge {
       margin-top: 3px;
@@ -71,21 +70,21 @@
     list-style: none;
     padding-left: 5px;
     margin: 0 1px;
-    background: #2c3b41; }
+    background: #bfd1daff; }
     .sidebar-menu .sidebar-submenu .sidebar-submenu {
       padding-left: 20px; }
     .sidebar-menu .sidebar-submenu > li > a {
       padding: 5px 5px 5px 15px;
       display: block;
       font-size: 14px;
-      color: #8aa4af; }
+      color: #1e3338ff; }
       .sidebar-menu .sidebar-submenu > li > a > .fa {
         width: 20px; }
       .sidebar-menu .sidebar-submenu > li > a > .fa-angle-left,
       .sidebar-menu .sidebar-submenu > li > a > .fa-angle-down {
         width: auto; }
     .sidebar-menu .sidebar-submenu > li.active > a, .sidebar-menu .sidebar-submenu > li > a:hover {
-      color: #fff; }
+      color: #39c892ff; }
 
 .sidebar-menu-rtl {
   list-style: none;
