@@ -116,9 +116,13 @@ span.navbar-item{
     font-weight: 500;
     margin-bottom: 28px; 
 }
-.about .media p{
-    /* font-size: 1.10rem; */
-}
+/* .about .media img{
+    padding: 10px;
+    border: 1px solid #1e252cff;
+    border-radius: 24px;
+    background-color: #fff;
+} */
+
 .about .media .media-content .content h1{
     font-weight: 600;
 }

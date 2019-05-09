@@ -8,7 +8,14 @@
             <p class="center"><i class="fas fa-search align-items-center"></i></p>
         </span>
         {{ if eq .Title "Dokumentasi" }}
-        <li class="title-menu"><a href="/dokumentasi/">Test</a></li>
+            {{ range $section, $taxonomy := .Site.Sections }}
+                <h4>{{ $section }}</h4>
+                <ul>
+                    {{ range $taxonomy.Pages }}
+                    <li><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
+                    {{ end }}
+                </ul>
+            {{ end }}
         {{ end }}
     </ul>
 </section>
