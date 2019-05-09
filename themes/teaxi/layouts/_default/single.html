@@ -1,6 +1,14 @@
 {{ define "header" }} {{ partial "nav.html" . }} {{ end }}
+
+
 {{ define "main" }}
-<h1>Single</h1>
+<div class="container">
+<div class="columns">
+  <div class="column">
+    {{ partial "menu-doc.html" . }}
+  </div>
+
+<div class="column is-three-quarters">
 <section id="main">
   <h1 id="title">{{ .Title }}</h1>
   <div>
@@ -39,5 +47,8 @@
         {{ end }}
     </div>
 </aside>
+</div>
+</div>
+</div>
 {{ end }}
 {{ define "footer" }} {{ partial "footer.html" . }} {{ end }}

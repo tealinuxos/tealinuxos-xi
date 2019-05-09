@@ -3,6 +3,7 @@
 {{ define "main" }}
 {{ partial "sidebar.html" . }}
 <div class="container">
+	<br><br><br><br><br>
 <div class="columns">
   <div class="column">{{ partial "menu-doc.html" . }}</div>
 
@@ -12,7 +13,7 @@
     <!-- Ranges through content/posts/*.md -->
     {{ range .Pages }}
         <li>
-            <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+            <a href="{{.Permalink}}">{{.Title}}</a>
         </li>
     {{ end }}
     </ul>
