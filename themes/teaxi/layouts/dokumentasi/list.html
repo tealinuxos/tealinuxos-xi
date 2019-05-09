@@ -5,20 +5,26 @@
 <div class="container">
 	<br><br><br><br><br>
 <div class="columns">
-  <div class="column">{{ partial "menu-doc.html" . }}</div>
+    <div class="column">
+        {{ partial "menu-doc.html" . }}
+    </div>
 
-<div class="column is-three-quarters">
-<main>
-    <ul>
-    <!-- Ranges through content/posts/*.md -->
-    {{ range .Pages }}
-        <li>
-            <a href="{{.Permalink}}">{{.Title}}</a>
-        </li>
-    {{ end }}
-    </ul>
-</main>
-</div>
+    <div class="column is-three-quarters">
+        <main>
+            <!-- <ul>
+            Ranges through content/posts/*.md
+            {{ range .Pages.ByWeight }}
+                <li>
+                    <a href="{{.Permalink}}">{{.Title}}</a>
+                </li>
+            {{ end }}
+            </ul> -->
+            <article id="content">
+                {{ .Content }}
+            </article>
+        </main>
+        {{ partial "next-prev.html" . }}        
+    </div>
 </div>
 {{ end }}
 {{ define "footer" }} {{ partial "footer.html" . }} {{ end }}

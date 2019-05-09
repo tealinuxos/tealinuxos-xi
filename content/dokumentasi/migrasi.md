@@ -1,7 +1,8 @@
 ---
 title: Migration and Upgrade
 type: panduan
-order: 103
+weight: 103
+position: 3
 ---
 
 ## Migrating from Windows

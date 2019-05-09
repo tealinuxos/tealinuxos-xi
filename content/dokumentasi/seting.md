@@ -1,7 +1,8 @@
 ---
 title: Pengaturan Dasar
 type: panduan
-order: 118
+weight: 118
+position: 18
 ---
 ## Menu Editor
 ![menu_editor](../images/menu_editor.png "menu_editor")

@@ -1,7 +1,8 @@
 ---
 title: Pengaturan dan Pilihan
 type: panduan
-order: 105
+weight: 105
+position: 5
 ---
 
 ## Pengubahan Menu

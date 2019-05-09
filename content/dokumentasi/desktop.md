@@ -1,7 +1,7 @@
 ---
 title: Desktop Environment
 type: panduan
-order: 116
+weight: 116
 ---
 
 Sebuah Sistem Operasi terdiri oleh berbagai hal, salah satunya adalah Desktop Enviroment. DE adalah sebuah software yang memberi tampilan kepada sebuah OS, pada TeaLinuxOS sendiri memakai XFCE sebagai tampilannya. Kami memilih menggunakan XFCE dikarnakan ia ringan namun memiliki tampilan yang elegan.

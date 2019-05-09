@@ -1,7 +1,8 @@
 ---
 title: Pengenalan Aplikasi Bawaan
 type: panduan
-order: 106
+weight: 106
+position: 6
 ---
 
 ## Aplikasi Multimedia

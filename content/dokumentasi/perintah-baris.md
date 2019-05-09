@@ -1,7 +1,8 @@
 ---
 title: Perintah Baris
 type: panduan
-order: 113
+weight: 113
+position: 13
 ---
 
 ## Daftar Perintah Umum ##

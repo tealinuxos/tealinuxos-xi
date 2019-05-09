@@ -2,7 +2,8 @@
 title: Tugas-tugas administratif
 type: panduan
 lang: id
-order: 112
+weight: 112
+position: 12
 ---
 
 ## User dan Grub

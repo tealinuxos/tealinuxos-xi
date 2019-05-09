@@ -1,7 +1,8 @@
 ---
 title: Menjaga Keamanan Komputer
 type: panduan
-order: 110
+weight: 110
+position: 10
 ---
 
 ## Tips Menjaga Keamanan Komputer

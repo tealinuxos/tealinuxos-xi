@@ -1,7 +1,8 @@
 ---
 title: Print dan Scan
 type: panduan
-order: 108
+weight: 108
+position: 8
 ---
 
 ## Penggunaan Printer

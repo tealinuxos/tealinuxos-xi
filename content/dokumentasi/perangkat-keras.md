@@ -1,7 +1,8 @@
 ---
 title: Perangkat Keras
 type: panduan
-order: 111
+weight: 111
+position: 11
 ---
 
 ## Pembatasan Beberapa Driver

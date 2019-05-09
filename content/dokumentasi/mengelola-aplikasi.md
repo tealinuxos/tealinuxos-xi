@@ -1,7 +1,8 @@
 ---
 title: Mengelola Aplikasi Terinstall
 type: panduan
-order: 109
+weight: 109
+position: 9
 ---
 
 ## Menginstall Software

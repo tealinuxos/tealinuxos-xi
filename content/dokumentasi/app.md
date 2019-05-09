@@ -1,7 +1,8 @@
 ---
 title: Preinstalled Programs
 type: panduan
-order: 117
+weight: 117
+position: 17
 ---
 TeaLinuxOS memberikan beberapa aplikasi bawaan yang sekiranya sering kita pergunakan sehari-hari salah satu diantaranya adalah:
 
