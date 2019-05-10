@@ -3,7 +3,7 @@
 {{ define "main" }}
 {{ partial "sidebar.html" . }}
 <div class="container">
-	<br><br><br><br><br>
+	<br><br><br><br>
 <div class="columns">
     <div class="column">
         {{ partial "menu-doc.html" . }}
@@ -25,6 +25,7 @@
         </main>
         {{ partial "next-prev.html" . }}        
     </div>
+</div>
 </div>
 {{ end }}
 {{ define "footer" }} {{ partial "footer.html" . }} {{ end }}

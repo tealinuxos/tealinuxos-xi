@@ -220,9 +220,6 @@ $primary-invert: $pink-invert;
 html,
 body,
 p,
-ol,
-ul,
-li,
 dl,
 dt,
 dd,
@@ -241,31 +238,24 @@ h4,
 h5,
 h6 {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: 100%;
-  font-weight: normal; }
-
-ul {
-  list-style: none; }
 
 button,
 input,
 select,
 textarea {
-  margin: 0; }
+  margin: 0;
+}
 
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
-*, *::before, *::after {
-  box-sizing: inherit; }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 img,
 embed,
@@ -273,22 +263,28 @@ iframe,
 object,
 video {
   height: auto;
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 audio {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 iframe {
-  border: 0; }
+  border: 0;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 td,
 th {
   padding: 0;
-  text-align: left; }
+  text-align: left;
+}
+
 
 html {
   background-color: white;
