@@ -19,11 +19,13 @@
                 </li>
             {{ end }}
             </ul> -->
-            <article id="content">
-                {{ .Content }}
-            </article>
-        </main>
-        {{ partial "next-prev.html" . }}        
+            {{ $paginator := .Paginate (where .Data.Pages "Type" "panduan") }}
+            <!-- {{ template "_internal/pagination.html" . }} -->
+            {{ range $paginator.Pages }}
+                {{ .Content}}
+            {{ end }}
+            {{ partial "pagination" . }}
+        </main>      
     </div>
 </div>
 {{ end }}

@@ -2,8 +2,12 @@ baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "TeaLinux OS"
 
+sectionPagesMenu = "mainmenu"
+
 themeDir = "themes"
 theme = "teaxi"
+
+paginate = 1
 
 [params]
     logo = "img/logo.png"
