@@ -3,6 +3,7 @@
 
 {{ define "main" }}
 <div class="container">
+  <br><br><br><br>
 <div class="columns">
   <div class="column">
     {{ partial "menu-doc.html" . }}
@@ -19,10 +20,6 @@
 </section>
 <aside id="meta">
     <div>
-    <section>
-      <h4 id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </h4>
-      <h5 id="wordcount"> {{ .WordCount }} Words </h5>
-    </section>
     {{ with .Params.topics }}
     <ul id="topics">
       {{ range . }}
@@ -50,5 +47,9 @@
 </div>
 </div>
 </div>
+
+
+
+
 {{ end }}
 {{ define "footer" }} {{ partial "footer.html" . }} {{ end }}
