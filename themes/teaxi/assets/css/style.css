@@ -8,7 +8,7 @@ html {
     scroll-behavior: smooth;
   }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     letter-spacing: 0.3;
     
@@ -16,8 +16,7 @@ body {
 /* Navbar */
 /* -------------------------------- */
 .navbar{
-    padding-top: 20px;
-    background: transparent;
+    background: #39C892;
     height: 70px;
     font-size: 20px;
 }
@@ -65,11 +64,11 @@ span.navbar-item{
 
 /* Header */
 /* -------------------------------- */
-#hero-bg {
-    background-image: url("../img/hello.png");
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-size: cover;
+#hero {
+    background-image: url("../img/hello.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important; 
+    background-size: cover !important;
 }
 .hero{
     background: transparent !important;
@@ -1200,4 +1199,18 @@ span.navbar-item{
 }
 #menu-doc ul li.title-menu{
     font-size: 0.90rem; 
+}
+
+#content h2 {
+    padding-bottom: 0.7em;
+    border-bottom: 1px solid #ddd;
+}
+#content blockquote {
+    margin: 2em 0;
+    padding-left: 20px;
+    border-left: 4px solid #0d9d57;
+}
+
+#dok-page {
+    padding-top: 50px;
 }

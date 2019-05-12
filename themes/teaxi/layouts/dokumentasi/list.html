@@ -2,14 +2,14 @@
 
 {{ define "main" }}
 {{ partial "sidebar.html" . }}
-<div class="container">
-	<br><br><br><br>
+<div id="dok-page" class="container">
+
 <div class="columns">
-    <div class="column">
+    <div class="column is-3">
         {{ partial "menu-doc.html" . }}
     </div>
 
-    <div class="column is-three-quarters">
+    <div class="column is-8">
         <main>
             <!-- <ul>
             Ranges through content/posts/*.md
