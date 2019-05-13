@@ -28,30 +28,28 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  background-color: #e9eeeeff; }
+padding-top: 15px;}
   .sidebar-menu > li {
     position: relative;
     margin: 0;
-    padding: 0; }
+    padding: 0; 
+  }
     .sidebar-menu > li > a {
-      padding: 12px 5px 12px 15px;
+      padding: 10px 5px 10px 15px;
       display: block;
       border-left: 3px solid transparent;
       color: #1e3338ff; }
       .sidebar-menu > li > a > .fa {
         width: 20px; }
     .sidebar-menu > li:hover > a, .sidebar-menu > li.active > a {
-      color: #39c892ff;
-      background: #193541ff;}
+      color: #39c892ff;}
     .sidebar-menu > li .label,
     .sidebar-menu > li .badge {
       margin-top: 3px;
       margin-right: 5px; }
   .sidebar-menu li.sidebar-header {
     padding: 10px 25px 10px 15px;
-    font-size: 12px;
-    color: #4b646f;
-    background: #1a2226; }
+    color: #4b646f;}
   .sidebar-menu li > a > .fa-angle-left {
     width: auto;
     height: auto;
@@ -68,15 +66,15 @@
   .sidebar-menu .sidebar-submenu {
     display: none;
     list-style: none;
-    padding-left: 5px;
-    margin: 0 1px;
-    background: #bfd1daff; }
+    margin: 0 1px;}
     .sidebar-menu .sidebar-submenu .sidebar-submenu {
       padding-left: 20px; }
+      .sidebar-menu .sidebar-submenu > li {
+        border-left: 1px solid #ddd;
+      }
     .sidebar-menu .sidebar-submenu > li > a {
       padding: 5px 5px 5px 15px;
       display: block;
-      font-size: 14px;
       color: #1e3338ff; }
       .sidebar-menu .sidebar-submenu > li > a > .fa {
         width: 20px; }
@@ -112,7 +110,6 @@
       margin-right: 5px; }
   .sidebar-menu-rtl li.sidebar-header {
     padding: 10px 15px 10px 25px;
-    font-size: 12px;
     color: #4b646f;
     background: #1a2226; }
   .sidebar-menu-rtl li > a > .fa-angle-left {
@@ -139,7 +136,6 @@
     .sidebar-menu-rtl .sidebar-submenu > li > a {
       padding: 5px 15px 5px 5px;
       display: block;
-      font-size: 14px;
       color: #8aa4af; }
       .sidebar-menu-rtl .sidebar-submenu > li > a > .fa {
         width: 20px; }

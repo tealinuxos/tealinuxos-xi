@@ -8,21 +8,32 @@ html {
     scroll-behavior: smooth;
   }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    letter-spacing: 0.3;
     
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lato', sans-serif;
 }
 /* Navbar */
 /* -------------------------------- */
 .navbar{
-    background-color: #39c892ff; 
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+    background: transparent;
+    height: 70px;
+    font-size: 20px;
 }
 .navbar .navbar-menu{
     /* padding: 15px 0; */
 }
+.navbar .navbar-brand a{
+    font-size: 28px !important;
+}
+.navbar-item img{
+    max-height: 40px !important;
+}
 .navbar .navbar-brand a.navbar-item img{
-    margin-right: 5px; 
+    margin-right: 10px; 
 }
 .navbar .navbar-brand a.navbar-item{
     color: #fff;
@@ -39,8 +50,7 @@ body {
 }
 .navbar .navbar-end a.navbar-item:hover{
     color: #39c892ff; 
-    /* border-bottom: 1px solid #39c892ff; */
-    background-color: #385b6bff;
+    background: none;
 }
 span.navbar-item{
     /* position: relative; */
@@ -57,25 +67,36 @@ span.navbar-item{
 
 /* Header */
 /* -------------------------------- */
+#bg-hero {
+    background-image: url("../img/hello.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important; 
+    background-size: cover !important;
+}
 .hero{
-    background-image: url("../img/hero.jpg");
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-size: cover;
+    background: transparent !important;
+
+
 }
 .hero .hero-body{
     text-align: left;
+
 }
 .hero .title{
     font-size: 4rem;
+    color: #fff !important;
+}
+.hero .subtitle {
+    color: #fff !important;
 }
 .hero a.button{
     width: 6.5rem;
     height: 3rem;
     margin-top: 16px;
     font-size: 1.25rem;
-    color: #e7ededff; 
+    color: #fff; 
     background-color: #39c892ff;
+    border: none;
 }
 .hero a.button:hover{
     color: #39c892ff; 
@@ -226,9 +247,16 @@ span.navbar-item{
     padding-bottom: 48px;
     background-color: #1e252cff;
 }
+.footer hr{
+    background: #364548;
+    height: 1px;
+}
 .footer p{
     color: #e7ededff;
     font-size: 1rem;
+}
+.footer a{
+    color: #39c892ff;
 }
 .footer a.button{
     width: 50px;
@@ -1174,4 +1202,19 @@ span.navbar-item{
 }
 #menu-doc ul li.title-menu{
     font-size: 0.90rem; 
+}
+
+#content h2 {
+    padding-bottom: 0.7em;
+    border-bottom: 1px solid #ddd;
+}
+#content blockquote {
+    margin: 2em 0;
+    padding-left: 20px;
+    border-left: 4px solid #0d9d57;
+}
+
+#dok-page {
+    padding-top: 50px;
+    padding-bottom: 100px;
 }

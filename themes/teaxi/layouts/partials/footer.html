@@ -1,34 +1,22 @@
     <section class="footer">
         <div class="container">
-            <div class="columns center">
-                <div class="column has-text-left align-items-center">
-                    <!-- <div class="transtale">
-                        <div class="dropdown">
-                            <div class="dropdown-trigger">
-                                <p aria-haspopup="true" aria-controls="dropdown-menu">
-                                <span>Translation</span>
-                                <span class="icon is-small">
-                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
-                                </span>
-                                </p>
-                            </div>
-                            <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                                <div class="dropdown-content">
-                                <a href="#" class="dropdown-item">
-                                    Indonesia
-                                </a>
-                                <a class="dropdown-item">
-                                    English
-                                </a>
-                            </div>
-                        </div>
-                    </div> -->
-                    <p class="subtitle">Released under the MIT License 2009-2018 Maintenance by Doscom.</p>
-                </div>
-                <div class="column has-text-right">
-                    <a class="button" href='{{ if eq .Title "Kontribusi" }} #kontribusi {{else}} #hero {{end}} '><i class="fas fa-2x fa-chevron-up"></i></a>
-                </div>
-            </div>
+
+<div class="columns">
+    <div class="column is-2"></div>
+    <div class="column is-8" align="center">
+        <p>The opensource has come true, this is the time to revenge. Berangkat dari dukungan dari semua pihak sistem operasi ini mengalami penyempurnaan mejadi sistem operasi yang stabil dan berkualitas.</p>
+        <hr>
+ 
+        <p><a href="">Contact us</a> - <a href="">About us</a> - <a href="">Community</a> - <a href="">Release</a>
+            <br>
+            Released under the <a href="https://opensource.org/licenses/MIT">MIT License.</a> 2009-2018 Maintenance by <a href="">Doscom</a></p>  
+    </div>
+  <div class="column is-2" align="right">
+      <a class="button" href='{{ if eq .Title "Kontribusi" }} #kontribusi {{else}} #nav {{end}} '><i class="fas fa-2x fa-chevron-up"></i></a>
+  </div>
+</div>
+
+
         </div>
     </section>
     {{ partial "scripts.html" . }}

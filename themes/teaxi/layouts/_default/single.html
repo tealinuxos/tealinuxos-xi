@@ -3,13 +3,13 @@
 
 {{ define "main" }}
 <div class="container">
-  <br><br><br><br>
+
 <div class="columns">
-  <div class="column">
+  <div class="column is-3">
     {{ partial "menu-doc.html" . }}
   </div>
 
-<div class="column is-three-quarters">
+<div class="column is-8">
 <section id="main">
   <h1 id="title">{{ .Title }}</h1>
   <div>
@@ -20,12 +20,30 @@
 </section>
 <aside id="meta">
     <div>
+    {{ with .Params.topics }}
+    <ul id="topics">
+      {{ range . }}
+        <li><a href="{{ "topics" | absURL}}{{ . | urlize }}">{{ . }}</a> </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+    {{ with .Params.tags }}
+    <ul id="tags">
+      {{ range . }}
+        <li> <a href="{{ "tags" | absURL }}{{ . | urlize }}">{{ . }}</a> </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+    </div>
+    <hr>
+    <div class="column">
         {{ with .PrevInSection }}
           <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
         {{ end }}
         {{ with .NextInSection }}
           <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
         {{ end }}
+      
     </div>
 </aside>
 </div>
