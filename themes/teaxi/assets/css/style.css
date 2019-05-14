@@ -140,15 +140,22 @@ span.navbar-item{
     font-weight: 500;
     margin-bottom: 28px; 
 }
-/* .about .media img{
-    padding: 10px;
-    border: 1px solid #1e252cff;
-    border-radius: 24px;
+.about .media figure.media-left{
+    width: 64px;
+    height: 64px;
     background-color: #fff;
-} */
+    padding: 18px;
+    border-radius: 50%;
+    border: 1px solid black;
+    transition: 0.5s all;
+}
+.about .media figure.media-left:hover{
+    border: 1px solid #39c892ff;
+}
 
 .about .media .media-content .content h1{
     font-weight: 600;
+    margin-top: 0;
 }
 .about .media .media-content .content p{
     font-size: 1rem;
@@ -178,11 +185,18 @@ span.navbar-item{
 /* RESEP TEA LINUX OS */
 /* -------------------------------- */
 .resep-tealinux{
-    background-color: #385b6bff; 
-    padding: 120px 0; 
+    background: linear-gradient(90deg, rgba(57,200,146,255) 0%, rgba(25,168,222,255) 100%);
+    padding: 120px 0;
 }
 .resep-tealinux .resep-body{
-    margin: 0 130px;
+    margin: 0 124px;
+}
+.resep-tealinux .resep-body .card{
+    border: 24px solid #c2d8d8ff;
+    border-radius: 10px;
+}
+.resep-tealinux .resep-body .card .card-content{
+    background-color: #e7ededff;
 }
 .resep-tealinux .resep-head{
     margin-bottom: 40px;
@@ -206,6 +220,10 @@ span.navbar-item{
     margin-bottom: 40px;
 }
 .resep-tealinux .resep-body .card .card-content .columns .column .donasi-download a{
+    background-color: #fdd658ff;
+    color: #e7ededff; 
+}
+.resep-tealinux .resep-body .card .card-content .columns .column .donasi-download a:last-child{
     background-color: #39c892ff;
     color: #e7ededff; 
 }
@@ -264,6 +282,10 @@ span.navbar-item{
     background-color: #39c892ff;
     color: #e7ededff;
     border: 0;
+    border-radius: 50%;
+}
+.footer a.button:hover{
+    background-color: #4fcf9eff;
 }
 .footer .rounded{
     border-radius: 50%;
