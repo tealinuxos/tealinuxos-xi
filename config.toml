@@ -5,14 +5,18 @@ title = "TeaLinux OS"
 themeDir = "themes"
 theme = "teaxi"
 
+sectionPagesMenu = "main"
+
+paginate = 1
+
 [params]
     logo = "img/logo.png"
     iconLaporhama = "icon/icon-laporhama.svg"
     iconDaun = "icon/daun.png"
-    iconAntipiracy = "icon/antipiracy.svg"
-    iconCommunity = "icon/community.svg"
-    iconHQ = "icon/HQ.svg"
-    iconNutrition = "icon/Nutrition.svg"
+    iconAntipiracy = "icon/antipiracy.png"
+    iconCommunity = "icon/community.png"
+    iconHQ = "icon/HQ.png"
+    iconNutrition = "icon/Nutrition.png"
     maskot = "img/maskot.png"
 #    teaInstaller = "img/tea-installer.jpg"
 #    teatheme = "img/tea-theme.jpg"
