@@ -1,7 +1,9 @@
+
 {{ define "header" }} {{ partial "nav.html" . }} {{ end }}
 
 {{ define "main" }}
 {{ partial "sidebar.html" . }}
+</div>
 <div id="dok-page" class="container">
 
 <div class="columns">
@@ -10,7 +12,7 @@
     </div>
 
     <div class="column is-8">
-        <main>
+        <main id="content">
             <!-- <ul>
             Ranges through content/posts/*.md
             {{ range .Pages.ByWeight }}
