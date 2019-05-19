@@ -1,6 +1,26 @@
 $(document).ready(function() {
     $.sidebarMenu($('.sidebar-menu'))
+    var current_title = $(document).attr('title');
+    $(window).on('scroll', function(){
+        if($(window).scrollTop()){
+            $('nav').addClass('green');
+            $('.navbar-brand a').css('color', '#fff');
+        } else {
+            $('nav').removeClass('green');
+            if(current_title == 'TeaLinux OS'){
+                $('.navbar-brand a').css('color', '#1e3338ff');
+            }
+        }
+    }); 
 
+    var current_title = $(document).attr('title');
+    if(current_title == 'TeaLinux OS'){
+        $('.navbar').css('background-color','transparent');
+    } else{
+        $('.navbar-brand a').css('color', '#fff');
+        $('nav').css('box-shadow', '0 7px 6px -6px #777');
+        $('.navbar').css('background-color','#39c892ff');
+    }
     // $(window).resize(function(){
     //     if($(document).width() > 1087){
     //         $("#sidebar").css('margin-left', 0);
@@ -30,17 +50,6 @@ $(document).ready(function() {
         $(".dropdown").toggleClass("is-active");
     });
     
-    // var show = $("ul.bd-category-list").css("display");
-    // console.log(show);
-    // $(".bd-category").click(function(){
-    //     // if(show == 'none'){
-    //     //     $(this).find('ul.bd-category-list').css('display','block').addClass('is-current');
-    //     // }
-    //     // else{
-    //     //     $(this).find('ul.bd-category-list').css('display','none').removeClass('is-current');
-    //     // }
-    //     $(this).find('ul.bd-category-list').toggle();
-    // }); 
     $('.menu li:has(ul)').click(function (e) { 
         e.preventDefault();
         if($(this).hasClass('is-current')){

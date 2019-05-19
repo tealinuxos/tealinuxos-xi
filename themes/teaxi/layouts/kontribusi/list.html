@@ -13,12 +13,12 @@
     </section>
     <section class="devisi has-text-centered">
         <div class="container">
-            <a class="button is-rounded" href="#">Tim Pengembangan</a>
-            <a class="button is-rounded" href="#">Panduan</a>
-            <a class="button is-rounded" href="#">Laporan</a>
+            <a class="button is-rounded" href="#tim-pengembang">Tim Pengembangan</a>
+            <a class="button is-rounded" href="#konten-panduan">Panduan</a>
+            <a class="button is-rounded" href="#pelaporan">Laporan</a>
         </div>
     </section>
-    <section class="tim-pengembang">
+    <section id="tim-pengembang" class="tim-pengembang">
         <div class="container">
             <div class="tim-pengembang-head">
                 <h1 class="title has-text-centered">Tim Pengembangan</h1>
@@ -29,7 +29,33 @@
                     <div class="card-content">
                         <div class="columns">
                             <div class="column has-text-centered">
-                                <img src="{{ $.Site.BaseURL }}{{ $.Site.Params.mockup }}" alt="desktop">
+                                <div class="koor">
+                                    <img src="{{ $.Site.BaseURL }}{{ $.Site.Params.mockupProfile }}" alt="desktop">
+                                    <p>Ahmad Rizal</p>
+                                </div>
+                                <hr>
+                                <div class="anggota">
+                                    <div class="anggota-item">
+                                        <img src="{{ $.Site.BaseURL }}{{ $.Site.Params.mockupProfile }}" alt="desktop">
+                                        <p>Nama</p>
+                                    </div>
+                                    <div class="anggota-item">
+                                        <img src="{{ $.Site.BaseURL }}{{ $.Site.Params.mockupProfile }}" alt="desktop">
+                                        <p>Nama</p>
+                                    </div>
+                                    <div class="anggota-item">
+                                        <img src="{{ $.Site.BaseURL }}{{ $.Site.Params.mockupProfile }}" alt="desktop">
+                                        <p>Nama</p>
+                                    </div>
+                                    <div class="anggota-item">
+                                        <img src="{{ $.Site.BaseURL }}{{ $.Site.Params.mockupProfile }}" alt="desktop">
+                                        <p>Nama</p>
+                                    </div>
+                                    <div class="anggota-item">
+                                        <img src="{{ $.Site.BaseURL }}{{ $.Site.Params.mockupProfile }}" alt="desktop">
+                                        <p>Nama</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="column">
                                 <div class="deskripsi">
@@ -128,7 +154,7 @@
             </div>
         </div>
     </section>
-    <section class="konten-panduan">
+    <section id="konten-panduan" class="konten-panduan">
         <div class="container">
             <div class="konten-panduan-head has-text-centered">
                 <h1 class="title">Konten Panduan</h1>
@@ -164,7 +190,7 @@
             </div>
         </div>
     </section>
-    <section class="pelaporan">
+    <section id="pelaporan" class="pelaporan">
         <div class="container">
             <div class="pelaporan-head has-text-centered">
                 <h1 class="title">Pelaporan</h1>

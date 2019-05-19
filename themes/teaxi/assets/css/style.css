@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto');
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif');
 */
-
 html {
     scroll-behavior: smooth;
   }
@@ -24,22 +23,33 @@ body a{
 .navbar{
     background: transparent;
     height: 70px;
-    font-size: 20px;
+    font-size: 18px;
+    transition: .5s all ease-in-out;
+}
+.green{
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #39c892ff !important;
+    -webkit-box-shadow: 0 7px 6px -6px #777;
+       -moz-box-shadow: 0 7px 6px -6px #777;
+            box-shadow: 0 7px 6px -6px #777;
+    transition: .5s all ease-in-out;
 }
 .navbar .navbar-menu{
     /* padding: 15px 0; */
 }
 .navbar .navbar-brand a{
-    font-size: 28px !important;
+    font-size: 24px !important;
 }
 .navbar-item img{
-    max-height: 40px !important;
+    max-height: 38px !important;
 }
 .navbar .navbar-brand a.navbar-item img{
-    margin-right: 10px; 
+    margin-right: 7px; 
 }
 .navbar .navbar-brand a.navbar-item{
-    color: #fff;
+    color: #1e3338ff;
 }
 .navbar .navbar-menu a.navbar-item{
     transition: all 0.3s ease-in-out;
@@ -52,11 +62,8 @@ body a{
     color:none;
 }
 .navbar .navbar-end a.navbar-item:hover{
-    color: #39c892ff; 
+    color: #c7dbdbff; 
     background: none;
-}
-span.navbar-item{
-    /* position: relative; */
 }
 .navbar .navbar-menu .navbar-end .navbar-item p{
     width: 25px;
@@ -67,7 +74,6 @@ span.navbar-item{
     background-color: #fff; 
 }
 .navbar .navbar-menu .navbar-end .navbar-item input:focus { 
-    /* background-color:; */
     border-color: #39c892ff;
   }
 /* -------------------------------- */
@@ -75,26 +81,25 @@ span.navbar-item{
 /* Header */
 /* -------------------------------- */
 #bg-hero {
-    background-image: url("../img/hello.png") !important;
+    background-image: url("../img/hero-polos.png") !important;
     background-repeat: no-repeat !important;
     background-position: center !important; 
     background-size: cover !important;
 }
 .hero{
     background: transparent !important;
-
-
 }
 .hero .hero-body{
     text-align: left;
-
 }
 .hero .title{
     font-size: 4rem;
-    color: #fff !important;
+    font-family: 'Lato', sans-serif;
+    color: #1e3338ff !important;
 }
 .hero .subtitle {
-    color: #fff !important;
+    font-family: 'Lato', sans-serif;
+    color: #1e3338ff !important;
 }
 .hero a.button{
     width: 6.5rem;
@@ -104,6 +109,7 @@ span.navbar-item{
     color: #fff; 
     background-color: #39c892ff;
     border: none;
+    transition: .5s all ease-in-out;
 }
 .hero a.button:hover{
     color: #39c892ff; 
@@ -175,14 +181,14 @@ span.navbar-item{
     width: 22%;
     position: absolute;
     left: -5px;
-    bottom: -350px;
+    bottom: -360px;
 }
-.variasi-kanan img{
+/* .variasi-kanan img{
     width: 18%;
     position: absolute;
     right: -5px;
     top: 1500px;
-}
+} */
 
 /* FITUR */
 /* -------------------------------- */
@@ -191,7 +197,7 @@ span.navbar-item{
     margin-bottom: 150px;
 }
 .fitur .fitur-head{
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 .fitur .fitur-body .columns .column h1{
     font-size: 1.80 rem;
@@ -205,9 +211,9 @@ span.navbar-item{
     position: relative;
 }
 .fitur .fitur-body .columns .column .bg-fitur1 img:last-child{
-    width: 70%;
+    width: 60%;
     bottom: 70px;
-    right: 90px;
+    right: 130px;
     position: absolute;
     z-index: 10px;
 }
@@ -215,9 +221,9 @@ span.navbar-item{
     position: relative;
 }
 .fitur .fitur-body .columns .column .bg-fitur2 img:last-child{
-    width: 70%;
-    bottom: 110px;
-    right: 96px;
+    width: 60%;
+    bottom: 120px;
+    right: 130px;
     position: absolute;
     z-index: 10px;
 }
@@ -225,9 +231,9 @@ span.navbar-item{
     position: relative;
 }
 .fitur .fitur-body .columns .column .bg-fitur3 img:last-child{
-    width: 70%;
-    bottom: 90px;
-    right: 96px;
+    width: 60%;
+    bottom: 80px;
+    right: 120px;
     position: absolute;
     z-index: 10px;
 }
@@ -255,8 +261,8 @@ span.navbar-item{
 .resep-tealinux .resep-head h1{
     color: #fff;
 }
-.resep-tealinux .resep-body .card .card-content img{
-    margin-bottom: 30px;
+.resep-tealinux .resep-body .card .card-content .columns{
+    padding-bottom: 20px;
 }
 .resep-tealinux .resep-body .card .card-content .columns .column{
     padding: 26px;
@@ -269,14 +275,31 @@ span.navbar-item{
 }
 .resep-tealinux .resep-body .card .card-content .columns .column h1{
     margin-bottom: 40px;
-}
+}   
+.resep-tealinux .resep-body .card .card-content .columns .column img{
+    margin-bottom: 0;
+}  
 .resep-tealinux .resep-body .card .card-content .columns .column .donasi-download a{
-    background-color: #7bdb35ff;
+    padding: 24px;
+    background-color: #2993c6ff;
     color: #e7ededff; 
+    transition: .5s all ease-in-out;
 }
 .resep-tealinux .resep-body .card .card-content .columns .column .donasi-download a:last-child{
     background-color: #39c892ff;
     color: #e7ededff; 
+    transition: .5s all ease-in-out;
+
+}
+.resep-tealinux .resep-body .card .card-content .columns .column .donasi-download a:hover{
+    color: #2993c6ff; 
+    border-color: #2993c6ff;
+    background-color: #385b6bff;
+}
+.resep-tealinux .resep-body .card .card-content .columns .column .donasi-download a:last-child:hover{
+    color: #39c892ff; 
+    border-color: #39c892ff;
+    background-color: #385b6bff;
 }
 .resep-tealinux .resep-body .card .card-content .columns .column ul li{
     margin: 15px 0;
@@ -314,7 +337,7 @@ span.navbar-item{
 /* -------------------------------- */
 .footer {
     padding-bottom: 48px;
-    background-color: #1e252cff;
+    background-color: #1e3338ff;
 }
 .footer hr{
     background: #364548;
@@ -381,7 +404,7 @@ span.navbar-item{
 }
 .kontribusi-konten{
     padding: 26px 0;
-    padding-top: 168px;
+    padding-top: 158px;
 }
 .kontribusi .kontribusi-konten h1.title{
     margin-bottom: 40px;
@@ -410,6 +433,12 @@ span.navbar-item{
     margin: 0 5px;
     background-color: #39c892ff;
     color: #fff;
+    transition: .5s all ease-in-out;
+}
+.devisi a:hover{
+    color: #39c892ff; 
+    border-color: #39c892ff;
+    background-color: #385b6bff;
 }
 .tim-pengembang .tim-pengembang-head span.line{
     content: "";
@@ -431,6 +460,34 @@ span.navbar-item{
 }
 .tim-pengembang .tim-pengembang-body .card .title{
     color: #fff;
+}
+.tim-pengembang .tim-pengembang-body .card .card-content .columns .column:first-child{
+    background-color: #fff;
+}
+.tim-pengembang .tim-pengembang-body .card .card-content .columns .column .koor{
+    /* display: flex; */
+    height: 60%;
+    justify-content: center;
+    align-content: center;
+}
+.tim-pengembang .tim-pengembang-body .card .card-content .columns .column .koor img{        
+    width: 25%;
+    margin: auto 15px auto 0;
+    border-radius: 50%;
+}
+.tim-pengembang .tim-pengembang-body .card .card-content .columns .column .koor p{
+    /* display: flex; */
+    font-size: 1.5rem;
+}
+.tim-pengembang .tim-pengembang-body .card .card-content .columns .column:first-child hr{
+    /* margin: 10% 0; */
+}
+.tim-pengembang .tim-pengembang-body .card .card-content .columns .column .anggota{
+    display: flex;
+}
+.tim-pengembang .tim-pengembang-body .card .card-content .columns .column .anggota .anggota-item img{
+    width: 50%;
+    border-radius: 50%;
 }
 .tim-pengembang .tim-pengembang-body .card .card-content hr{
     height: 1px;
