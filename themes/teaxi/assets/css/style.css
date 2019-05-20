@@ -462,13 +462,10 @@ body a{
     color: #fff;
 }
 .tim-pengembang .tim-pengembang-body .card .card-content .columns .column:first-child{
-    background-color: #fff;
+    padding: 24px;
 }
 .tim-pengembang .tim-pengembang-body .card .card-content .columns .column .koor{
-    /* display: flex; */
-    height: 60%;
-    justify-content: center;
-    align-content: center;
+    margin-top: 62px;
 }
 .tim-pengembang .tim-pengembang-body .card .card-content .columns .column .koor img{        
     width: 25%;
@@ -476,11 +473,8 @@ body a{
     border-radius: 50%;
 }
 .tim-pengembang .tim-pengembang-body .card .card-content .columns .column .koor p{
-    /* display: flex; */
+    margin-bottom: 24px;
     font-size: 1.5rem;
-}
-.tim-pengembang .tim-pengembang-body .card .card-content .columns .column:first-child hr{
-    /* margin: 10% 0; */
 }
 .tim-pengembang .tim-pengembang-body .card .card-content .columns .column .anggota{
     display: flex;
@@ -664,7 +658,7 @@ body a{
 /* PANDUAN */
 /* ------------------------------------------ */
 /* Sidebar Right */
-.sidebar-right{
+/* .sidebar-right{
     right: 0;
     width: 250px;
     height: 100vh;
@@ -681,7 +675,7 @@ body a{
 }
 .sidebar-right .bd-categories .bd-category ul.bd-category-list li a{
     color: #39c892ff;
-}
+} */
 
 /* Content */
 .content-main{
@@ -1322,8 +1316,14 @@ body a{
 
 /* Menu Dokumentasi */
 /* Sidebar */
+/* #doc-page .columns .column:first-child{
+    overflow: auto;
+} */
 #menu-doc{
+    position: fixed;
     width: 280px;
+    height: 100vh;
+    /* z-index: 10;*/
     overflow: auto;
     transition: all 0.5s ease-out;
 }
@@ -1345,6 +1345,6 @@ body a{
 }
 
 #dok-page {
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 100px;
 }
