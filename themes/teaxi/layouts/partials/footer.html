@@ -7,9 +7,9 @@
         <p>The opensource has come true, this is the time to revenge. Berangkat dari dukungan dari semua pihak sistem operasi ini mengalami penyempurnaan mejadi sistem operasi yang stabil dan berkualitas.</p>
         <hr>
  
-        <p><a href="">Contact us</a> - <a href="">About us</a> - <a href="">Community</a> - <a href="">Release</a>
+        <p><a href="https://telegram.me/doscom">Contact us</a> - <a href="http://doscom.org/">About us</a> - <a href="http://doscom.org/">Community</a> - <a href="/">Release</a>
             <br>
-            Released under the <a href="https://opensource.org/licenses/MIT">MIT License.</a> 2009-2018 Maintenance by <a href="">Doscom</a></p>  
+            Released under the <a href="https://opensource.org/licenses/MIT">MIT License.</a> 2009-2018 Maintenance by <a href="http://doscom.org/">Doscom</a></p>  
     </div>
   <div class="column is-2" align="right">
       <a class="button" href='{{ if eq .Title "Kontribusi" }} #kontribusi {{else}} #hero {{end}} '><i class="fas fa-2x fa-chevron-up"></i></a>
@@ -58,19 +58,5 @@
         top: 0, // could be negative value
         left: 0, 
         behavior: 'smooth' 
-        });
-
-        // Scroll to a certain element
-        document.querySelector('.hello').scrollIntoView({ 
-        behavior: 'smooth' 
-        });
-        $("a[href^='#']").click(function(e) {
-            e.preventDefault();
-            
-            var position = $($(this).attr("href")).offset().top;
-
-            $("body, html").animate({
-                scrollTop: position
-            },1000 /* speed */ );
         });
     </script>

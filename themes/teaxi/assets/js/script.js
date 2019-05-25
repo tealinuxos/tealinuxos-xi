@@ -63,4 +63,27 @@ $(document).ready(function() {
             $(this).children('ul').slideDown();
         }
     });
+
+    // if($(".content-tab:first").is("#Deskripsi")){
+    //     $(".content-tab:first").css('display', 'block');
+    // }
+    // else{
+    //     $(".content-tab").css('display', 'none');
+    // }
+    // $(".content-tab:last").css('display', 'none');
+
+    // $('.tabs ul li').on('click', function(){
+    //     var id = $(this).attr('name');
+    //     var i, x, tablinks;
+    //     x = $('.content-tab');
+    //     tablinks = $('.tab');
+    //     for (i = 0; i < x.length; i++) {
+    //         x[i].style.display = "none";
+    //     }
+    //     for (i = 0; i < x.length; i++) {
+    //         tablinks[i].className = tablinks[i].className.replace(" is-active", "");
+    //     }
+    //     $('#'+id).css("display",'block');
+    //     event.currentTarget.className += " is-active";
+    // });
 });

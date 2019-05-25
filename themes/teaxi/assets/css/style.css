@@ -10,7 +10,6 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     letter-spacing: 0.3;
-    
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Lato', sans-serif;
@@ -81,7 +80,7 @@ body a{
 /* Header */
 /* -------------------------------- */
 #bg-hero {
-    background-image: url("../img/hero-polos.png") !important;
+    background-image: url("../img/hero.png") !important;
     background-repeat: no-repeat !important;
     background-position: center !important; 
     background-size: cover !important;
@@ -249,7 +248,7 @@ body a{
     margin: 0 124px;
 }
 .resep-tealinux .resep-body .card{
-    border: 24px solid #c2d8d8ff;
+    border: 24px solid #e7ededff;
     border-radius: 10px;
 }
 .resep-tealinux .resep-body .card .card-content{
@@ -425,7 +424,7 @@ body a{
 /* Devisi */
 /* -------------------------------- */
 .devisi{
-    margin-bottom: 170px;
+    margin-bottom: 230px;
 }
 .devisi a{
     width: 250px;
@@ -452,65 +451,43 @@ body a{
     margin-bottom: 50px; 
 }
 .tim-pengembang .tim-pengembang-body .card{
-    background-color: #39c892ff;
-    color: #fff;
+    background-color: #f9f9f9ff;
+    color: #0c151eff;
     padding: 30px;
     margin-bottom: 150px; 
-    border-radius: 16px;    
+    border-radius: 16px; 
+    -webkit-box-shadow: 0px 4px 4px 2px rgba(12, 21, 30, .2);
+       -moz-box-shadow: 0px 4px 4px 2px rgba(12, 21, 30, .2);
+            box-shadow: 0px 4px 4px 2px rgba(12, 21, 30, .2);
+
 }
 .tim-pengembang .tim-pengembang-body .card .title{
+    color: #0c151eff;
+}
+.tim-pengembang .tim-pengembang-body .card{
+    padding: 0;
+}
+.tim-pengembang .tim-pengembang-body .card .card-content{
+    padding: 0;
+}
+.tim-pengembang .tim-pengembang-body .card .card-content .card-title{
+    padding: 10px 40px;
+    background-color: #39c892ff;
+    border-radius: 16px; 
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.tim-pengembang .tim-pengembang-body .card .card-content .card-title h1{
     color: #fff;
 }
-.tim-pengembang .tim-pengembang-body .card .card-content .columns .column:first-child{
-    padding: 24px;
-}
-.tim-pengembang .tim-pengembang-body .card .card-content .columns .column .koor{
-    margin-top: 62px;
-}
-.tim-pengembang .tim-pengembang-body .card .card-content .columns .column .koor img{        
-    width: 25%;
-    margin: auto 15px auto 0;
-    border-radius: 50%;
-}
-.tim-pengembang .tim-pengembang-body .card .card-content .columns .column .koor p{
-    margin-bottom: 24px;
-    font-size: 1.5rem;
-}
-.tim-pengembang .tim-pengembang-body .card .card-content .columns .column .anggota{
-    display: flex;
-}
-.tim-pengembang .tim-pengembang-body .card .card-content .columns .column .anggota .anggota-item img{
-    width: 50%;
-    border-radius: 50%;
-}
-.tim-pengembang .tim-pengembang-body .card .card-content hr{
-    height: 1px;
+.tim-pengembang .tim-pengembang-body .card .card-content .card-body{
+    padding: 40px;
 }
 .tim-pengembang .tim-pengembang-body .card .card-content .deskripsi h1{
     margin-bottom: 12px;
 }
 .tim-pengembang .tim-pengembang-body .card .card-content .tugas ul{
     list-style-type: disc;
-    margin-left: 18px;
-}
-.tim-pengembang .tim-pengembang-body .card .card-content .deskripsi span.line{
-    content: "";
-    margin-bottom: 12px;
-    display: block;
-    width: 100%;
-    height: 1px;
-    background-color: #fff;
-}
-.tim-pengembang .tim-pengembang-body .card .card-content hr{
-    margin-bottom: 12px;
-    margin-top: 12px; 
-}
-.tim-pengembang .tim-pengembang-body .card .card-content .tugas h1{
-    font-size: 1.25rem;
-    margin-bottom: 5px;
-}
-.tim-pengembang .tim-pengembang-body .card .card-content .tugas ul li i{
-    margin-right: 10px; 
 }
 /* -------------------------------- */
 /* Konten Panduan */
@@ -529,61 +506,17 @@ body a{
     height: 2px;
     background-color: #39c892ff;
 }
-.konten-panduan .konten-panduan-body .konten-panduan-deskripsi{
+.konten-panduan .konten-panduan-body{
     padding: 0 16%;
     margin-bottom: 160px;
 }
-.konten-panduan .konten-panduan-body .konten-panduan-deskripsi span.line{
-    content: "";
-    margin: 0 auto;
-    display: block;
-    width: 150px;
-    margin-bottom: 24px;
-    height: 1px;
-    background-color: #39c892ff;
-}
-.konten-panduan .konten-panduan-body .konten-panduan-deskripsi p{
-    margin-bottom: 15px;
-}
-.konten-panduan .konten-panduan-body .konten-panduan-langkah{
-    padding: 0 10%;
-}
-.konten-panduan .konten-panduan-body .konten-panduan-langkah .card{
-    border: 1px solid #39c892ff;    
-    color: #39c892ff;
-    padding: 30px;
-    border-radius: 16px;
-}
-.konten-panduan .konten-panduan-body .konten-panduan-langkah .card .title{
-    color: #39c892ff;
-}
-.konten-panduan .konten-panduan-body .konten-panduan-langkah h1{
-    margin-top: 24px;
-}
-.konten-panduan .konten-panduan-body .konten-panduan-langkah span.line{
-    content: "";
-    margin: 0 auto;
-    margin-bottom: 50px;
-    display: block;
-    width: 100%;
-    height: 1px;
-    background-color: #39c892ff;
-}
-.konten-panduan .konten-panduan-body .konten-panduan-langkah .card .card-content .columns{
-    margin-bottom: 50px;
-}
-.konten-panduan .konten-panduan-body .konten-panduan-langkah .card .card-content .columns:last-child{
+.konten-panduan .konten-panduan-body p{
     margin-bottom: 24px;
 }
-.konten-panduan .konten-panduan-body .konten-panduan-langkah .card .card-content .columns:last-child{
-    /* margin-bottom: 25px; */
+.konten-panduan .konten-panduan-body img{
+    margin-bottom: 24px;
 }
-.konten-panduan .konten-panduan-body .konten-panduan-langkah .card .card-content .columns .column{
-    /* padding: 0 25px; */
-}
-.konten-panduan .konten-panduan-body .konten-panduan-langkah .card .card-content .columns .column img{
-    width: 85%;
-}
+
 /* -------------------------------- */
 /* Pelaporan */
 /* -------------------------------- */
@@ -759,7 +692,7 @@ body a{
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .container{
         margin: 0 30px;
     }
@@ -778,6 +711,9 @@ body a{
         width: 5.5rem;
         height: 2.5rem;
         margin-top: 16px;
+    }
+    .variasi-kiri img{
+        bottom: -270px;
     }
     /* Navbar */
     .navbar .navbar-menu .navbar-end .navbar-item p{
@@ -803,6 +739,18 @@ body a{
     }
     .fitur .fitur-head{
         margin-bottom: 30px;
+    }
+    .fitur .fitur-body .columns .column .bg-fitur1 img:last-child{
+        bottom: 60px;
+        right: 96px;
+    }
+    .fitur .fitur-body .columns .column .bg-fitur2 img:last-child{
+        bottom: 96px;
+        right: 96px;
+    }
+    .fitur .fitur-body .columns .column .bg-fitur3 img:last-child{
+        bottom: 60px;
+        right: 76px;
     }
     /* Resep */
     .resep-tealinux .resep-body{
@@ -849,7 +797,9 @@ body a{
         padding: 30px;
         margin-bottom: 130px;     
     }
-
+    .tim-pengembang .tim-pengembang-body .card{
+        padding: 0;
+    }
     .konten-panduan{
         margin-bottom: 130px;
     }
@@ -874,7 +824,7 @@ body a{
   ##Screen = B/w 481px to 767px
 */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .container{
         margin: 0 26px;
     }
@@ -895,6 +845,9 @@ body a{
         width: 5rem;
         height: 2.5rem;
         margin-top: 14px;
+    }
+    .variasi-kiri img{
+        bottom: -168px;
     }
     .navbar .container{
         margin: 0 0;
@@ -986,11 +939,14 @@ body a{
         width: 270px;
     }
     .tim-pengembang .tim-pengembang-body .card{
-        padding: 24px;
+        padding: 0;
         margin-bottom: 100px;     
     }
-    .tim-pengembang-body .deskripsi h1.title{
+    .tim-pengembang-body .card .card-content h1.title{
         font-size: 1.5rem;
+    }
+    .tim-pengembang-body .card .card-content .card-body .tugas h1{
+        font-size: 1.25rem;
     }
     /* Konten-panduan */
     .konten-panduan{
@@ -1002,25 +958,11 @@ body a{
     .konten-panduan .konten-panduan-head span.line{
         width: 225px;
     }
-    .konten-panduan .konten-panduan-body .konten-panduan-deskripsi{
-        padding: 0 0;
-        margin-bottom: 100px;
+    .konten-panduan .konten-panduan-body{
+        padding: 0 5%;
+        margin-bottom: 140px;
     }
-    .konten-panduan .konten-panduan-body .konten-panduan-langkah{
-        padding: 0 0;
-    }
-    .konten-panduan .konten-panduan-body .konten-panduan-langkah h1{
-        font-size: 1.75rem;
-    }
-    .konten-panduan .konten-panduan-body .konten-panduan-langkah .card{
-        padding: 0;
-    }
-    .konten-panduan .konten-panduan-body .konten-panduan-langkah h1{
-        margin-top: 0;
-    }
-    .konten-panduan .konten-panduan-body .konten-panduan-langkah .card .card-content .columns:last-child{
-        margin-bottom: 0;
-    }
+    
     /* Pelaporan */
     .pelaporan .pelaporan-head h1.title{
         font-size: 1.75rem;
@@ -1035,6 +977,9 @@ body a{
     .pelaporan .pelaporan-body .columns .column .card{
         height: auto;
         padding: 24px;
+    }  
+    .pelaporan .pelaporan-body .columns .column .card .card-content ul{
+        padding-left: 16px;
     }   
 }
 
@@ -1067,6 +1012,9 @@ body a{
         width: 5rem;
         height: 2.5rem;
         margin-top: 14px;
+    }
+    .variasi-kiri img{
+        bottom: -80px;
     }
     .navbar .container{
         margin: 0 0;
@@ -1114,6 +1062,18 @@ body a{
     .fitur .fitur-body .columns .column p{
         font-size: 0.85rem;
     }
+    .fitur .fitur-body .columns .column .bg-fitur1 img:last-child{
+        bottom: 32px;
+        right: 50px;
+    }
+    .fitur .fitur-body .columns .column .bg-fitur2 img:last-child{
+        bottom: 52px;
+        right: 50px;
+    }
+    .fitur .fitur-body .columns .column .bg-fitur3 img:last-child{
+        bottom: 36px;
+        right: 50px;
+    }
     /* Resep */
     .resep-tealinux .resep-body{
         margin: 0 0;
@@ -1135,10 +1095,10 @@ body a{
     .resep-tealinux .resep-body .card .card-content .columns .column table{
         margin: 0 0;
         text-align: center;
-        font-size: 0.75rem;
+        font-size: 0.65rem;
     }
     .resep-tealinux .resep-body .card .card-content .columns .column table tr td p{
-        font-size: 0.75rem;
+        font-size: 0.65rem;
     }
     .resep-tealinux .resep-body .card .card-content .columns .column table tr td:first-child{
         /* width: 60%; */
@@ -1184,107 +1144,97 @@ body a{
     }
     /* Tim Pengembang */
     .tim-pengembang .tim-pengembang-head{
-        margin-bottom: 24px; 
+        margin-bottom: 30px; 
     }
     .tim-pengembang .tim-pengembang-head h1.title{
         font-size: 1.25rem;
-        margin-bottom: 18px;
     }
     .tim-pengembang .tim-pengembang-head span.line{
-        width: 190px;
-    }
-    .tim-pengembang-body .deskripsi h1.title{
-        font-size: 1rem;
-    }
-    .tim-pengembang-body .deskripsi p{
-        font-size: 0.85rem;
+        width: 180px;
     }
     .tim-pengembang .tim-pengembang-body .card{
-        padding: 8px;
-        margin-bottom: 18px;     
+        padding: 0;
+        margin-bottom: 100px;     
     }
-    .tim-pengembang .tim-pengembang-body .card:last-child{
-        margin-bottom: 80px;     
+    .tim-pengembang .tim-pengembang-body{
+        padding: 24px;
     }
-    .tim-pengembang .tim-pengembang-body .card .card-content .tugas h1{
-        font-size: 1rem;
+    .tim-pengembang .tim-pengembang-body .card .card-content .card-body{
+        padding: 24px;
     }
-    .tim-pengembang .tim-pengembang-body .card .card-content .tugas ul li{
-        font-size: 0.85rem;
+    .tim-pengembang-body .card .card-content h1.title{
+        font-size: 1.25rem;
+    }
+    .tim-pengembang-body .columns .card .card-content p{
+        font-size: 0.90rem;
+    }
+    .tim-pengembang-body .card .card-content .card-title {
+        padding: 10px 24px;
+    }
+    .tim-pengembang-body .card .card-content .card-body .tugas h1{
+        font-size: 1.20rem;
+    }
+    .tim-pengembang-body .card .card-content .card-body .tugas ul li{
+        font-size: 0.90rem;
     }
     /* Konten-panduan */
     .konten-panduan{
         margin-bottom: 80px;
     }
     .konten-panduan .konten-panduan-head{
-        margin-bottom: 24px;
+        margin-bottom: 30px;
     }
     .konten-panduan .konten-panduan-head h1.title{
         font-size: 1.25rem;
-        margin-bottom: 18px;
     }
     .konten-panduan .konten-panduan-head span.line{
-        width: 160px;
+        width: 150px;
+        margin-bottom: 30px;
     }
-    .konten-panduan .konten-panduan-body .konten-panduan-deskripsi{
-        padding: 0 0;
-        margin-bottom: 80px;
+    .konten-panduan .konten-panduan-body{
+        padding: 0 5%;
+        margin-bottom: 140px;
     }
-    .konten-panduan .konten-panduan-body .konten-panduan-deskripsi p{
-        font-size: 0.85rem;
+    .konten-panduan .konten-panduan-body p{
+        font-size: 0.90rem;
     }
-    .konten-panduan .konten-panduan-body .konten-panduan-langkah{
-        padding: 0 0;
-    }
-    .konten-panduan .konten-panduan-body .konten-panduan-langkah h1{
-        font-size: 1.25rem;
-        margin-bottom: 18px;
-    }
-    .konten-panduan .konten-panduan-body .konten-panduan-langkah span.line{
-        margin-bottom: 24px;
-    }
-    .konten-panduan .konten-panduan-body .konten-panduan-langkah .card{
-        padding: 0;
-    }
-    .konten-panduan .konten-panduan-body .konten-panduan-langkah .card .card-content .columns{
-        margin-bottom: 24px;
-    }
+    
     /* Pelaporan */
     .pelaporan .pelaporan-head h1.title{
         font-size: 1.25rem;
-        margin-bottom: 18px;
     }
     .pelaporan .pelaporan-head span.line{
-        width: 140px;
-        margin-bottom: 24px;
-    }
-    .pelaporan .pelaporan-body .columns .column .card .card-content h1.title{
-        font-size: 1rem;
-        margin-bottom: 18px;
-    }
-    .pelaporan .pelaporan-body .columns .column .card .card-content span.line{
-        margin-bottom: 24px;
-    }
-    .pelaporan .pelaporan-body .columns .column .card .card-content ul li{
-        font-size: 0.85rem;
+        width: 100px;
+        margin-bottom: 30px;
     }
     .pelaporan .pelaporan-body .note{
-        margin-bottom: 80px;
+        margin-bottom: 100px;
     }
-    .pelaporan .pelaporan-body .note h1.title{
-        font-size: 1rem;
-        margin-bottom: 18px;
+    .pelaporan .pelaporan-body .note .card .card-content{
+        padding: 0;
     }
-    .pelaporan .pelaporan-body .note span.line{
-        margin-bottom: 24px;
+    .pelaporan .pelaporan-body .note .card .card-content h1.title{
+        font-size: 1.15rem;
     }
-    .pelaporan .pelaporan-body .note p{
-        font-size: 0.85rem;
+    .pelaporan .pelaporan-body .note .card .card-content p{
+        font-size: 0.90rem;
     }
     .pelaporan .pelaporan-body .columns .column .card{
         height: auto;
         padding: 24px;
-    }   
+    } 
+    .pelaporan .pelaporan-body .columns .column .card .card-content{
+        padding: 0;
+    }
+    .pelaporan .pelaporan-body .columns .column .card .card-content h1.title{
+        font-size: 1.15rem;
+    }    
+    .pelaporan .pelaporan-body .columns .column .card .card-content ul{
+        padding-left: 16px;
+    }    
+    .pelaporan .pelaporan-body .columns .column .card .card-content ul li{
+        font-size: 0.90rem;
+    } 
 }
 
 /* Sidebar */
