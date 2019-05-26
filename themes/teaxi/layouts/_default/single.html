@@ -2,56 +2,41 @@
 
 
 {{ define "main" }}
-<div class="container">
-
-<div class="columns">
-  <div class="column is-3">
-    {{ partial "menu-doc.html" . }}
-  </div>
-
-<div class="column is-8">
-<section id="main">
-  <h1 id="title">{{ .Title }}</h1>
-  <div>
-        <article id="content">
-           {{ .Content }}
-        </article>
-  </div>
-</section>
-<aside id="meta">
-    <div>
-    {{ with .Params.topics }}
-    <ul id="topics">
-      {{ range . }}
-        <li><a href="{{ "topics" | absURL}}{{ . | urlize }}">{{ . }}</a> </li>
-      {{ end }}
-    </ul>
-    {{ end }}
-    {{ with .Params.tags }}
-    <ul id="tags">
-      {{ range . }}
-        <li> <a href="{{ "tags" | absURL }}{{ . | urlize }}">{{ . }}</a> </li>
-      {{ end }}
-    </ul>
-    {{ end }}
+<div id="dok-page" class="container">
+    <div class="columns">
+        <div class="column is-3">
+        {{ partial "menu-doc.html" . }}
     </div>
-    <hr>
-    <div class="column">
-        {{ with .PrevInSection }}
-          <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
-        {{ end }}
-        {{ with .NextInSection }}
-          <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
-        {{ end }}
-      
+
+    <div class="column is-8">
+        <main id="content">
+        {{ .Content }}
+        </main>
+        <hr>
+        <div class="pagination">
+            {{ if or .PrevInSection .NextInSection }}
+                    {{if .NextInSection}}
+                        <a class="previous" href="{{.NextInSection.Permalink }}">
+                            <i class="fas fa-3x fa-arrow-circle-left"></i>
+                        </a>
+                    {{end}}
+        
+                    {{if .PrevInSection}}
+                        <a class="previous" href="{{ .PrevInSection.Permalink }}">
+                            <i class="fas fa-3x fa-arrow-circle-right"></i>
+                        </a>
+                    {{end}}
+            {{ end }}  
+        </div>
+        <hr>
     </div>
-</aside>
 </div>
-</div>
-</div>
-
-
-
-
 {{ end }}
-{{ define "footer" }} {{ partial "footer.html" . }} {{ end }}
+
+{{ define "footer" }}
+    {{ if or (eq .Title "Kontribusi") (eq .Title "TeaLinux OS") }}
+        {{ partial "footer.html" . }} 
+    {{ else }}
+        {{ partial "footer-doc" . }}
+    {{ end }}
+{{ end }}

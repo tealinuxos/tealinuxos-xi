@@ -1,38 +1,31 @@
-
 {{ define "header" }} {{ partial "nav.html" . }} {{ end }}
 
 {{ define "main" }}
 {{ partial "sidebar.html" . }}
 </div>
 <div id="dok-page" class="container">
-
-<div class="columns">
-    <div class="column is-3">
-        {{ partial "menu-doc.html" . }}
-    </div>
-
-    <div class="column is-8">
-        <main id="content">
-            <!-- <ul>
-            Ranges through content/posts/*.md
-            {{ range .Pages.ByWeight }}
-                <li>
-                    <a href="{{.Permalink}}">{{.Title}}</a>
-                </li>
-            {{ end }}
-            </ul> -->
-            {{ $paginator := .Paginate (where .Data.Pages "Type" "panduan") }}
-            {{ range $paginator.Pages }}
-                {{ .Content}}
-            {{ end }}
-            <!-- {{ template "_internal/pagination.html" . }} -->
+    <div class="columns">
+        <div class="column is-3">
+            {{ partial "menu-doc.html" . }}
+        </div>
+        <div class="column is-8">
+            <main id="content">
+                {{ $paginator := .Paginate (where .Data.Pages "Type" "panduan") }}
+                {{ range $paginator.Pages }}
+                    {{ .Content}}
+                {{ end }}
+            </main>
+            <hr>
             {{ partial "pagination" . }}
-        </main>
-
-
-        <!-- {{ partial "next-prev.html" . }}         -->
+            <hr>
+        </div>
     </div>
-</div>
 </div>
 {{ end }}
-{{ define "footer" }} {{ partial "footer.html" . }} {{ end }}
+{{ define "footer" }}
+    {{ if or (eq .Title "Kontribusi") (eq .Title "TeaLinux OS") }}
+        {{ partial "footer.html" . }} 
+    {{ else }}
+        {{ partial "footer-doc" . }}
+    {{ end }}
+{{ end }}

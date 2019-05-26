@@ -4,7 +4,10 @@ type: panduan
 weight: 104
 position: 4
 ---
-  
+
+
+# Pengenalan Dekstop Environment
+
  Tampilan lingkungan dekstop TeaLinuxOS Pappermint dengan tema elegan dan simple namun bersahabat dengan pengguna. Beberapa pengenalan tentang lingkungan dekstop di TeaLinuxOS sebagai berikut :
 
 ## Panel

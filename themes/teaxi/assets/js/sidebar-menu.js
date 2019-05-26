@@ -33,8 +33,8 @@ $.sidebarMenu = function(menu) {
       });
     }
     //if this isn't a link, prevent the page from being redirected
-    if (checkElement.is(subMenuSelector)) {
-      e.preventDefault();
-    }
+    // if (checkElement.is(subMenuSelector)) {
+    //   e.preventDefault();
+    // }
   });
 }

@@ -1,8 +1,10 @@
 ---
-title: Instalasi TealinuxOS
+title: Instalasi TealinuxOS 
 type: panduan
 weight: 102
 position: 2
+page: 
+  title: aks
 ---
 
 
