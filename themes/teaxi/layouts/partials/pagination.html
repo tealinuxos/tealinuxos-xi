@@ -1,13 +1,18 @@
 <div class="pagination">
     {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+    <div class="columns">
         {{ if .Paginator.HasPrev }}
-            <a class="previous" href="{{.Paginator.Prev.URL}}"><i class="fas fa-3x fa-arrow-circle-left"></i></a>
+            <div class="column">
+                <a class="previous" href="{{.Paginator.Prev.URL}}"><i class="fas fa-3x fa-arrow-circle-left"></i></a>
+            </div>
+            {{ end }}
         {{ end }}
-    {{ end }}
-    {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
-        {{ if .Paginator.HasNext }}
-            <a class="next" href="{{.Paginator.Next.URL}}"><i class="fas fa-3x fa-arrow-circle-right"></i></a>
+        {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+            {{ if .Paginator.HasNext }}
+            <div class="column">
+                <a class="next" href="{{.Paginator.Next.URL}}"><i class="fas fa-3x fa-arrow-circle-right"></i></a>
+            </div>
         {{ end }}
+    </div>
     {{ end }}
 </div>
-    

@@ -639,7 +639,7 @@ body a{
 */
 @media (min-width: 1088px) and (max-width: 1280px) {
     .navbar .navbar-menu .navbar-end a.navbar-item{
-        color: #385b6bff;
+        color: #fff;
     }
     .hero .hero-body .title{
         font-size: 3rem;
@@ -657,7 +657,7 @@ body a{
         margin: 0 30px;
     }    
 }
-@media (min-width: 1025px) and (max-width: 1088px) {
+@media (min-width: 1025px) and (max-width: 1087px) {
     .container{
         margin: 0 24px;
     }
@@ -668,7 +668,7 @@ body a{
         margin: 0 0;
     }
     .navbar .navbar-menu .navbar-end a.navbar-item{
-        color: #385b6bff;
+        color: #fff;
     }
     .resep-tealinux .resep-body{
         margin: 0 40px;
@@ -685,6 +685,13 @@ body a{
         height: 2.5rem;
         margin-top: 16px;
     }
+    #dok-page .columns .column:first-child{
+        display: none;
+    }
+    #dok-page .columns{
+        justify-content: center;
+    }
+
 }
 
 /* 
@@ -816,6 +823,13 @@ body a{
     }
     .devisi a{
         margin: 10px 5px;
+    }
+
+    #dok-page .columns .column:first-child{
+        display: none;
+    }
+    #dok-page .columns{
+        justify-content: center;
     }
 }
 
@@ -981,6 +995,12 @@ body a{
     .pelaporan .pelaporan-body .columns .column .card .card-content ul{
         padding-left: 16px;
     }   
+    #dok-page .columns .column:first-child{
+        display: none;
+    }
+    #dok-page .columns{
+        justify-content: center;
+    }
 }
 
 /* 
@@ -1301,18 +1321,21 @@ body a{
 #dok-page .columns .column main{
     padding-bottom: 24px;
 }
-#dok-page .columns .column .pagination{
-    padding: 16px;
-}
 #dok-page .columns .column .pagination .columns{
     width: 100%;
 }
-#dok-page .columns .column .pagination a.next{
-    position: absolute;
-    right: 124px;
+#dok-page .columns .column .pagination .columns .column:last-child{
+    width: 50%;
+    justify-content: flex-end;
+}
+#dok-page .columns .column .pagination .columns .column:first-child{
+    width: 50%;
+    justify-content: flex-start;
+}
+#dok-page .columns .column .pagination .column-next a.next{
     color: #39c892ff;
 }
-#dok-page .columns .column .pagination a.previous{
+#dok-page .columns .column .pagination .column-prev a.previous{
     color: #39c892ff;
 }
 .footer-doc{

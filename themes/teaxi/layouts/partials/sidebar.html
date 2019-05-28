@@ -1,21 +1,19 @@
 <section id="sidebar" class="sidebar">
     <ul class="sidebar-menu">
-        <li class="title-menu"><a href="/dokumentasi/">Dokumentasi</a></li>
-        <li class="title-menu"><a href="/kontribusi/">Kontribusi</a></li>
-        <li class="title-menu"><a target="blank" href="https://medium.com/tealinuxos">Blog</a></li>
+        <li class="title-menu-a"><a href="/dokumentasi/">Dokumentasi</a></li>
+        <li class="title-menu-a"><a href="/kontribusi/">Kontribusi</a></li>
+        <li class="title-menu-a"><a target="blank" href="https://medium.com/tealinuxos">Blog</a></li>
         <span class="navbar-item">
             <input class="input is-rounded" type="text">
             <p class="center"><i class="fas fa-search align-items-center"></i></p>
         </span>
-        {{ if eq .Title "Dokumentasi" }}
-            {{ range $section, $taxonomy := .Site.Sections }}
-                <h4>{{ $section }}</h4>
-                <ul>
-                    {{ range $taxonomy.Pages }}
-                    <li><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
-                    {{ end }}
-                </ul>
-            {{ end }}
+        {{ range $section, $taxonomy := .Site.Sections }}
+            <h4>{{ $section }}</h4>
+            <ul>
+                {{ range $taxonomy.Pages }}
+                <li><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
+                {{ end }}
+            </ul>
         {{ end }}
     </ul>
 </section>

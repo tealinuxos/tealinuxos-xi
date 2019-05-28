@@ -32,7 +32,7 @@ $.sidebarMenu = function(menu) {
         parent_li.addClass('active');
       });
     }
-    //if this isn't a link, prevent the page from being redirected
+    // if this isn't a link, prevent the page from being redirected
     // if (checkElement.is(subMenuSelector)) {
     //   e.preventDefault();
     // }

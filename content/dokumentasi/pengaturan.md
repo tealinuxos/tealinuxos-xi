@@ -19,7 +19,7 @@ User and Gorups ini digunakan untuk mengubah informasi pengguna, diantaranya nam
 
 ## Pengubahan Tampilan
  
- ### Menganti wallpaper
+### Menganti wallpaper
  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
  → Settings → Dekstop
 Pada bagian wallpaper anda dapat memilih wallpaper yang telah kami sediakan ini terletak di /usr/share/xfce4/backdrops/ jika anda ingin menambahkan wallpaper yang lain, pada bagian Folder anda dapat memilih direktori anda meletakkan gambar wallpaper anda lalu memilihnya.

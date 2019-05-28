@@ -1,5 +1,42 @@
 $(document).ready(function() {
-    $.sidebarMenu($('.sidebar-menu'))
+    $.sidebarMenu($('.sidebar-menu'));
+
+    var pathname = window.location.pathname;
+    var number = pathname.split("/");
+    
+    var dataTitle = [
+        "Kenalan dengan TealinuxOS",
+        "Instalasi TealinuxOS",
+        "Migration and Upgrade",
+        "Pengenalan Dekstop Environment",
+        "Pengaturan dan Pilihan",
+        "Pengenalan Aplikasi Bawaan",
+        "Koneksi Jaringan dan Internet",
+        "Print dan Scan",
+        "Mengelola Aplikasi Terinstall",
+        "Menjaga Keamanan Komputer",
+        "Perangkat Keras"
+    ];
+
+    var i;
+    var lenD=dataTitle.length;
+    var title= $("title");
+    for(i=0;i<dataTitle.length;i++){
+        if(number[3] == i+1){
+            title.html(dataTitle[i]);
+        }
+    }
+
+    var title = $(this).attr('title');
+    var titleMenu = document.querySelectorAll('.title-menu');
+
+    for(i=0;i<lenD;i++){
+        if(dataTitle[i]==title){
+            titleMenu[i].setAttribute('class','title-menu active');
+            titleMenu[i].children[1].setAttribute('class','sidebar-submenu menu-open');
+        }
+    }
+
     var current_title = $(document).attr('title');
     $(window).on('scroll', function(){
         if($(window).scrollTop()){
@@ -31,7 +68,6 @@ $(document).ready(function() {
     // });
     // Check for click events on the navbar burger icon
     $(".navbar-burger").click(function() {
-
         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
         $(".navbar-burger").toggleClass("is-active");
         // $(".navbar-menu").toggleClass("is-active");
@@ -43,24 +79,23 @@ $(document).ready(function() {
             $('#sidebar').addClass('is-active');
             $("#sidebar").css('margin-left', 0);
         }
-
-
     });
-    $(".dropdown").click(function() {
-        $(".dropdown").toggleClass("is-active");
-    });
+
+    // $(".dropdown").click(function() {
+    //     $(".dropdown").toggleClass("is-active");
+    // });
     
-    $('.menu li:has(ul)').click(function (e) { 
-        e.preventDefault();
-        if($(this).hasClass('is-current')){
-            $(this).removeClass('is-current');
-            $(this).children('ul').slideUp();
-        }
-        else{
-            $('.menu li ul').slideUp();
-            $('.menu li').removeClass('is-current');
-            $(this).addClass('is-current');
-            $(this).children('ul').slideDown();
-        }
-    });
+    // $('.menu li:has(ul)').click(function (e) { 
+    //     e.preventDefault();
+    //     if($(this).hasClass('is-current')){
+    //         $(this).removeClass('is-current');
+    //         $(this).children('ul').slideUp();
+    //     }
+    //     else{
+    //         $('.menu li ul').slideUp();
+    //         $('.menu li').removeClass('is-current');
+    //         $(this).addClass('is-current');
+    //         $(this).children('ul').slideDown();
+    //     }
+    // });
 });

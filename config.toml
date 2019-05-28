@@ -33,3 +33,11 @@ paginate = 1
     mockup = "img/mockup-kosong.jpeg"
     mockupProfile = "img/mockup-profile.png"
 
+[menu]
+    # Navbar Menus
+    [[menu.title]]
+        name    = "About"
+        Identifier = "/dokumentasi"
+    [[menu.title]]
+        name    = "Service"
+        Identifier = "/dokumentasi/page/2"
