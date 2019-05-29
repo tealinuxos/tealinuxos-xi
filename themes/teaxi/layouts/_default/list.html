@@ -5,7 +5,7 @@
 </div>
 <div id="dok-page" class="container">
     <div class="columns">
-        <div class="column is-3">
+        <div class="column is-3 menu">
             {{ partial "menu-doc.html" . }}
         </div>
         <div class="column is-8">
@@ -25,7 +25,5 @@
 {{ define "footer" }}
     {{ if or (eq .Title "Kontribusi") (eq .Title "TeaLinux OS") }}
         {{ partial "footer.html" . }} 
-    {{ else }}
-        {{ partial "footer-doc" . }}
     {{ end }}
 {{ end }}

@@ -4,39 +4,43 @@
 {{ define "main" }}
 <div id="dok-page" class="container">
     <div class="columns">
-        <div class="column is-3">
+        <div class="column is-3 menu">
         {{ partial "menu-doc.html" . }}
-    </div>
-
-    <div class="column is-8">
-        <main id="content">
-        {{ .Content }}
-        </main>
-        <hr>
-        <div class="pagination">
-            {{ if or .PrevInSection .NextInSection }}
-                    {{if .NextInSection}}
-                        <a class="previous" href="{{.NextInSection.Permalink }}">
-                            <i class="fas fa-3x fa-arrow-circle-left"></i>
-                        </a>
-                    {{end}}
-        
-                    {{if .PrevInSection}}
-                        <a class="previous" href="{{ .PrevInSection.Permalink }}">
-                            <i class="fas fa-3x fa-arrow-circle-right"></i>
-                        </a>
-                    {{end}}
-            {{ end }}  
         </div>
-        <hr>
+        <div class="column is-8">
+            <main id="content">
+            {{ .Content }}
+            </main>
+            <hr>
+            <div class="pagination">
+                {{ if or .PrevInSection .NextInSection }}
+                    <div class="columns">
+                        {{if .NextInSection}}
+                        <div class="column has-text-left">                    
+                            <a class="previous" href="{{.NextInSection.Permalink }}">
+                                <i class="fas fa-3x fa-arrow-circle-left"></i>
+                            </a>
+                        </div>
+                        {{end}}
+            
+                        {{if .PrevInSection}}
+                        <div class="column has-text-right">
+                            <a class="previous" href="{{ .PrevInSection.Permalink }}">
+                                <i class="fas fa-3x fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                        {{end}}
+                    </div>
+                {{ end }}  
+            </div>
+            <hr>
+            {{ partial "footer-doc" . }}
+        </div>
     </div>
 </div>
 {{ end }}
-
 {{ define "footer" }}
     {{ if or (eq .Title "Kontribusi") (eq .Title "TeaLinux OS") }}
         {{ partial "footer.html" . }} 
-    {{ else }}
-        {{ partial "footer-doc" . }}
     {{ end }}
 {{ end }}
