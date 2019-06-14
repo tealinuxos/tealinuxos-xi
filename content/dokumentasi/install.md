@@ -20,7 +20,7 @@ ISO tealinux dapat diunduh [di sini](http://pinguin.dinus.ac.id/iso/tealinuxos/)
 
 ### Membuat Bootable ISO TealinuxOS ke Flashdisk
 Untuk membuat bootable ke flashdisk anda dapat menggunakan software _Third Party_ seperti [Universal USB Installer](https://universal-usb-installer.en.uptodown.com), [Unetbootin](http://unetbootin.github.io) atau [Rufus](https://rufus.akeo.ie/). Berikut adalah langkah-langkah untuk membuat bootable ISO TealinuxOS ke flashdisk menggunakan Universal USB Installer.
-![Bootable_1](https://cloud.githubusercontent.com/assets/22718275/23578142/c4eae682-0102-11e7-9d76-69cd286a4406.png)
+![Bootable_1]{{$.site.baseURL}}(http://localhost:1313)
 
 ![Bootable_2](https://cloud.githubusercontent.com/assets/22718275/23578146/d6ebc932-0102-11e7-94c9-993dee8bcbe2.png)
 Mengenai cara penggunaan, instalasi dan keterangan lainya dapat Anda lihat di Website resmi dari masing-masing software tersebut.
