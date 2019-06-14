@@ -9,15 +9,12 @@ position: 6
 
 ![multimedia](https://cloud.githubusercontent.com/assets/26142091/23577778/c11fde0c-00fa-11e7-8244-ec175efb3fde.png)
 
-- Brasero
-Brasero merupakan sebuah perangkat lunak pemutar file audio dengan ukuran yang terbilang kecil, meski ukuran kecil ia tetap memiliki kualitas suara yang baik dan didukung dengan berbagai jenis format file. Untuk mengetahui lebih lanjut tentang brasero silahkan kunjungi situs resmi brasero di [sini](http://www.url.com).
+- Brasero merupakan sebuah perangkat lunak pemutar file audio dengan ukuran yang terbilang kecil, meski ukuran kecil ia tetap memiliki kualitas suara yang baik dan didukung dengan berbagai jenis format file. Untuk mengetahui lebih lanjut tentang brasero silahkan kunjungi situs resmi brasero di [sini](http://www.url.com).
 <!-- Audacious adalah sebuah perangkat lunak pemutar media berlisensi bebas yang berfokus dengan penggunaan sumber daya komputer yang rendah, kualitas suara yang tinggi dan mendukung berbagai jenis format. Untuk mengetahui lebih lanjut silahkan berkunjung ke website resmi audacious [Audacious] (http://tealinuxos.org/dukungan/audacious-media-player.org). -->
 
-- VLC
-VLC Media Player merupakan perangkat lunak (software) pemutar beragam berkas (file) multimedia, baik video maupun audio dalam berbagai format, seperti MPEG, DivX, Ogg, dan lain-lain. VLC Media Player juga dapat digunakan untuk memutar DVD,VCD, maupun CD. VLC Media Player bersifat sumber terbuka (open source) dan tersedia untuk berbagai sistem operasi. Mulai dari Microsoft Windows, beragam distro Linux, Mac OS, dan beberapa sistem operasi lainnya [VLC](http://www.videolan.org/vlc/).
+- VLC Media Player merupakan perangkat lunak (software) pemutar beragam berkas (file) multimedia, baik video maupun audio dalam berbagai format, seperti MPEG, DivX, Ogg, dan lain-lain. VLC Media Player juga dapat digunakan untuk memutar DVD,VCD, maupun CD. VLC Media Player bersifat sumber terbuka (open source) dan tersedia untuk berbagai sistem operasi. Mulai dari Microsoft Windows, beragam distro Linux, Mac OS, dan beberapa sistem operasi lainnya [VLC](http://www.videolan.org/vlc/).
 
-- Inkscape
-Inkscape merupakan sebuah perangkat lunak untuk mengedit gambar vector bisa kita bilang ia sebagai alternative dari Adobe Illustrator maupun Corel Draw, meskipun aplikasi ini gratis akan tetapi fitur yang ia tawarkan tidak kalah dengan aplikasi-aplikasi lain yang berbayar untuk mengetahui lebih lanjut silahkan klik di [sini](http://www.url.com)
+- Inkscape merupakan sebuah perangkat lunak untuk mengedit gambar vector dapat disebut Inkcsape sebagai alternative dari Adobe Illustrator maupun Corel Draw, meskipun aplikasi ini gratis akan tetapi fitur yang ia tawarkan tidak kalah dengan aplikasi-aplikasi lain yang berbayar untuk mengetahui lebih lanjut silahkan klik di [sini](http://www.url.com)
 
 ## Aplikasi Perkantoran
 
@@ -26,11 +23,9 @@ TeaLinuxOS Pappermint telah menyediakan paket software perkantoran yaitu LibreOf
 
 ## Internet
 
-- Firefox
-Firefox merupakan browser yang sudah cukup tua sehingga stabil dan aman. TeaLinuxOS Pappermint menghadirkan browser Firefox sebagai deffault browser untuk menunjang produktifitas pengguna. Untuk mengetahui tentang Firefox dan berbagai fitur yang disediaannya anda dapat berkunjung ke website resmi [Firefox] (https://www.mozilla.org/id/firefox).
+- Firefox merupakan browser yang sudah cukup tua sehingga stabil dan aman. TeaLinuxOS Pappermint menghadirkan browser Firefox sebagai deffault browser untuk menunjang produktifitas pengguna. Untuk mengetahui tentang Firefox dan berbagai fitur yang disediaannya anda dapat berkunjung ke website resmi [Firefox] (https://www.mozilla.org/id/firefox).
 
-- Transmission
-Transmission merupakan *torrent client*
+- Transmission merupakan *torrent client*
 
 ## Sistem
 
@@ -40,7 +35,7 @@ Transmission merupakan *torrent client*
 
 Menginstall aplikasi beserta seluruh dependensi secara lengkap dengan mudah menggunakan Tea Package.
 
-Tea Package merupakan aplikasi yang dikembangkan oleh developer TeaLinuxOS berbasis Python script untuk menginstall aplikasi berserta seluruh dependensinya secara offline. Ini memudahkan pengguna untuk berbagi paket aplikasi dan menginstallnya tanpa harus terkoneksi internet. Jika anda telah mengenal .exe pada sistem operasi windows maka di TeaLinuxOS Pappermint memiliki .tea utuk paket aplikasi yang digunakan. Penginstalan .tea dapat dilakukan pada Tea Package Installer. Untuk mengetahui tentang projek ini silahkan lihat di github [Tea Package](http://tealinuxos.org/dukungan/github.com/tealinuxos/).
+Tea Package merupakan aplikasi yang dikembangkan oleh developer TeaLinuxOS berbasis Python script untuk menginstall aplikasi berserta seluruh dependensinya secara offline. Ini memudahkan pengguna untuk berbagi paket aplikasi dan menginstallnya tanpa harus terkoneksi internet. Jika anda telah mengenal .exe pada sistem operasi windows maka di TeaLinuxOS Stevia memiliki .tea untuk paket aplikasi yang digunakan. Penginstalan .tea dapat dilakukan pada Tea Package Installer. Untuk mengetahui tentang projek ini silahkan lihat di github [Tea Package](http://tealinuxos.org/dukungan/github.com/tealinuxos/).
 
 - TeaLinux Module Installer
 
