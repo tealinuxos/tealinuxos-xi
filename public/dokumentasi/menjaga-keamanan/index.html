@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Menjaga Keamanan Komputer</title>
+
+<meta name="generator" content="Hugo 0.54.0" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans|Lato">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/bundle.min.dd261a801da64be581e6a1075fe8880d53a4739a6e46cf8d058daa0d1cef54c19013bba3b5bf6511faa734d3c7f30c900d36c65107fb41c7a3a9e0a8f4d40c2d.css">
+    </head>
+    <body>
+         
+
+
+    <nav id="nav" class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="http://localhost:1313/" class="navbar-item has-text-weight-semibold">
+                    <img src="http://localhost:1313/img/logo.png" alt="logo-tealinux">
+                    TealinuxOS
+                </a>
+                <a role="button" class="navbar-burger" data-target="sidebar" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="navMenu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="/dokumentasi/">Dokumentasi</a>
+                    <a class="navbar-item" href="/kontribusi/">Kontribusi</a>
+                    <a class="navbar-item" target="blank" href="https://medium.com/tealinuxos">Blog</a>
+                    <span class="navbar-item">
+                        
+                        <input id="search-input" class="input is-rounded" type="text" placeholder="What are you looking for?" name="search-input" class="form-control">
+                        <p class="center"><i class="fas fa-search align-items-center"></i></p>
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </nav> 
+        
+<section id="sidebar" class="sidebar">
+    <ul class="menu">
+        <li class="judul"><a href="/dokumentasi/">Dokumentasi</a></li>
+        <li class="judul"><a href="/kontribusi/">Kontribusi</a></li>
+        <li class="judul"><a target="blank" href="https://medium.com/tealinuxos">Blog</a></li>
+        <span class="navbar-item">
+            <input class="input is-rounded" type="text">
+            <p class="center"><i class="fas fa-search align-items-center"></i></p>
+        </span>
+        
+        <li class="judul-menu"><a href="/dokumentasi">Kenalan dengan TealinuxOS</a>
+            <ul class="submenu">
+                <li><a href="#apa-itu-tealinuxos">Apa itu Tealinuxos?</a></li>
+                <li><a href="#resep-tealinuxos">Resep TealinuxOS</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/install">Instalasi TealinuxOS</a>
+            <ul class="submenu">
+                <li><a href="#panduan-instalasi-tealinuxos">Panduan Instalasi TealinuxOS</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/migrasi">Migration and Upgrade</a>
+            <ul class="submenu">
+                <li><a href="#migrating-from-windows">Migrating from Windows</a></li>
+                <li><a href="#how-to-upgrade">How to upgrade</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/pengenalan-de">Pengenalan Dekstop Environment</a>
+            <ul class="submenu">
+                <li><a href="#panel">Panel</a></li>
+                <li><a href="#desktop">Desktop</a></li>
+                <li><a href="#file-dan-direktori">File dan Direktori</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/pengaturan">Pengaturan dan Pilihan</a>
+            <ul class="submenu">
+                <li><a href="#pengaturan-menu">Pengubahan Menu</a></li>
+                <li><a href="#pengubahan-informasi-personal">Pengubahan Informasi Personal</a></li>
+                <li><a href="#pengubahan-tampilan">Pengubahan Tampilan</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/aplikasi-tea">Pengenalan Aplikasi Bawaan</a>
+            <ul class="submenu">
+                <li><a href="#aplikasi-multimedia">Aplikasi Multimedia</a></li>
+                <li><a href="#aplikasi-perkantoran">Aplikasi Perkantoran</a></li>
+                <li><a href="#browser">Browser</a></li>
+                <li><a href="#sistem">Sistem</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/koneksi">Koneksi Jaringan dan Internet</a>
+            <ul class="submenu">
+                <li><a href="#menyambung-dan-memutuskan-jaringan">Menyambung dan Memutuskan jaringan</a></li>
+                <li><a href="#konfigurasi-koneksi">Konfigurasi koneksi</a></li>
+                <li><a href="#berbagi-koneksi-ke0komputer-lain">Berbagi koneksi ke komputer lain</a></li>
+                <li><a href="#troubleshooting-pada-jaringan">Troubleshooting pada jaringan</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/print-dan-scan">Print dan Scan</a>
+            <ul class="submenu">
+                <li><a href="#penggunaan-printer">Penggunaan Printer</a></li>
+                <li><a href="#penggunaan-scanner">Penggunaan Scanner</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/mengelola-aplikasi">Mengelola Aplikasi Terinstall</a>
+            <ul class="submenu">
+                <li><a href="#aplikasi-multimedia">Aplikasi Multimedia</a></li>
+                <li><a href="#aplikasi-perkantoran">Aplikasi Perkantoran</a></li>
+                <li><a href="#browser">Browser</a></li>
+                <li><a href="#sistem">Sistem</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/menjaga-keamanan">Menjaga Keamanan Komputer</a>
+            <ul class="submenu">
+                <li><a href="#tips-menjaga-keamanan-komputer">Tips Menjaga Keamanan Komputer</a></li>
+                <li><a href="#uninstall-software">Uninstall Software</a></li>
+                <li><a href="#menambah-repository">Menambah Repository</a></li>
+                <li><a href="#menginstall-melalui-tealinuxos-ide-installer">Menginstall melalui Tealinuxos IDE Installer</a></li>
+                <li><a href="#mengupdate-software">Mengupdate software</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/perangkat-keras">Perangkat Keras</a>
+            <ul class="submenu">
+                <li><a href="#pembatasan-beberapa-driver">Pembatasan Beberapa Driver</a></li>
+                <li><a href="#disk-dan-partition">Disk dan Partition</a></li>
+                <li><a href="#laptop">Laptop</a></li>
+                <li><a href="#suspend-dan-hibernate">Suspend dan Hibernate</a></li>
+                <li><a href="#mouse-dan-keyboard">Mouse dan keyboard</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/administrasi">Tugas-tugas administratif</a>
+            <ul class="submenu">
+                <li><a href="#user-dan-grub">User dan Grub</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/perintah-baris">Perintah Baris</a>
+            <ul class="submenu">
+                <li><a href="#daftar-perintah-umum">Daftar Perintah Umum</a></li>
+                <li><a href="#menjalankan-perintah-dengan-hak">Menjalankan Perintah dengan Hak </a></li>
+                <li><a href="#administrasi">Administrasi</a></li>
+            </ul>
+        </li>
+        
+    </ul>
+</section>
+
+<div id="dok-page" class="container">
+    <div class="columns">
+        <div class="column is-3 menu">
+          <section id="menu-doc">
+
+    <ul class="sidebar-menu">
+        <li class="title-menu"><a href="/dokumentasi">Kenalan dengan TealinuxOS</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#apa-itu-tealinuxos">Apa itu Tealinuxos?</a></li>
+                <li><a href="#resep-tealinuxos">Resep TealinuxOS</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/install">Instalasi TealinuxOS</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#panduan-instalasi-tealinuxos">Panduan Instalasi TealinuxOS</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/migrasi">Migration and Upgrade</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#migrating-from-windows">Migrating from Windows</a></li>
+                <li><a href="#how-to-upgrade">How to upgrade</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/pengenalan-de">Pengenalan Dekstop Environment</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#panel">Panel</a></li>
+                <li><a href="#desktop">Desktop</a></li>
+                <li><a href="#file-dan-direktori">File dan Direktori</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/pengaturan">Pengaturan dan Pilihan</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#pengaturan-menu">Pengubahan Menu</a></li>
+                <li><a href="#pengubahan-informasi-personal">Pengubahan Informasi Personal</a></li>
+                <li><a href="#pengubahan-tampilan">Pengubahan Tampilan</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/aplikasi-tea">Pengenalan Aplikasi Bawaan</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#aplikasi-multimedia">Aplikasi Multimedia</a></li>
+                <li><a href="#aplikasi-perkantoran">Aplikasi Perkantoran</a></li>
+                <li><a href="#browser">Browser</a></li>
+                <li><a href="#sistem">Sistem</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/koneksi">Koneksi Jaringan dan Internet</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#menyambung-dan-memutuskan-jaringan">Menyambung dan Memutuskan jaringan</a></li>
+                <li><a href="#konfigurasi-koneksi">Konfigurasi koneksi</a></li>
+                <li><a href="#berbagi-koneksi-ke0komputer-lain">Berbagi koneksi ke komputer lain</a></li>
+                <li><a href="#troubleshooting-pada-jaringan">Troubleshooting pada jaringan</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/print-dan-scan">Print dan Scan</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#penggunaan-printer">Penggunaan Printer</a></li>
+                <li><a href="#penggunaan-scanner">Penggunaan Scanner</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/mengelola-aplikasi">Mengelola Aplikasi Terinstall</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#aplikasi-multimedia">Aplikasi Multimedia</a></li>
+                <li><a href="#aplikasi-perkantoran">Aplikasi Perkantoran</a></li>
+                <li><a href="#browser">Browser</a></li>
+                <li><a href="#sistem">Sistem</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/menjaga-keamanan">Menjaga Keamanan Komputer</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#tips-menjaga-keamanan-komputer">Tips Menjaga Keamanan Komputer</a></li>
+                <li><a href="#uninstall-software">Uninstall Software</a></li>
+                <li><a href="#menambah-repository">Menambah Repository</a></li>
+                <li><a href="#menginstall-melalui-tealinuxos-ide-installer">Menginstall melalui Tealinuxos IDE Installer</a></li>
+                <li><a href="#mengupdate-software">Mengupdate software</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/perangkat-keras">Perangkat Keras</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#pembatasan-beberapa-driver">Pembatasan Beberapa Driver</a></li>
+                <li><a href="#disk-dan-partition">Disk dan Partition</a></li>
+                <li><a href="#laptop">Laptop</a></li>
+                <li><a href="#suspend-dan-hibernate">Suspend dan Hibernate</a></li>
+                <li><a href="#mouse-dan-keyboard">Mouse dan keyboard</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/administrasi">Tugas-tugas administratif</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#user-dan-grub">User dan Grub</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/perintah-baris">Perintah Baris</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#daftar-perintah-umum">Daftar Perintah Umum</a></li>
+                <li><a href="#menjalankan-perintah-dengan-hak">Menjalankan Perintah dengan Hak </a></li>
+                <li><a href="#administrasi">Administrasi</a></li>
+            </ul>
+        </li>
+    </ul>
+
+</section>
+        </div>
+        <div class="column is-8">
+            <main id="content">
+            
+
+<h2 id="tips-menjaga-keamanan-komputer">Tips Menjaga Keamanan Komputer</h2>
+
+<p>Beberapa tips menjaga keamanan komputer anda diantaranya :</p>
+
+<h3 id="mengubah-password-komputer-secara-berkala">Mengubah password komputer secara berkala</h3>
+
+<p>Meskipun anda memiliki password yang sangat sulit dipecahkan alangkah baiknya untuk tetap waspada dengan mengganti password komputer anda secara berkala, langkah-langkahnya sebagai berikut:</p>
+
+<p><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu" />
+ <code>→ Setting → User and Groups</code>
+Klik username anda pada list
+Klik <code>Change</code> pada pengaturan Password
+Anda dapat memilih <code>set password by hand</code> dengan memasukkan password anda sendiri atau memilih <code>Generate random password</code> untuk memilih password secara acak.
+Terakhir pilih <code>Ok</code></p>
+
+<h3 id="kunci-layar-ketika-meninggalkan-komputer">Kunci layar ketika meninggalkan komputer</h3>
+
+<p>Mengunci layar saat hendak meninggalkan komputer sangat penting untuk menghindari seseorang mengakses komputer anda. Untuk mengunci <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu" />
+ <code>→ Lock Screen</code> atau Klik <code>nama user</code> pada panel <code>→ Lock Screen.</code></p>
+
+<h3 id="mengatur-firewall">Mengatur Firewall</h3>
+
+<p>Firewall membantu mencegah pelanggaran keamanan dengan memblokir koneksi dari sumber yang tidak diketahui. Pada kondisi awal Firewall tidak dijalankan namun anda dapat menginstall aplikasi seperti Firestarter atau yang lainnya.</p>
+
+<h3 id="waspada-saat-mengakses-internet">Waspada saat mengakses internet</h3>
+
+<p>Berikut adalah beberapa tips untuk menjaga aman secara online:</p>
+
+<ul>
+<li>Jangan pernah membalas email yang tidak diminta (spam, penipuan atau email phishing) atau mengklik link di email. Biasanya anda akan dikirimin lebih banyak email spam jika mengklik link di email.</li>
+<li>Jangan pernah mengklik link dalam email yang meminta password Anda atau informasi rahasia lainnya. Hal ini memungkinkan anda di arahkan untuk membuka alamat (mungkin berbahaya). Sebaliknya, ketik link langsung ke browser web Anda sendiri dan melanjutkan dari sana.</li>
+<li>Jika sebuah situs web meminta rincian keuangan Anda, pastikan bahwa itu adalah aman. Dalam web browser Firefox, situs aman memiliki ikon gembok di sebelah kiri alamat. Klik pada gembok untuk membaca informasi lebih lanjut tentang keamanan website.</li>
+<li>Hanya men-download dan menjalankan software dari sumber yang Anda percaya.</li>
+</ul>
+
+<h3 id="backup-data-secara-teratur">Backup data secara teratur</h3>
+
+<p>Masalah yang mungkin terjadi adalah hilangnya file atau data karena pengaturan untuk satu atau alasan lain. Penyebab kehilangan data tersebut banyak dan beragam; misalnya saat kegagalan daya untuk sengaja menghapus file. Hal ini sangat disarankan agar Anda membuat cadangan pada file-file penting anda, jika Anda menghadapi masalah tersebut, Anda masih memiliki cadangannya.</p>
+
+<p>Sebaiknya menyimpan cadangan file secara terpisah dari komputer Anda; seperti CD dan DVD, hard disk eksternal, disk USB maupun komputer lain.</p>
+
+<p>Cara yang paling mudah membuat cadangan file adalah secara manual menyalinnya ke lokasi yang aman dengan menggunakan File Browser serta Archive Manager untuk mengompres file dan membungkus file-file tersebut. Atau, anda dapat menggunakan aplikasi backup khusus.</p>
+
+<p>Tips saat membuat backup data:</p>
+
+<ul>
+<li>Buat cadangan secara teratur</li>
+<li>Pastikan sudah terbuat dengan benar</li>
+<li>Beri label backup dengan jelas dan simpan di tempat yang aman</li>
+</ul>
+
+            </main>
+            <hr>
+            <div class="pagination">
+                
+                    <div class="columns">
+                        
+                        <div class="column has-text-left">                    
+                            <a class="previous" href="http://localhost:1313/dokumentasi/mengelola-aplikasi/">
+                                <i class="fas fa-3x fa-arrow-circle-left"></i>
+                            </a>
+                        </div>
+                        
+            
+                        
+                        <div class="column has-text-right">
+                            <a class="previous" href="http://localhost:1313/dokumentasi/perangkat-keras/">
+                                <i class="fas fa-3x fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                        
+                    </div>
+                  
+            </div>
+            <hr>
+                <section class="footer-doc">
+        <div class="text">
+            <p><small>Menemukan kesahalan atau ingin berkontribusi pada dokumentasi ini ?</small></p>
+            <a href="https://github.com/DOSCOM/tealinuxos.org/content/dokumentasi%5cmenjaga-keamanan.md"><small><strong>Sunting halaman ini secara langsung di Github</strong></small></a>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+<script src="http://localhost:1313/js/bundle.min.e6bf191e42b1313b2e427ee0d816633fd1152a8cb652e1d5d78425af7372220ea2e50b238f087e6184031b6d2797cf830039077e778866e64c3786446f924e9b.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        AOS.init({
+            
+            disable: false, 
+            startEvent: 'DOMContentLoaded', 
+            initClassName: 'aos-init', 
+            animatedClassName: 'aos-animate', 
+            useClassNames: false, 
+            disableMutationObserver: false, 
+            debounceDelay: 50, 
+            throttleDelay: 99, 
+            
+
+            
+            offset: 120, 
+            delay: 0, 
+            duration: 400, 
+            easing: 'ease', 
+            once: false, 
+            mirror: false, 
+            anchorPlacement: 'top-bottom', 
+
+        });
+                
+        
+        window.scroll({
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth'
+        });
+
+        
+        window.scrollBy({ 
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth' 
+        });
+    </script>
+        </div>
+    </div>
+</div>
+
+        
+    
+
+    </body>
+</html>

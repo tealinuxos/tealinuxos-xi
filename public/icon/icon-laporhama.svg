@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64pt"
+   height="64pt"
+   viewBox="0 0 22.577778 22.577778"
+   version="1.1"
+   id="svg1531"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="laporhama-64x64.svg">
+  <defs
+     id="defs1525" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="66.143505"
+     inkscape:cy="30.159209"
+     inkscape:document-units="pt"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="pt"
+     inkscape:window-width="1366"
+     inkscape:window-height="717"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1528">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-274.42223)">
+    <g
+       transform="matrix(0.03936971,0,0,0.03936971,-39.711216,235.26626)"
+       id="g1184">
+      <path
+         class="cls-4"
+         d="m 1295.4148,1564.1514 h -282.84 v -282.84 a 282.84,282.84 0 0 1 282.84,-282.84 v 0 a 282.84,282.84 0 0 1 282.84,282.84 v 0 a 282.84,282.84 0 0 1 -282.84,282.84 z"
+         id="path976-7"
+         inkscape:connector-curvature="0"
+         style="fill:#39c892;fill-opacity:1" />
+      <path
+         class="cls-5"
+         d="m 1295.4048,998.4714 v 0 a 282.84,282.84 0 0 1 282.85,282.84 v 282.84 h -282.85 a 282.84,282.84 0 0 1 -282.83,-282.84 v 0 a 282.84,282.84 0 0 1 282.83,-282.84 z"
+         id="path978-5"
+         inkscape:connector-curvature="0"
+         style="fill:#e7eded" />
+      <circle
+         class="cls-6"
+         cx="1295.4148"
+         cy="1281.3114"
+         r="209"
+         id="circle982-3"
+         style="fill:#cddcdc;fill-opacity:1" />
+      <ellipse
+         class="cls-3"
+         cx="9.9740677"
+         cy="1822.0786"
+         rx="87.230003"
+         ry="96.790001"
+         transform="rotate(-45)"
+         id="ellipse984-5"
+         style="fill:#39c892" />
+      <g
+         style="stroke:#1a3a48;stroke-opacity:1"
+         id="g1158">
+        <polyline
+           style="fill:none;stroke:#1a3a48;stroke-width:5px;stroke-linecap:round;stroke-miterlimit:10;stroke-opacity:1"
+           id="polyline986-6"
+           points="1264.01 313.47 1264.01 285.8 1242.46 264.25"
+           class="cls-7"
+           transform="translate(52.40488,880.8114)" />
+        <polyline
+           style="fill:none;stroke:#1a3a48;stroke-width:5px;stroke-linecap:round;stroke-miterlimit:10;stroke-opacity:1"
+           id="polyline988-2"
+           points="1288.97 325.84 1297.1 317.71 1297.1 275.02"
+           class="cls-7"
+           transform="translate(52.40488,880.8114)" />
+        <polyline
+           style="fill:none;stroke:#1a3a48;stroke-width:5px;stroke-linecap:round;stroke-miterlimit:10;stroke-opacity:1"
+           id="polyline990-9"
+           points="1330.12 379.58 1357.78 379.58 1379.33 401.13"
+           class="cls-7"
+           transform="translate(52.40488,880.8114)" />
+        <polyline
+           style="fill:none;stroke:#1a3a48;stroke-width:5px;stroke-linecap:round;stroke-miterlimit:10;stroke-opacity:1"
+           id="polyline992-1"
+           points="1317.74 354.61 1325.87 346.48 1368.57 346.48"
+           class="cls-7"
+           transform="translate(52.40488,880.8114)" />
+      </g>
+      <ellipse
+         class="cls-8"
+         cx="9.9740677"
+         cy="1822.0786"
+         rx="87.230003"
+         ry="96.790001"
+         transform="rotate(-45)"
+         id="ellipse994-2"
+         style="fill:#1a3a48;fill-opacity:1" />
+      <g
+         style="stroke:#1a3a48;stroke-opacity:1"
+         id="g1164">
+        <polyline
+           style="fill:none;stroke:#1a3a48;stroke-width:5px;stroke-linecap:round;stroke-miterlimit:10;stroke-opacity:1"
+           id="polyline996-7"
+           points="1156.05 421.42 1128.39 421.42 1106.84 399.87"
+           class="cls-9"
+           transform="translate(52.40488,880.8114)" />
+        <polyline
+           style="fill:none;stroke:#1a3a48;stroke-width:5px;stroke-linecap:round;stroke-miterlimit:10;stroke-opacity:1"
+           id="polyline998-0"
+           points="1168.43 446.39 1160.3 454.52 1117.61 454.52"
+           class="cls-9"
+           transform="translate(52.40488,880.8114)" />
+        <polyline
+           style="fill:none;stroke:#1a3a48;stroke-width:5px;stroke-linecap:round;stroke-miterlimit:10;stroke-opacity:1"
+           id="polyline1000-9"
+           points="1222.16 487.53 1222.16 515.2 1243.71 536.75"
+           class="cls-9"
+           transform="translate(52.40488,880.8114)" />
+        <polyline
+           style="fill:none;stroke:#1a3a48;stroke-width:5px;stroke-linecap:round;stroke-miterlimit:10;stroke-opacity:1"
+           id="polyline1002-3"
+           points="1197.2 475.16 1189.07 483.29 1189.07 525.98"
+           class="cls-9"
+           transform="translate(52.40488,880.8114)" />
+      </g>
+      <path
+         class="cls-3"
+         d="m 1260.0348,1245.9214 103.86,103.86 c -34.06,34.06 -92.33,31 -130.12,-6.76 -19.5,-19.49 -29.74,-44.43 -30.36,-68.71 20.08,-2.52 40.31,-12.08 56.62,-28.39 z"
+         id="path1004-6"
+         inkscape:connector-curvature="0"
+         style="fill:#1a3a48;fill-opacity:1" />
+      <path
+         class="cls-10"
+         d="m 1203.4148,1274.3114 c 20.13,-2.55 40.36,-12.11 56.67,-28.42 16.31,-16.31 25.83,-36.5 28.33,-56.64"
+         id="path1006-0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#cddcdc;stroke-width:5px;stroke-linecap:round;stroke-miterlimit:10;stroke-opacity:1" />
+      <line
+         class="cls-10"
+         x1="1363.8948"
+         y1="1349.7814"
+         x2="1260.0349"
+         y2="1245.9314"
+         id="line1008-6"
+         style="fill:none;stroke:#cddcdc;stroke-width:5px;stroke-linecap:round;stroke-miterlimit:10;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

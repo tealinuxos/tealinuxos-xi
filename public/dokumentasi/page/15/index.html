@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Kenalan dengan TealinuxOS</title>
+
+<meta name="generator" content="Hugo 0.54.0" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans|Lato">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/bundle.min.dd261a801da64be581e6a1075fe8880d53a4739a6e46cf8d058daa0d1cef54c19013bba3b5bf6511faa734d3c7f30c900d36c65107fb41c7a3a9e0a8f4d40c2d.css">
+    </head>
+    <body>
+         
+
+
+    <nav id="nav" class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="http://localhost:1313/" class="navbar-item has-text-weight-semibold">
+                    <img src="http://localhost:1313/img/logo.png" alt="logo-tealinux">
+                    TealinuxOS
+                </a>
+                <a role="button" class="navbar-burger" data-target="sidebar" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="navMenu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="/dokumentasi/">Dokumentasi</a>
+                    <a class="navbar-item" href="/kontribusi/">Kontribusi</a>
+                    <a class="navbar-item" target="blank" href="https://medium.com/tealinuxos">Blog</a>
+                    <span class="navbar-item">
+                        
+                        <input id="search-input" class="input is-rounded" type="text" placeholder="What are you looking for?" name="search-input" class="form-control">
+                        <p class="center"><i class="fas fa-search align-items-center"></i></p>
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </nav> 
+        
+<section id="sidebar" class="sidebar">
+    <ul class="menu">
+        <li class="judul"><a href="/dokumentasi/">Dokumentasi</a></li>
+        <li class="judul"><a href="/kontribusi/">Kontribusi</a></li>
+        <li class="judul"><a target="blank" href="https://medium.com/tealinuxos">Blog</a></li>
+        <span class="navbar-item">
+            <input class="input is-rounded" type="text">
+            <p class="center"><i class="fas fa-search align-items-center"></i></p>
+        </span>
+        
+        <li class="judul-menu"><a href="/dokumentasi">Kenalan dengan TealinuxOS</a>
+            <ul class="submenu">
+                <li><a href="#apa-itu-tealinuxos">Apa itu Tealinuxos?</a></li>
+                <li><a href="#resep-tealinuxos">Resep TealinuxOS</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/install">Instalasi TealinuxOS</a>
+            <ul class="submenu">
+                <li><a href="#panduan-instalasi-tealinuxos">Panduan Instalasi TealinuxOS</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/migrasi">Migration and Upgrade</a>
+            <ul class="submenu">
+                <li><a href="#migrating-from-windows">Migrating from Windows</a></li>
+                <li><a href="#how-to-upgrade">How to upgrade</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/pengenalan-de">Pengenalan Dekstop Environment</a>
+            <ul class="submenu">
+                <li><a href="#panel">Panel</a></li>
+                <li><a href="#desktop">Desktop</a></li>
+                <li><a href="#file-dan-direktori">File dan Direktori</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/pengaturan">Pengaturan dan Pilihan</a>
+            <ul class="submenu">
+                <li><a href="#pengaturan-menu">Pengubahan Menu</a></li>
+                <li><a href="#pengubahan-informasi-personal">Pengubahan Informasi Personal</a></li>
+                <li><a href="#pengubahan-tampilan">Pengubahan Tampilan</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/aplikasi-tea">Pengenalan Aplikasi Bawaan</a>
+            <ul class="submenu">
+                <li><a href="#aplikasi-multimedia">Aplikasi Multimedia</a></li>
+                <li><a href="#aplikasi-perkantoran">Aplikasi Perkantoran</a></li>
+                <li><a href="#browser">Browser</a></li>
+                <li><a href="#sistem">Sistem</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/koneksi">Koneksi Jaringan dan Internet</a>
+            <ul class="submenu">
+                <li><a href="#menyambung-dan-memutuskan-jaringan">Menyambung dan Memutuskan jaringan</a></li>
+                <li><a href="#konfigurasi-koneksi">Konfigurasi koneksi</a></li>
+                <li><a href="#berbagi-koneksi-ke0komputer-lain">Berbagi koneksi ke komputer lain</a></li>
+                <li><a href="#troubleshooting-pada-jaringan">Troubleshooting pada jaringan</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/print-dan-scan">Print dan Scan</a>
+            <ul class="submenu">
+                <li><a href="#penggunaan-printer">Penggunaan Printer</a></li>
+                <li><a href="#penggunaan-scanner">Penggunaan Scanner</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/mengelola-aplikasi">Mengelola Aplikasi Terinstall</a>
+            <ul class="submenu">
+                <li><a href="#aplikasi-multimedia">Aplikasi Multimedia</a></li>
+                <li><a href="#aplikasi-perkantoran">Aplikasi Perkantoran</a></li>
+                <li><a href="#browser">Browser</a></li>
+                <li><a href="#sistem">Sistem</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/menjaga-keamanan">Menjaga Keamanan Komputer</a>
+            <ul class="submenu">
+                <li><a href="#tips-menjaga-keamanan-komputer">Tips Menjaga Keamanan Komputer</a></li>
+                <li><a href="#uninstall-software">Uninstall Software</a></li>
+                <li><a href="#menambah-repository">Menambah Repository</a></li>
+                <li><a href="#menginstall-melalui-tealinuxos-ide-installer">Menginstall melalui Tealinuxos IDE Installer</a></li>
+                <li><a href="#mengupdate-software">Mengupdate software</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/perangkat-keras">Perangkat Keras</a>
+            <ul class="submenu">
+                <li><a href="#pembatasan-beberapa-driver">Pembatasan Beberapa Driver</a></li>
+                <li><a href="#disk-dan-partition">Disk dan Partition</a></li>
+                <li><a href="#laptop">Laptop</a></li>
+                <li><a href="#suspend-dan-hibernate">Suspend dan Hibernate</a></li>
+                <li><a href="#mouse-dan-keyboard">Mouse dan keyboard</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/administrasi">Tugas-tugas administratif</a>
+            <ul class="submenu">
+                <li><a href="#user-dan-grub">User dan Grub</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/perintah-baris">Perintah Baris</a>
+            <ul class="submenu">
+                <li><a href="#daftar-perintah-umum">Daftar Perintah Umum</a></li>
+                <li><a href="#menjalankan-perintah-dengan-hak">Menjalankan Perintah dengan Hak </a></li>
+                <li><a href="#administrasi">Administrasi</a></li>
+            </ul>
+        </li>
+        
+    </ul>
+</section>
+
+<div id="dok-page" class="container">
+    <div class="columns">
+        <div class="column is-3 menu">
+              <section id="menu-doc">
+
+    <ul class="sidebar-menu">
+        <li class="title-menu"><a href="/dokumentasi">Kenalan dengan TealinuxOS</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#apa-itu-tealinuxos">Apa itu Tealinuxos?</a></li>
+                <li><a href="#resep-tealinuxos">Resep TealinuxOS</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/install">Instalasi TealinuxOS</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#panduan-instalasi-tealinuxos">Panduan Instalasi TealinuxOS</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/migrasi">Migration and Upgrade</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#migrating-from-windows">Migrating from Windows</a></li>
+                <li><a href="#how-to-upgrade">How to upgrade</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/pengenalan-de">Pengenalan Dekstop Environment</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#panel">Panel</a></li>
+                <li><a href="#desktop">Desktop</a></li>
+                <li><a href="#file-dan-direktori">File dan Direktori</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/pengaturan">Pengaturan dan Pilihan</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#pengaturan-menu">Pengubahan Menu</a></li>
+                <li><a href="#pengubahan-informasi-personal">Pengubahan Informasi Personal</a></li>
+                <li><a href="#pengubahan-tampilan">Pengubahan Tampilan</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/aplikasi-tea">Pengenalan Aplikasi Bawaan</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#aplikasi-multimedia">Aplikasi Multimedia</a></li>
+                <li><a href="#aplikasi-perkantoran">Aplikasi Perkantoran</a></li>
+                <li><a href="#browser">Browser</a></li>
+                <li><a href="#sistem">Sistem</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/koneksi">Koneksi Jaringan dan Internet</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#menyambung-dan-memutuskan-jaringan">Menyambung dan Memutuskan jaringan</a></li>
+                <li><a href="#konfigurasi-koneksi">Konfigurasi koneksi</a></li>
+                <li><a href="#berbagi-koneksi-ke0komputer-lain">Berbagi koneksi ke komputer lain</a></li>
+                <li><a href="#troubleshooting-pada-jaringan">Troubleshooting pada jaringan</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/print-dan-scan">Print dan Scan</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#penggunaan-printer">Penggunaan Printer</a></li>
+                <li><a href="#penggunaan-scanner">Penggunaan Scanner</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/mengelola-aplikasi">Mengelola Aplikasi Terinstall</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#aplikasi-multimedia">Aplikasi Multimedia</a></li>
+                <li><a href="#aplikasi-perkantoran">Aplikasi Perkantoran</a></li>
+                <li><a href="#browser">Browser</a></li>
+                <li><a href="#sistem">Sistem</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/menjaga-keamanan">Menjaga Keamanan Komputer</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#tips-menjaga-keamanan-komputer">Tips Menjaga Keamanan Komputer</a></li>
+                <li><a href="#uninstall-software">Uninstall Software</a></li>
+                <li><a href="#menambah-repository">Menambah Repository</a></li>
+                <li><a href="#menginstall-melalui-tealinuxos-ide-installer">Menginstall melalui Tealinuxos IDE Installer</a></li>
+                <li><a href="#mengupdate-software">Mengupdate software</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/perangkat-keras">Perangkat Keras</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#pembatasan-beberapa-driver">Pembatasan Beberapa Driver</a></li>
+                <li><a href="#disk-dan-partition">Disk dan Partition</a></li>
+                <li><a href="#laptop">Laptop</a></li>
+                <li><a href="#suspend-dan-hibernate">Suspend dan Hibernate</a></li>
+                <li><a href="#mouse-dan-keyboard">Mouse dan keyboard</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/administrasi">Tugas-tugas administratif</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#user-dan-grub">User dan Grub</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/perintah-baris">Perintah Baris</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#daftar-perintah-umum">Daftar Perintah Umum</a></li>
+                <li><a href="#menjalankan-perintah-dengan-hak">Menjalankan Perintah dengan Hak </a></li>
+                <li><a href="#administrasi">Administrasi</a></li>
+            </ul>
+        </li>
+    </ul>
+
+</section>
+        </div>
+        <div class="column is-8">
+            <main id="content">
+                
+                
+                    
+
+<p>TeaLinuxOS memberikan beberapa aplikasi bawaan yang sekiranya sering kita pergunakan sehari-hari salah satu diantaranya adalah:</p>
+
+<h2 id="aplikasi-khas-tealinuxos">Aplikasi Khas TeaLinuxOS</h2>
+
+<ul>
+<li>Tea Maker
+Tea Maker merupakan sebuah aplikasi dimana kita dapat membuat paket dengan ekstensi dot tea, kemudian kita dapat menginstalnya dikomputer lain secara offline</li>
+<li>Tea Installer
+Tea Installer merupakan sebuah aplikasi dimana kita dapat menginstal aplikasi dengan ekstensi dot tea yang sudah dibuat dengan <em>Tea Maker</em></li>
+<li>ModulariTea
+ModulariTea merupakan aplikasi yang memudahkan para devloper untuk memasang perangkat-perangkat yang mereka butuhkan untuk proses devlop, modularitea menyediakan beragam modul antara lain web devlopment, android devlopment, UI UX devlopment, dan paket untuk pelajar</li>
+<li>Theme Switcher
+Tea Theme Switcher merupakan sebuah perangkat yang memungkinkan kita untuk berganti tema secara cepat, tema yang digunakan dapat kita atur melalui <em>appearance</em></li>
+<li>Lapor Hama
+Lapor Hama merupakan sebuah sarana dimana kita dapat melaporkan adanya hama(bug) selama penggunaan TeaLinuxOS, selain melalui perangkat ini kita juga dapat melaporkan hama TeaLinuxOS melalui <a href="http://tealinuxos.org/lapor">link</a></li>
+</ul>
+
+<h2 id="multi-media">Multi Media</h2>
+
+<ul>
+<li>VLC
+VLC Media Player merupakan perangkat lunak pemutar beragam berkas multimedia baik audio maupun video dalam berbagai format. VLC Media Player juga dapat digunakan untuuk memutar DVD, VCD, maupun CD. VLC Media Player besifat <em>open source</em> dan tersedia untuk berbagai sistem operasi.</li>
+<li>Brasero
+Brasero adalah aplikasi disk burning yang memang dirangcang untuk pengguna linux, dengan desain antarmuka yang ramah, sehingga para pengguna awam pun dapat dengan mudah menggunakan aplikasi ini. Aplikasi ini mendukung penyalinan data ke CD/DVD dengan berbagai format, yaitu data, audio, dan video.</li>
+</ul>
+
+<h2 id="aplikasi-perkantoran">Aplikasi Perkantoran</h2>
+
+<ul>
+<li>LibreOffice
+LibreOffice adalah sebuah paket aplikasi perkantoran open source yang merupakan turunan dari OpenOffice, meskipun open source ia memiliki berbagai macam fitur yang sebanding dengan aplikasi perkantoran yang berbayar.</li>
+</ul>
+
+<h2 id="internet">Internet</h2>
+
+<ul>
+<li>Firefox
+Firefox meupakan aplikasi penjelajah situs yang bersifat opensource, ia juga memiliki performa yang baik serta ukuran dari aplikasi tersebut terbilang ringan apabila kita bandingkan dengan aplikasi-aplikasi lain.</li>
+<li>Thunderbird
+Thunderbird merupakan aplikasi email client yang dikembangan oleh mozilla foundation, aplikasi ini memudahkan kita untuk mengatur email</li>
+<li>Transmission</li>
+</ul>
+
+<h2 id="pemrograman">Pemrograman</h2>
+
+<ul>
+<li>VSCode</li>
+<li>Code Blocks</li>
+<li>Git</li>
+</ul>
+
+                
+            </main>
+            <hr>
+            <div class="pagination">
+    
+    <div class="columns">
+        
+            <div class="column has-text-left">
+                <a class="previous" href="/dokumentasi/page/14/"><i class="fas fa-3x fa-arrow-circle-left"></i></a>
+            </div>
+            
+        
+        
+            
+            <div class="column has-text-right">
+                <a class="next" href="/dokumentasi/page/16/"><i class="fas fa-3x fa-arrow-circle-right"></i></a>
+            </div>
+        
+    </div>
+    
+</div>
+            <hr>
+                <section class="footer-doc">
+        <div class="text">
+            <p><small>Menemukan kesahalan atau ingin berkontribusi pada dokumentasi ini ?</small></p>
+            <a href="https://github.com/DOSCOM/tealinuxos.org/content/dokumentasi%5c_index.md"><small><strong>Sunting halaman ini secara langsung di Github</strong></small></a>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+<script src="http://localhost:1313/js/bundle.min.e6bf191e42b1313b2e427ee0d816633fd1152a8cb652e1d5d78425af7372220ea2e50b238f087e6184031b6d2797cf830039077e778866e64c3786446f924e9b.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        AOS.init({
+            
+            disable: false, 
+            startEvent: 'DOMContentLoaded', 
+            initClassName: 'aos-init', 
+            animatedClassName: 'aos-animate', 
+            useClassNames: false, 
+            disableMutationObserver: false, 
+            debounceDelay: 50, 
+            throttleDelay: 99, 
+            
+
+            
+            offset: 120, 
+            delay: 0, 
+            duration: 400, 
+            easing: 'ease', 
+            once: false, 
+            mirror: false, 
+            anchorPlacement: 'top-bottom', 
+
+        });
+                
+        
+        window.scroll({
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth'
+        });
+
+        
+        window.scrollBy({ 
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth' 
+        });
+    </script>
+        </div>
+    </div>
+</div>
+
+        
+    
+
+    </body>
+</html>

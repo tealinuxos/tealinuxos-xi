@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TeaLinux OS</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on TeaLinux OS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kenalan dengan TealinuxOS</title>
+      <link>http://localhost:1313/dokumentasi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dokumentasi/</guid>
+      <description>Kenalan dengan Tealinux OS Apa itu Tealinuxos? TeaLinuxOS adalah distro Linux turunan Ubuntu yang dikembangkan oleh Dinus Open Source Community (DOSCOM) yang berorientasi pemrograman. Dengan menghadirkan filosofi,
+ Nikmatnya sebuah racikan @tealinuxos
+ TeaLinuxOS dikembangkan secara terbuka dan bersama-sama untuk menghasilkan distro Linux pemrograman yang dikhususkan untuk dunia pendidikan.
+Nama TeaLinuxOS – Nikmatnya Sebuah Racikan! Kami menggunakan nama distro TeaLinuxOS karena beberapa alasan, yaitu tea yang dalam bahasa Indonesia berarti teh, merupakan minuman khas masyarakat Indonesia yang merakyat dan dapat dikonsumsi semua orang.</description>
+    </item>
+    
+    <item>
+      <title>Instalasi TealinuxOS</title>
+      <link>http://localhost:1313/dokumentasi/install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dokumentasi/install/</guid>
+      <description>Panduan Instalasi TealinuxOS Ada 2 cara yang bisa Anda lakukan untuk instalisasi TealinuxOS pada perangkat Anda,yaitu: Untuk menginstall TealinuxOS pada perangkat anda dapat mengikuti 2 cara yaitu : - Melalui bootable flashdisk - Melalui bootable CD Jika Anda menggunakan CD, Anda dapat melewatkan bagian Unduh ISO TealinuxOS dan Membuat bootable ISO TealinuxOS ke Flashdisk.
+Unduh TealinuxOS ISO tealinux dapat diunduh di sini.
+Membuat Bootable ISO TealinuxOS ke Flashdisk Untuk membuat bootable ke flashdisk anda dapat menggunakan software Third Party seperti Universal USB Installer, Unetbootin atau Rufus.</description>
+    </item>
+    
+    <item>
+      <title>Migration and Upgrade</title>
+      <link>http://localhost:1313/dokumentasi/migrasi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dokumentasi/migrasi/</guid>
+      <description>Migrating from Windows If you previously only use windows operating system then welcome to the open source world. If you are familiar with linux operating system you can continue to next step. For those of you who are newly migrated, do not give up when facing difficulties, you can ask in doscom group or on TeaLinuxOS fanList the developers and other users will help you. These are some of the most frequently used keywords in windows and can be found in TeaLinuxOS.</description>
+    </item>
+    
+    <item>
+      <title>Pengenalan Dekstop Environment</title>
+      <link>http://localhost:1313/dokumentasi/pengenalan-de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dokumentasi/pengenalan-de/</guid>
+      <description>Pengenalan Dekstop Environment Tampilan lingkungan dekstop TeaLinuxOS Pappermint dengan tema elegan dan simple namun bersahabat dengan pengguna. Beberapa pengenalan tentang lingkungan dekstop di TeaLinuxOS sebagai berikut :
+Panel Pada bagian panel ini terdiri dari icon menu di pojok kiri anda dapat mengkliknya dan menu aplikasi akan muncul. Disisi kiri ada pengaturan workspace swicher, nama user yang berupa tombol aksi (suspend, logout, shutdown dll) , clock (jam), indikator baterai, indikator volume, indikator jaringan, indikator virtual keyboard.</description>
+    </item>
+    
+    <item>
+      <title>Pengaturan dan Pilihan</title>
+      <link>http://localhost:1313/dokumentasi/pengaturan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dokumentasi/pengaturan/</guid>
+      <description>Pengubahan Menu → Settings → Settings Manager → Menu Editor Pada menu editor ini anda dapat sepenuhnya dapat mengatur baik hirarkhi menu anda, menambahkan perintah-perintah, mengelompokkan aplikas-aplikasi favorit anda, maupun membuat launcher baru.
+Pengubahan Informasi Personal → Settings → User and Groups User and Gorups ini digunakan untuk mengubah informasi pengguna, diantaranya nama, username, password, jenis user apakan administrator atau user biasa. Pada pengaturan ini juga dapat ditambahkan user baru maupun menghapus user lama.</description>
+    </item>
+    
+    <item>
+      <title>Pengenalan Aplikasi Bawaan</title>
+      <link>http://localhost:1313/dokumentasi/aplikasi-tea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dokumentasi/aplikasi-tea/</guid>
+      <description>Aplikasi Multimedia  Brasero Brasero merupakan sebuah perangkat lunak pemutar file audio dengan ukuran yang terbilang kecil, meski ukuran kecil ia tetap memiliki kualitas suara yang baik dan didukung dengan berbagai jenis format file. Untuk mengetahui lebih lanjut tentang brasero silahkan kunjungi situs resmi brasero di sini.  VLC VLC Media Player merupakan perangkat lunak (software) pemutar beragam berkas (file) multimedia, baik video maupun audio dalam berbagai format, seperti MPEG, DivX, Ogg, dan lain-lain.</description>
+    </item>
+    
+    <item>
+      <title>Koneksi Jaringan dan Internet</title>
+      <link>http://localhost:1313/dokumentasi/koneksi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dokumentasi/koneksi/</guid>
+      <description>Menyambung dan Memutuskan jaringan → Settings → Network Connection atau klik icon NetworkManager yang berada di panel → Edit. Koneksi jaringan di TealinuxOS Pappermint menggunakan network connection untuk mengatur jaringan menggunakan kabel, jaringan wireless, mobile broadband, VPN dan koneksi DSL. Network connection akan menghubungkan komputer anda secara otomatis dengan jaringan, namun jika penyambungan pertama kali biasanya memerlukan informasi keamanan untuk terhubung ke jaringan.
+Untuk memutuskan (disconnect) jaringan klik pada icon NetworkManager yang berada di panel lalu klik disconnect.</description>
+    </item>
+    
+    <item>
+      <title>Print dan Scan</title>
+      <link>http://localhost:1313/dokumentasi/print-dan-scan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dokumentasi/print-dan-scan/</guid>
+      <description>Penggunaan Printer Kebanyakan printer secara otomatis didukung oleh TeaLinuxOS Pappermint. Aplikasi Konfigurasi Printer memungkinkan Anda untuk menambahkan printer, serta mengubah pengaturan mereka. Anda juga dapat menggunakan aplikasi ini untuk berbagi printer dengan komputer lain di jaringan, menonaktifkan printer atau restart.
+Print Lokal  Dapatkan nama model printer Anda Pastikan printer sudah hidup → Setting → Setting Manager → Printers Klik → Server → New → Printer Printer Anda harus secara otomatis terdeteksi dan ditampilkan dalam jendela Devices Pilih printer Anda dan klik Forward Komputer Anda akan mencari dan menginstal driver untuk printer Anda Anda dapat memasukkan deskripsi dan lokasi untuk printer Anda Tekan Apply Printer Anda harus dikonfigurasi dengan benar pada saat ini dan Anda akan diminta jika Anda ingin mencetak halaman uji Jika Anda menekan tombol Print Test Page, halaman uji akan mencetak dan Anda dapat memverifikasi apakah itu dicetak dengan benar, atau Anda dapat menekan Batal.</description>
+    </item>
+    
+    <item>
+      <title>Mengelola Aplikasi Terinstall</title>
+      <link>http://localhost:1313/dokumentasi/mengelola-aplikasi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dokumentasi/mengelola-aplikasi/</guid>
+      <description>Menginstall Software Menginstall aplikasi dengan menggunakan internet Pastikan komputer anda terkoneksi dengan jaringan komputer karena penginstalan akan langsung mengunduh paket aplikasi yang ingin di install dari repository ubuntu. Cara paling mudah adalah melalui Software Center.
+Klik → Software
+Atau lewat terminal, Buka terminal dan Ketikan perintah:
+sudo apt-get install nama_paket  Masukkan password komputer anda. Ketika ada dialog “Do you want to continue? (Y/n)” ketik “y” Tunggu hingga proses pengunduhan dan pemasangan selesai.</description>
+    </item>
+    
+    <item>
+      <title>Menjaga Keamanan Komputer</title>
+      <link>http://localhost:1313/dokumentasi/menjaga-keamanan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dokumentasi/menjaga-keamanan/</guid>
+      <description>Tips Menjaga Keamanan Komputer Beberapa tips menjaga keamanan komputer anda diantaranya :
+Mengubah password komputer secara berkala Meskipun anda memiliki password yang sangat sulit dipecahkan alangkah baiknya untuk tetap waspada dengan mengganti password komputer anda secara berkala, langkah-langkahnya sebagai berikut:
+→ Setting → User and Groups Klik username anda pada list Klik Change pada pengaturan Password Anda dapat memilih set password by hand dengan memasukkan password anda sendiri atau memilih Generate random password untuk memilih password secara acak.</description>
+    </item>
+    
+    <item>
+      <title>Perangkat Keras</title>
+      <link>http://localhost:1313/dokumentasi/perangkat-keras/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dokumentasi/perangkat-keras/</guid>
+      <description>Pembatasan Beberapa Driver Mengapa beberapa driver dibatasi? Pembatasan Driver (Restricted Driver) adalah keterbatasan driver untuk sebuah perangkat hardware karena tidak tersedia secara bebas atau open source.
+Kebanyakan device (hardware) yang terpasang di komputer anda bisa berfungsi secara normal di TeaLinuxOS. Device ini cenderung tidak memiliki keterbatasan driver, yang artinya driver dapat dimodifikasi dan masalah dengan device dapat dibetulkan.
+Ketika beberapa hardware tidak dapat berjalan lancar di TeaLinuxOS bisa dikarenakan device tersebut memiliki Restricted Driver (Pembatasan Driver).</description>
+    </item>
+    
+    <item>
+      <title>Tugas-tugas administratif</title>
+      <link>http://localhost:1313/dokumentasi/administrasi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dokumentasi/administrasi/</guid>
+      <description>User dan Grub Mengelola User  Menambah user baru
+Klik tombol Add Masukkan password anda Isikan Name dan Username yang akan digunakan Klik tombol Ok
+ Memberikan user hak sebagai super user atau administrator
+pilih User yang tipe akunnya akan diubah, lalu klik tombol Change Pilih tipe Administrator (pilih Dekstop User untuk kembali seperti semula) Klik tombol Ok
+ Menghapus user
+Pilih user yang akan dihapus Klik tombol delete</description>
+    </item>
+    
+    <item>
+      <title>Perintah Baris</title>
+      <link>http://localhost:1313/dokumentasi/perintah-baris/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dokumentasi/perintah-baris/</guid>
+      <description>Daftar Perintah Umum Untuk menjelajah atau beraktivitas di TealinuxOS atau distro linux lainya selain menggunakan Graphical User Interface (GUI) anda juga dapat menggunakan Command Line Interface(CLI). Berikut ini merupakan beberapa perintah yang umum digunakan dalam CLI.
+ Melihat direktori kita berada  Perintah pwd atau print working directory digunakan untuk mengetahui posisi direktori dimana kita berada.
+ $ pwd   Pindah Direktori  Perintah cd digunakan untuk mengubah direktori dimana kita berada.</description>
+    </item>
+    
+    <item>
+      <title>Desktop Environment</title>
+      <link>http://localhost:1313/dokumentasi/desktop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dokumentasi/desktop/</guid>
+      <description>Pengenalan Dekstop Environment Sebuah Sistem Operasi terdiri oleh berbagai hal, salah satunya adalah Desktop Enviroment. DE adalah sebuah software yang memberi tampilan kepada sebuah OS, pada TeaLinuxOS sendiri memakai XFCE sebagai tampilannya. Kami memilih menggunakan XFCE dikarnakan ia ringan namun memiliki tampilan yang elegan.
+Panel Untuk pengguna windows pasti akan berpikir bahwasannya panel dan taskbar adalah hal yang sama, akan tetapi panel pada linux memiliki berbagai macam kelebihan seperti kita bisa memberi lebih dari satu panel dalam satu layar.</description>
+    </item>
+    
+    <item>
+      <title>Preinstalled Programs</title>
+      <link>http://localhost:1313/dokumentasi/app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dokumentasi/app/</guid>
+      <description>TeaLinuxOS memberikan beberapa aplikasi bawaan yang sekiranya sering kita pergunakan sehari-hari salah satu diantaranya adalah:
+Aplikasi Khas TeaLinuxOS  Tea Maker Tea Maker merupakan sebuah aplikasi dimana kita dapat membuat paket dengan ekstensi dot tea, kemudian kita dapat menginstalnya dikomputer lain secara offline Tea Installer Tea Installer merupakan sebuah aplikasi dimana kita dapat menginstal aplikasi dengan ekstensi dot tea yang sudah dibuat dengan Tea Maker ModulariTea ModulariTea merupakan aplikasi yang memudahkan para devloper untuk memasang perangkat-perangkat yang mereka butuhkan untuk proses devlop, modularitea menyediakan beragam modul antara lain web devlopment, android devlopment, UI UX devlopment, dan paket untuk pelajar Theme Switcher Tea Theme Switcher merupakan sebuah perangkat yang memungkinkan kita untuk berganti tema secara cepat, tema yang digunakan dapat kita atur melalui appearance Lapor Hama Lapor Hama merupakan sebuah sarana dimana kita dapat melaporkan adanya hama(bug) selama penggunaan TeaLinuxOS, selain melalui perangkat ini kita juga dapat melaporkan hama TeaLinuxOS melalui link  Multi Media  VLC VLC Media Player merupakan perangkat lunak pemutar beragam berkas multimedia baik audio maupun video dalam berbagai format.</description>
+    </item>
+    
+    <item>
+      <title>Pengaturan Dasar</title>
+      <link>http://localhost:1313/dokumentasi/seting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dokumentasi/seting/</guid>
+      <description>Menu Editor Dengan menggunakan perkakas ini kita dapat memanipulasi apa yang ada didalam menu sesuka hati kita, menambah pemintas, mengelompokan aplikasi favorit, dan lain lain.
+User and Groups User and Groups digunakan untuk merombak informasi sang pengguna mulai dari nama, username, password, dan tipe user. Ada beberapa tipe user seperti custom, administrator, dan desktop user; tiap user memiliki ruang lingkupnya masing-masing jadi berhati-hatilah dalam menentukan tipe akun tersebut. Pada pengaturan ini kita juga dapat menambahkan beberapa informasi pribadi seperti letak rumah, kantor, dan lain-lain.</description>
+    </item>
+    
+    <item>
+      <title>Search Index</title>
+      <link>http://localhost:1313/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/index.json</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

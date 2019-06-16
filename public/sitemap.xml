@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://localhost:1313/dokumentasi/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/dokumentasi/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/dokumentasi/install/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/dokumentasi/migrasi/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/dokumentasi/pengenalan-de/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/dokumentasi/pengaturan/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/dokumentasi/aplikasi-tea/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/dokumentasi/koneksi/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/dokumentasi/print-dan-scan/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/dokumentasi/mengelola-aplikasi/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/dokumentasi/menjaga-keamanan/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/dokumentasi/perangkat-keras/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/dokumentasi/administrasi/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/dokumentasi/perintah-baris/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/dokumentasi/desktop/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/dokumentasi/app/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/dokumentasi/seting/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/index.json</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

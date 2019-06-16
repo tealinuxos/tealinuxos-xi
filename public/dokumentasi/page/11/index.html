@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Kenalan dengan TealinuxOS</title>
+
+<meta name="generator" content="Hugo 0.54.0" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans|Lato">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/bundle.min.dd261a801da64be581e6a1075fe8880d53a4739a6e46cf8d058daa0d1cef54c19013bba3b5bf6511faa734d3c7f30c900d36c65107fb41c7a3a9e0a8f4d40c2d.css">
+    </head>
+    <body>
+         
+
+
+    <nav id="nav" class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="http://localhost:1313/" class="navbar-item has-text-weight-semibold">
+                    <img src="http://localhost:1313/img/logo.png" alt="logo-tealinux">
+                    TealinuxOS
+                </a>
+                <a role="button" class="navbar-burger" data-target="sidebar" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="navMenu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="/dokumentasi/">Dokumentasi</a>
+                    <a class="navbar-item" href="/kontribusi/">Kontribusi</a>
+                    <a class="navbar-item" target="blank" href="https://medium.com/tealinuxos">Blog</a>
+                    <span class="navbar-item">
+                        
+                        <input id="search-input" class="input is-rounded" type="text" placeholder="What are you looking for?" name="search-input" class="form-control">
+                        <p class="center"><i class="fas fa-search align-items-center"></i></p>
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </nav> 
+        
+<section id="sidebar" class="sidebar">
+    <ul class="menu">
+        <li class="judul"><a href="/dokumentasi/">Dokumentasi</a></li>
+        <li class="judul"><a href="/kontribusi/">Kontribusi</a></li>
+        <li class="judul"><a target="blank" href="https://medium.com/tealinuxos">Blog</a></li>
+        <span class="navbar-item">
+            <input class="input is-rounded" type="text">
+            <p class="center"><i class="fas fa-search align-items-center"></i></p>
+        </span>
+        
+        <li class="judul-menu"><a href="/dokumentasi">Kenalan dengan TealinuxOS</a>
+            <ul class="submenu">
+                <li><a href="#apa-itu-tealinuxos">Apa itu Tealinuxos?</a></li>
+                <li><a href="#resep-tealinuxos">Resep TealinuxOS</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/install">Instalasi TealinuxOS</a>
+            <ul class="submenu">
+                <li><a href="#panduan-instalasi-tealinuxos">Panduan Instalasi TealinuxOS</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/migrasi">Migration and Upgrade</a>
+            <ul class="submenu">
+                <li><a href="#migrating-from-windows">Migrating from Windows</a></li>
+                <li><a href="#how-to-upgrade">How to upgrade</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/pengenalan-de">Pengenalan Dekstop Environment</a>
+            <ul class="submenu">
+                <li><a href="#panel">Panel</a></li>
+                <li><a href="#desktop">Desktop</a></li>
+                <li><a href="#file-dan-direktori">File dan Direktori</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/pengaturan">Pengaturan dan Pilihan</a>
+            <ul class="submenu">
+                <li><a href="#pengaturan-menu">Pengubahan Menu</a></li>
+                <li><a href="#pengubahan-informasi-personal">Pengubahan Informasi Personal</a></li>
+                <li><a href="#pengubahan-tampilan">Pengubahan Tampilan</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/aplikasi-tea">Pengenalan Aplikasi Bawaan</a>
+            <ul class="submenu">
+                <li><a href="#aplikasi-multimedia">Aplikasi Multimedia</a></li>
+                <li><a href="#aplikasi-perkantoran">Aplikasi Perkantoran</a></li>
+                <li><a href="#browser">Browser</a></li>
+                <li><a href="#sistem">Sistem</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/koneksi">Koneksi Jaringan dan Internet</a>
+            <ul class="submenu">
+                <li><a href="#menyambung-dan-memutuskan-jaringan">Menyambung dan Memutuskan jaringan</a></li>
+                <li><a href="#konfigurasi-koneksi">Konfigurasi koneksi</a></li>
+                <li><a href="#berbagi-koneksi-ke0komputer-lain">Berbagi koneksi ke komputer lain</a></li>
+                <li><a href="#troubleshooting-pada-jaringan">Troubleshooting pada jaringan</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/print-dan-scan">Print dan Scan</a>
+            <ul class="submenu">
+                <li><a href="#penggunaan-printer">Penggunaan Printer</a></li>
+                <li><a href="#penggunaan-scanner">Penggunaan Scanner</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/mengelola-aplikasi">Mengelola Aplikasi Terinstall</a>
+            <ul class="submenu">
+                <li><a href="#aplikasi-multimedia">Aplikasi Multimedia</a></li>
+                <li><a href="#aplikasi-perkantoran">Aplikasi Perkantoran</a></li>
+                <li><a href="#browser">Browser</a></li>
+                <li><a href="#sistem">Sistem</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/menjaga-keamanan">Menjaga Keamanan Komputer</a>
+            <ul class="submenu">
+                <li><a href="#tips-menjaga-keamanan-komputer">Tips Menjaga Keamanan Komputer</a></li>
+                <li><a href="#uninstall-software">Uninstall Software</a></li>
+                <li><a href="#menambah-repository">Menambah Repository</a></li>
+                <li><a href="#menginstall-melalui-tealinuxos-ide-installer">Menginstall melalui Tealinuxos IDE Installer</a></li>
+                <li><a href="#mengupdate-software">Mengupdate software</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/perangkat-keras">Perangkat Keras</a>
+            <ul class="submenu">
+                <li><a href="#pembatasan-beberapa-driver">Pembatasan Beberapa Driver</a></li>
+                <li><a href="#disk-dan-partition">Disk dan Partition</a></li>
+                <li><a href="#laptop">Laptop</a></li>
+                <li><a href="#suspend-dan-hibernate">Suspend dan Hibernate</a></li>
+                <li><a href="#mouse-dan-keyboard">Mouse dan keyboard</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/administrasi">Tugas-tugas administratif</a>
+            <ul class="submenu">
+                <li><a href="#user-dan-grub">User dan Grub</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/perintah-baris">Perintah Baris</a>
+            <ul class="submenu">
+                <li><a href="#daftar-perintah-umum">Daftar Perintah Umum</a></li>
+                <li><a href="#menjalankan-perintah-dengan-hak">Menjalankan Perintah dengan Hak </a></li>
+                <li><a href="#administrasi">Administrasi</a></li>
+            </ul>
+        </li>
+        
+    </ul>
+</section>
+
+<div id="dok-page" class="container">
+    <div class="columns">
+        <div class="column is-3 menu">
+              <section id="menu-doc">
+
+    <ul class="sidebar-menu">
+        <li class="title-menu"><a href="/dokumentasi">Kenalan dengan TealinuxOS</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#apa-itu-tealinuxos">Apa itu Tealinuxos?</a></li>
+                <li><a href="#resep-tealinuxos">Resep TealinuxOS</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/install">Instalasi TealinuxOS</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#panduan-instalasi-tealinuxos">Panduan Instalasi TealinuxOS</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/migrasi">Migration and Upgrade</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#migrating-from-windows">Migrating from Windows</a></li>
+                <li><a href="#how-to-upgrade">How to upgrade</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/pengenalan-de">Pengenalan Dekstop Environment</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#panel">Panel</a></li>
+                <li><a href="#desktop">Desktop</a></li>
+                <li><a href="#file-dan-direktori">File dan Direktori</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/pengaturan">Pengaturan dan Pilihan</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#pengaturan-menu">Pengubahan Menu</a></li>
+                <li><a href="#pengubahan-informasi-personal">Pengubahan Informasi Personal</a></li>
+                <li><a href="#pengubahan-tampilan">Pengubahan Tampilan</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/aplikasi-tea">Pengenalan Aplikasi Bawaan</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#aplikasi-multimedia">Aplikasi Multimedia</a></li>
+                <li><a href="#aplikasi-perkantoran">Aplikasi Perkantoran</a></li>
+                <li><a href="#browser">Browser</a></li>
+                <li><a href="#sistem">Sistem</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/koneksi">Koneksi Jaringan dan Internet</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#menyambung-dan-memutuskan-jaringan">Menyambung dan Memutuskan jaringan</a></li>
+                <li><a href="#konfigurasi-koneksi">Konfigurasi koneksi</a></li>
+                <li><a href="#berbagi-koneksi-ke0komputer-lain">Berbagi koneksi ke komputer lain</a></li>
+                <li><a href="#troubleshooting-pada-jaringan">Troubleshooting pada jaringan</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/print-dan-scan">Print dan Scan</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#penggunaan-printer">Penggunaan Printer</a></li>
+                <li><a href="#penggunaan-scanner">Penggunaan Scanner</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/mengelola-aplikasi">Mengelola Aplikasi Terinstall</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#aplikasi-multimedia">Aplikasi Multimedia</a></li>
+                <li><a href="#aplikasi-perkantoran">Aplikasi Perkantoran</a></li>
+                <li><a href="#browser">Browser</a></li>
+                <li><a href="#sistem">Sistem</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/menjaga-keamanan">Menjaga Keamanan Komputer</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#tips-menjaga-keamanan-komputer">Tips Menjaga Keamanan Komputer</a></li>
+                <li><a href="#uninstall-software">Uninstall Software</a></li>
+                <li><a href="#menambah-repository">Menambah Repository</a></li>
+                <li><a href="#menginstall-melalui-tealinuxos-ide-installer">Menginstall melalui Tealinuxos IDE Installer</a></li>
+                <li><a href="#mengupdate-software">Mengupdate software</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/perangkat-keras">Perangkat Keras</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#pembatasan-beberapa-driver">Pembatasan Beberapa Driver</a></li>
+                <li><a href="#disk-dan-partition">Disk dan Partition</a></li>
+                <li><a href="#laptop">Laptop</a></li>
+                <li><a href="#suspend-dan-hibernate">Suspend dan Hibernate</a></li>
+                <li><a href="#mouse-dan-keyboard">Mouse dan keyboard</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/administrasi">Tugas-tugas administratif</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#user-dan-grub">User dan Grub</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/perintah-baris">Perintah Baris</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#daftar-perintah-umum">Daftar Perintah Umum</a></li>
+                <li><a href="#menjalankan-perintah-dengan-hak">Menjalankan Perintah dengan Hak </a></li>
+                <li><a href="#administrasi">Administrasi</a></li>
+            </ul>
+        </li>
+    </ul>
+
+</section>
+        </div>
+        <div class="column is-8">
+            <main id="content">
+                
+                
+                    
+
+<h2 id="pembatasan-beberapa-driver">Pembatasan Beberapa Driver</h2>
+
+<h3 id="mengapa-beberapa-driver-dibatasi">Mengapa beberapa driver dibatasi?</h3>
+
+<p>Pembatasan Driver (Restricted Driver) adalah keterbatasan driver untuk sebuah perangkat hardware karena tidak tersedia secara bebas atau open source.</p>
+
+<p>Kebanyakan device (hardware) yang terpasang di komputer anda bisa berfungsi secara normal di TeaLinuxOS. Device ini cenderung tidak memiliki keterbatasan driver, yang artinya driver dapat dimodifikasi dan masalah dengan device dapat dibetulkan.</p>
+
+<p>Ketika beberapa hardware tidak dapat berjalan lancar di TeaLinuxOS bisa dikarenakan device tersebut memiliki Restricted Driver (Pembatasan Driver). Biasanya pembuat hardware belum merilis detail dari hardware itu sendiri yang memungkinkan untuk developer membuat semacam driver sendiri. Device yang seperti ini mempunyai fungsi yang terbatas atau mungkin tidak bisa berkerja sama sekali.</p>
+
+<h3 id="mengaktifkan-pembatasan-driver">Mengaktifkan Pembatasan Driver</h3>
+
+<p>Jika Pembatasan Driver tersedia untuk beberapa device, anda dapat menginstalnya untuk memungkinkan perangkat anda berfungsi dengan baik.</p>
+
+<p>Jika beberapa driver tersedia untuk perangkat anda dapat diinstal dari Software Source dialog:</p>
+
+<ul>
+<li><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu" />
+<code>→ Settings Manager → Software &amp; Updates</code></li>
+<li>Driver yang tersedia akan muncul di tab Additional Drivers, pilih dan Apply Changes</li>
+<li>Anda akan, jika perlu, memasukan password administration</li>
+<li>Anda mungkin akan diminta untuk reboot komputer anda setelah proses instalasi selesai</li>
+</ul>
+
+<h3 id="menonaktifkan-pembatasan-driver">Menonaktifkan Pembatasan Driver</h3>
+
+<p>Jika Pembatasan Driver menyebabkan masalah, anda bisa menonaktifkan, ikuti langkah berikut</p>
+
+<ul>
+<li><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu" />
+<code>→ Settings Manager → Software &amp; Updates</code></li>
+<li>Klik Additional Drivers</li>
+<li>Cari driver yang akan dinonaktifkan dan tekan tombol Deactivate</li>
+<li>Anda akan diminta memasukan password administration</li>
+</ul>
+
+<h2 id="disk-dan-partition">Disk dan Partition</h2>
+
+<h3 id="memeriksa-berapa-ruang-disk-yang-tersisa">Memeriksa berapa ruang disk yang tersisa</h3>
+
+<p>Cara mudah untuk memeriksa ruang disk yang tersedia adalah menggunakan File Manager. Berikut beberapa langkah yang harus dilakukan</p>
+
+<ul>
+<li><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu" />
+<code>→ Accessories → File Manager</code></li>
+<li>Double-click di File System atau icon Home di Desktop</li>
+<li>Klik folder home di Lancher Panel</li>
+</ul>
+
+<p>Status bar di bagian bawah jendela memperlihatkan ruang tersedia dari drive atau disk yang terpilih. Jika anda memiliki lebih dari satu drive tepasang atau terhubung, anda dapat click di side pane dan anda akan melihat ruang kosong pada drive atau disk tersebut.</p>
+
+<h3 id="menambah-ruang-disk">Menambah ruang disk</h3>
+
+<p>Beberapa cara mudah untuk meberikan ruang kosong lebih:</p>
+
+<ul>
+<li>Kosongkan trash dengan cara klik kanan di Trash icon pada Desktop atau Launcher Panel dan pilih Empty Trash</li>
+<li>Hapus software package yang tidak digunakan lagi.</li>
+<li>Hapus file yang tidak dibutuhkan.</li>
+</ul>
+
+<h3 id="mempartisi-perangkat">Mempartisi Perangkat</h3>
+
+<p>Anda dapat menggunakan GParted (GNOME Partition Editor) untuk mempartisi perangkat penyimpanan. Klik <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu" />
+ <code>→ Settings Manager → GParted</code> untuk memulai editor partisi</p>
+
+<h3 id="membebaskan-ruang-untuk-partisi-baru">Membebaskan ruang untuk partisi baru</h3>
+
+<p>Untuk membuat partisi baru di perangkat yang sudah terpatisi, Anda harus mengubah ukuran partisi yang tersedia. Jika Anda sudah mempunyai ruang kosong, lewati langkah ini dan menuju kebagian Membuat partisi baru. Jika tidak, ikuti langkah dibawah:</p>
+
+<ul>
+<li>Pilih perangkat yang akan dipartisi dari list drop-down yang terdapat di kanan-atas dari jendela utama</li>
+<li>List partisi akan muncul di jendela utama. Pilih partisi yang akan anda rubah ukurannya dan dari menu pilih <code>Partition → Unmount</code></li>
+<li>Untuk merubah partisi pilih <code>Partition → Resize /Move.</code> Resize/Move dialog akan muncul. Anda dapat menggunakan Free Space Following (MiB) box untuk memilih berapa banyak ruang yang akan dikosongkan setelah partisi, atau Free Space Preceding (MiB) untuk mengosongkan ruang sebelum partisi ini.</li>
+<li>Klik <code>Resize / Move</code></li>
+<li>Untuk menerapkan perubahan, klik <code>Edit → Apply All Operations</code></li>
+</ul>
+
+<h3 id="membuat-partisi-baru">Membuat Partisi baru</h3>
+
+<p>Untuk membuat partisi baru:</p>
+
+<ul>
+<li>Pilih perangkat yang akan dipartisi dari list drop-down di bagian kanan-atas dari jendela utama.</li>
+<li>List dari partisi akan muncul. Pilih unallocated, klik kanan dan click New</li>
+<li>Dari File system: pick list, pilih type dari filesystem yang akan digunakan.</li>
+<li>Jika dibutuhkan, masukkan deskripsi partisi di Label : field</li>
+<li>Click tombol Add</li>
+<li>Untuk menerapkan perubahan, klik <code>Edit → Apply All Operation</code></li>
+</ul>
+
+<h3 id="memformat-partisi">Memformat Partisi</h3>
+
+<p>Untuk menghapus partisi, lakukan langkah berikut:</p>
+
+<ul>
+<li>Pilih perangkat dari list drop-down di bagian kanan-atas dari jendela utama</li>
+<li>List partisi akan muncul. Pilih partisi dan pilih <code>Partition → Unmount</code></li>
+<li>Pilih partisi yang akan diformat dan pilih <code>Partition → Format to</code> dan pilih tipe file system dari list untuk dirubah ke tipe tersebut</li>
+<li>Untuk menerapkan perubahan, klik <code>Edit → Apply All Operations</code></li>
+</ul>
+
+<h3 id="mount-dan-unmount-perangkat">Mount dan Unmount perangkat</h3>
+
+<p>Ketika anda memasang sebuah perangakat removable storage (ex : Flashdisk) ke komputer anda, harusnya perangkat tersebut akan tersambung (mounted) oleh operating system yang memperbolehkan anda untuk mengakses file di perangkat tersebut</p>
+
+<p>Untuk mencari bagaimana cara mount dan unmount perangkat penyimpanan secara manual dan/atau otomatis, liat di halaman Ubuntu community wiki untuk <a href="https://help.ubuntu.com/community/Mount">perintah mount</a>.</p>
+
+<p>Ketika anda mengcopy files dari perangkat penyimpanan removable, perangkat tersebut tidak selalu tertulis di perangkat secara langsung. Sebaliknya perangkat tersebut akan disimpan dalam antrian sehingga mereka semua dapat ditransfer ke perangkat pada saat yang sama (untuk alasan efisiensi).</p>
+
+<h2 id="laptop">Laptop</h2>
+
+<h3 id="pengaturan-manajemen-daya">Pengaturan manajemen daya</h3>
+
+<p>Anda mungkin ingin mengubah pengaturan manajemen daya laptop Anda untuk membantu menghemat baterai.</p>
+
+<ul>
+<li><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu" />
+<code>→ Settings Manager → Power Manager</code></li>
+<li>Mengubah pengaturan yang sesuai</li>
+<li>Perubahan yang diterapkan dapat langsung dilihat</li>
+</ul>
+
+<h3 id="touchpads">Touchpads</h3>
+
+<p>Sebagian besar laptop terdapat touchpad, yang digunakan untuk mengontrol pointer mouse. Ada banyak cara untuk mengubah cara touchpad berkerja; pengaturan touchpad dasar dapat dikonfigurasi dengan cara berikut:</p>
+
+<ul>
+<li><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu" />
+<code>→ Settings Manager → Mouse dan Touchpad</code></li>
+<li>Pada tab  <code>Device</code> : pilih <code>touchpad</code></li>
+<li>Anda dapat mengubah pengaturan touchpad sesuai dengan keinginan Anda.</li>
+</ul>
+
+<h2 id="suspend-dan-hibernate">Suspend dan Hibernate</h2>
+
+<p>Untuk menghemat daya, Anda dapat mengalihkan komputer ke salah satu dari sejumlah mode hemat daya ketika Anda tidak menggunakannya:</p>
+
+<p><code>Suspend</code> adalah perintah untuk membuat komputer anda seperti tertidur. Komputer masih akan diaktifkan dan semua pekerjaan akan dibiarkan terbuka, dengan menggunakan daya yang lebih sedikit. Anda dapat membangunkan komputer dengan menekan tombol atau mengklik mouse.</p>
+
+<p><code>Hibernate</code> adalah mematikan komputer sepenuhnya sambil menyimpan keadaan saat komputer (seperti menjaga semua dokumen yang terbuka). Ketika Anda menghidupkan kembali komputer setelah Hibernate, semua pekerjaan Anda harus dikembalikan seperti sebelum Hibernate. Tidak ada daya yang digunakan saat komputer hibernate.</p>
+
+<p><code>Shutting Down</code> adalah mematikan komputer sepenuhnya tanpa menyimpan keadaan saat komputer masih hidup. Tidak ada daya yang digunakan saat komputer dimatikan.</p>
+
+<p><code>Resumming</code> membawa komputer keluar dari mode hemat daya dan kembali ke operasi normal.</p>
+
+<p>Anda dapat secara manual mengalihkan komputer ke mode hemat daya dengan menekan <code>Menu → logout</code> dan kemudian pilih tombol mode yang sesuai.</p>
+
+<h3 id="komputer-saya-tidak-suspend-atau-hibernasi-dengan-benar">Komputer saya tidak Suspend atau hibernasi dengan benar</h3>
+
+<p>Beberapa komputer tidak dapat Suspend atau hibernate denga benar di TeaLinuxOS. Anda mungkin melihat beberapa gejala seperti berikut:</p>
+
+<ul>
+<li>Komputer tidak mati setelah Anda klik untuk hibernate itu.</li>
+<li>Ketika Anda menghidupkan komputer setelah hibernate itu, program yang sebelumnya terbuka Anda tidak hidup.</li>
+<li>Komputer tidak bangun setelah proses suspend.</li>
+<li>Program tertentu atau perangkat keras berhenti bekerja dengan benar setelah melanjutkan dari hibernate atau suspend.</li>
+</ul>
+
+<p>Jika Anda mengalami masalah ini, Anda harus <a href="http://tealinuxos.org/dukungan/bug.tealinuxos.org">melaporkan bug</a>. Masalah mudah-mudahan akan diperbaiki dalam versi berikutnya dari TeaLinuxOS. Jika hardware Anda tidak bekerja dengan benar setelah suspend atau hibernate komputer, restart komputer Anda. Jika program tidak bekerja dengan benar, cobalah menutup program dan kemudian mulai lagi.</p>
+
+<h2 id="mouse-dan-keyboard">Mouse dan keyboard</h2>
+
+<p>Ketika Anda menginstal TeaLinuxOS Anda diberi pilihan untuk memilih jenis keyboard dan bahasa. Selama instalasi, perangkat penunjuk harus secara otomatis terdeteksi dan dikonfigurasi. Jika Anda ingin atau perlu mengubah pengaturan dari setiap perangkat ini setelah instalasi, Anda dapat melakukannya dengan klik <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu" />
+   <code>→ Settings Manager → Mouse dan Touchpad</code> atau <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu" />
+ <code>→ Settings Manager → Keyboard.</code></p>
+
+<p>Pilihan untuk mouse dan touchpad meliputi:</p>
+
+<ul>
+<li>Orientasi tombol</li>
+<li>Kecepatan pointer dan sensitivitas</li>
+<li>Sensitivitas double-click</li>
+<li>Tema Kursor</li>
+</ul>
+
+<p>Beberapa pilihan untuk mengkonfigurasi keyboard Anda meliputi:</p>
+
+<ul>
+<li>State of the Num Lock key on startup</li>
+<li>Key repeat speed and delay</li>
+<li>Cursor blinking speed</li>
+<li>Application keyboard shortcuts</li>
+<li>Keyboard layout and language</li>
+</ul>
+
+                
+            </main>
+            <hr>
+            <div class="pagination">
+    
+    <div class="columns">
+        
+            <div class="column has-text-left">
+                <a class="previous" href="/dokumentasi/page/10/"><i class="fas fa-3x fa-arrow-circle-left"></i></a>
+            </div>
+            
+        
+        
+            
+            <div class="column has-text-right">
+                <a class="next" href="/dokumentasi/page/12/"><i class="fas fa-3x fa-arrow-circle-right"></i></a>
+            </div>
+        
+    </div>
+    
+</div>
+            <hr>
+                <section class="footer-doc">
+        <div class="text">
+            <p><small>Menemukan kesahalan atau ingin berkontribusi pada dokumentasi ini ?</small></p>
+            <a href="https://github.com/DOSCOM/tealinuxos.org/content/dokumentasi%5c_index.md"><small><strong>Sunting halaman ini secara langsung di Github</strong></small></a>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+<script src="http://localhost:1313/js/bundle.min.e6bf191e42b1313b2e427ee0d816633fd1152a8cb652e1d5d78425af7372220ea2e50b238f087e6184031b6d2797cf830039077e778866e64c3786446f924e9b.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        AOS.init({
+            
+            disable: false, 
+            startEvent: 'DOMContentLoaded', 
+            initClassName: 'aos-init', 
+            animatedClassName: 'aos-animate', 
+            useClassNames: false, 
+            disableMutationObserver: false, 
+            debounceDelay: 50, 
+            throttleDelay: 99, 
+            
+
+            
+            offset: 120, 
+            delay: 0, 
+            duration: 400, 
+            easing: 'ease', 
+            once: false, 
+            mirror: false, 
+            anchorPlacement: 'top-bottom', 
+
+        });
+                
+        
+        window.scroll({
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth'
+        });
+
+        
+        window.scrollBy({ 
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth' 
+        });
+    </script>
+        </div>
+    </div>
+</div>
+
+        
+    
+
+    </body>
+</html>
