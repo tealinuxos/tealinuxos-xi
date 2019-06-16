@@ -7,7 +7,7 @@ position: 1
 
 # Kenalan dengan Tealinux OS
 
-## Apa itu Tealinuxos?
+## Apa itu TealinuxOS?
 
 [TeaLinuxOS](http://tealinuxos.org/) adalah distro Linux turunan Ubuntu yang dikembangkan oleh [Dinus Open Source Community (DOSCOM)](http://doscom.org/) yang berorientasi pemrograman. Dengan menghadirkan filosofi,
 

@@ -1314,6 +1314,9 @@ body a{
     overflow: auto;
     transition: all 0.5s ease-out;
 }
+#menu-doc .sidebar-menu .sidebar-submenu li a.active{
+    color: #39c892ff;
+}
 #menu-doc ul li{
     list-style: none;
 }
