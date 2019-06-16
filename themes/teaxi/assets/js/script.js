@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $.sidebarMenu($('.sidebar-menu'));
+    $.menu($('.menu'));
 
     var pathname = window.location.pathname;
     var number = pathname.split("/");
@@ -29,10 +30,12 @@ $(document).ready(function() {
 
     var title = $(this).attr('title');
     var titleMenu = document.querySelectorAll('.title-menu');
+    var judulMenu = document.querySelectorAll('.judul-menu');
 
     for(i=0;i<lenD;i++){
         if(dataTitle[i]==title){
             titleMenu[i].setAttribute('class','title-menu active');
+            judulMenu[i].setAttribute('class','judul-menu active');
             titleMenu[i].children[1].setAttribute('class','sidebar-submenu menu-open');
         }
     }
@@ -67,6 +70,7 @@ $(document).ready(function() {
     //     }
     // });
     // Check for click events on the navbar burger icon
+    var windowWidth = $(window).width();
     $(".navbar-burger").click(function() {
         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
         $(".navbar-burger").toggleClass("is-active");
@@ -78,8 +82,10 @@ $(document).ready(function() {
         else{
             $('#sidebar').addClass('is-active');
             $("#sidebar").css('margin-left', 0);
+
         }
     });
+    
 
     // $(".dropdown").click(function() {
     //     $(".dropdown").toggleClass("is-active");

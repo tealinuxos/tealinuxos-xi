@@ -144,3 +144,91 @@ padding-top: 15px;}
         width: auto; }
     .sidebar-menu-rtl .sidebar-submenu > li.active > a, .sidebar-menu-rtl .sidebar-submenu > li > a:hover {
       color: #fff; }
+
+
+/* Sidebar */
+.animate-menu-push {
+  left: 0;
+  position: relative;
+  transition: all 0.3s ease; }
+  .animate-menu-push.animate-menu-push-right {
+    left: 200px; }
+  .animate-menu-push.animate-menu-push-left {
+    left: -200px; }
+
+.animate-menu {
+  position: fixed;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  transition: all 0.3s ease; }
+
+.animate-menu-left {
+  left: -200px; }
+  .animate-menu-left.animate-menu-open {
+    left: 0; }
+
+.animate-menu-right {
+  right: -200px; }
+  .animate-menu-right.animate-menu-open {
+    right: 0; }
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+padding-top: 15px;}
+  .menu > li {
+    position: relative;
+    margin: 0;
+    padding: 0; 
+  }
+    .menu > li > a {
+      padding: 10px 5px 10px 15px;
+      display: block;
+      border-left: 3px solid transparent;
+      color: #1e3338ff; }
+      .menu > li > a > .fa {
+        width: 20px; }
+    .menu > li:hover > a, .menu > li.active > a {
+      color: #39c892ff;}
+    .menu > li .label,
+    .menu > li .badge {
+      margin-top: 3px;
+      margin-right: 5px; }
+  .menu li.sidebar-header {
+    padding: 10px 25px 10px 15px;
+    color: #4b646f;}
+  .menu li > a > .fa-angle-left {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-right: 10px;
+    margin-top: 3px; }
+  .menu li.active > a > .fa-angle-left {
+    transform: rotate(-90deg); }
+  .menu li.active > .submenu {
+    display: block; }
+  .menu a {
+    color: #b8c7ce;
+    text-decoration: none; }
+  .menu .submenu {
+    display: none;
+    list-style: none;
+    margin: 0 1px;}
+    .menu .submenu .submenu {
+      padding-left: 20px; }
+      .menu .submenu > li {
+        border-left: 1px solid #ddd;
+      }
+    .menu .submenu > li > a {
+      padding: 5px 5px 5px 15px;
+      display: block;
+      color: #1e3338ff; }
+      .menu .submenu > li > a > .fa {
+        width: 20px; }
+      .menu .submenu > li > a > .fa-angle-left,
+      .menu .submenu > li > a > .fa-angle-down {
+        width: auto; }
+    .menu .submenu > li.active > a, .menu .submenu > li > a:hover {
+      color: #39c892ff; }

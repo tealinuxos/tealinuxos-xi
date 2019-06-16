@@ -1255,11 +1255,16 @@ body a{
     .pelaporan .pelaporan-body .columns .column .card .card-content ul li{
         font-size: 0.90rem;
     } 
+    #dok-page .columns .column:first-child{
+        display: none;
+    }
+    #dok-page .columns{
+        justify-content: center;
+    }
 }
 
 /* Sidebar */
 #sidebar{
-    /* display: none; */
     position: fixed;
     top: 0;
     z-index: 10;
@@ -1271,8 +1276,9 @@ body a{
     background-color: #e7ededff;
     transition: all 0.5s ease-out;
 }
-#sidebar ul li.title-menu{
-    font-size: 0.90rem; 
+#sidebar ul li.judul-menu{
+    font-size: 0.90rem;
+    list-style: none; 
 }
 #sidebar p{
     width: 25px;
@@ -1283,6 +1289,16 @@ body a{
     cursor: pointer;
     color: #1e3338ff;
     background-color: #fff; 
+}
+#sidebar ul li.judul-menu ul li{
+    list-style: none; 
+}
+
+.submenu li{
+    border-left: 1px solid #ddd;
+}
+.submenu li a{
+    padding: 5px 5px 5px 15px;
 }
 
 /* Menu Dokumentasi */
