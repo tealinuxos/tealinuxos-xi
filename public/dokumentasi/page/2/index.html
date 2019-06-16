@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Kenalan dengan TealinuxOS</title>
+
+<meta name="generator" content="Hugo 0.54.0" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans|Lato">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/bundle.min.dd261a801da64be581e6a1075fe8880d53a4739a6e46cf8d058daa0d1cef54c19013bba3b5bf6511faa734d3c7f30c900d36c65107fb41c7a3a9e0a8f4d40c2d.css">
+    </head>
+    <body>
+         
+
+
+    <nav id="nav" class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="http://localhost:1313/" class="navbar-item has-text-weight-semibold">
+                    <img src="http://localhost:1313/img/logo.png" alt="logo-tealinux">
+                    TealinuxOS
+                </a>
+                <a role="button" class="navbar-burger" data-target="sidebar" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="navMenu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="/dokumentasi/">Dokumentasi</a>
+                    <a class="navbar-item" href="/kontribusi/">Kontribusi</a>
+                    <a class="navbar-item" target="blank" href="https://medium.com/tealinuxos">Blog</a>
+                    <span class="navbar-item">
+                        
+                        <input id="search-input" class="input is-rounded" type="text" placeholder="What are you looking for?" name="search-input" class="form-control">
+                        <p class="center"><i class="fas fa-search align-items-center"></i></p>
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </nav> 
+        
+<section id="sidebar" class="sidebar">
+    <ul class="menu">
+        <li class="judul"><a href="/dokumentasi/">Dokumentasi</a></li>
+        <li class="judul"><a href="/kontribusi/">Kontribusi</a></li>
+        <li class="judul"><a target="blank" href="https://medium.com/tealinuxos">Blog</a></li>
+        <span class="navbar-item">
+            <input class="input is-rounded" type="text">
+            <p class="center"><i class="fas fa-search align-items-center"></i></p>
+        </span>
+        
+        <li class="judul-menu"><a href="/dokumentasi">Kenalan dengan TealinuxOS</a>
+            <ul class="submenu">
+                <li><a href="#apa-itu-tealinuxos">Apa itu Tealinuxos?</a></li>
+                <li><a href="#resep-tealinuxos">Resep TealinuxOS</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/install">Instalasi TealinuxOS</a>
+            <ul class="submenu">
+                <li><a href="#panduan-instalasi-tealinuxos">Panduan Instalasi TealinuxOS</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/migrasi">Migration and Upgrade</a>
+            <ul class="submenu">
+                <li><a href="#migrating-from-windows">Migrating from Windows</a></li>
+                <li><a href="#how-to-upgrade">How to upgrade</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/pengenalan-de">Pengenalan Dekstop Environment</a>
+            <ul class="submenu">
+                <li><a href="#panel">Panel</a></li>
+                <li><a href="#desktop">Desktop</a></li>
+                <li><a href="#file-dan-direktori">File dan Direktori</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/pengaturan">Pengaturan dan Pilihan</a>
+            <ul class="submenu">
+                <li><a href="#pengaturan-menu">Pengubahan Menu</a></li>
+                <li><a href="#pengubahan-informasi-personal">Pengubahan Informasi Personal</a></li>
+                <li><a href="#pengubahan-tampilan">Pengubahan Tampilan</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/aplikasi-tea">Pengenalan Aplikasi Bawaan</a>
+            <ul class="submenu">
+                <li><a href="#aplikasi-multimedia">Aplikasi Multimedia</a></li>
+                <li><a href="#aplikasi-perkantoran">Aplikasi Perkantoran</a></li>
+                <li><a href="#browser">Browser</a></li>
+                <li><a href="#sistem">Sistem</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/koneksi">Koneksi Jaringan dan Internet</a>
+            <ul class="submenu">
+                <li><a href="#menyambung-dan-memutuskan-jaringan">Menyambung dan Memutuskan jaringan</a></li>
+                <li><a href="#konfigurasi-koneksi">Konfigurasi koneksi</a></li>
+                <li><a href="#berbagi-koneksi-ke0komputer-lain">Berbagi koneksi ke komputer lain</a></li>
+                <li><a href="#troubleshooting-pada-jaringan">Troubleshooting pada jaringan</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/print-dan-scan">Print dan Scan</a>
+            <ul class="submenu">
+                <li><a href="#penggunaan-printer">Penggunaan Printer</a></li>
+                <li><a href="#penggunaan-scanner">Penggunaan Scanner</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/mengelola-aplikasi">Mengelola Aplikasi Terinstall</a>
+            <ul class="submenu">
+                <li><a href="#aplikasi-multimedia">Aplikasi Multimedia</a></li>
+                <li><a href="#aplikasi-perkantoran">Aplikasi Perkantoran</a></li>
+                <li><a href="#browser">Browser</a></li>
+                <li><a href="#sistem">Sistem</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/menjaga-keamanan">Menjaga Keamanan Komputer</a>
+            <ul class="submenu">
+                <li><a href="#tips-menjaga-keamanan-komputer">Tips Menjaga Keamanan Komputer</a></li>
+                <li><a href="#uninstall-software">Uninstall Software</a></li>
+                <li><a href="#menambah-repository">Menambah Repository</a></li>
+                <li><a href="#menginstall-melalui-tealinuxos-ide-installer">Menginstall melalui Tealinuxos IDE Installer</a></li>
+                <li><a href="#mengupdate-software">Mengupdate software</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/perangkat-keras">Perangkat Keras</a>
+            <ul class="submenu">
+                <li><a href="#pembatasan-beberapa-driver">Pembatasan Beberapa Driver</a></li>
+                <li><a href="#disk-dan-partition">Disk dan Partition</a></li>
+                <li><a href="#laptop">Laptop</a></li>
+                <li><a href="#suspend-dan-hibernate">Suspend dan Hibernate</a></li>
+                <li><a href="#mouse-dan-keyboard">Mouse dan keyboard</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/administrasi">Tugas-tugas administratif</a>
+            <ul class="submenu">
+                <li><a href="#user-dan-grub">User dan Grub</a></li>
+            </ul>
+        </li>
+        <li class="judul-menu"><a href="/dokumentasi/perintah-baris">Perintah Baris</a>
+            <ul class="submenu">
+                <li><a href="#daftar-perintah-umum">Daftar Perintah Umum</a></li>
+                <li><a href="#menjalankan-perintah-dengan-hak">Menjalankan Perintah dengan Hak </a></li>
+                <li><a href="#administrasi">Administrasi</a></li>
+            </ul>
+        </li>
+        
+    </ul>
+</section>
+
+<div id="dok-page" class="container">
+    <div class="columns">
+        <div class="column is-3 menu">
+              <section id="menu-doc">
+
+    <ul class="sidebar-menu">
+        <li class="title-menu"><a href="/dokumentasi">Kenalan dengan TealinuxOS</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#apa-itu-tealinuxos">Apa itu Tealinuxos?</a></li>
+                <li><a href="#resep-tealinuxos">Resep TealinuxOS</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/install">Instalasi TealinuxOS</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#panduan-instalasi-tealinuxos">Panduan Instalasi TealinuxOS</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/migrasi">Migration and Upgrade</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#migrating-from-windows">Migrating from Windows</a></li>
+                <li><a href="#how-to-upgrade">How to upgrade</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/pengenalan-de">Pengenalan Dekstop Environment</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#panel">Panel</a></li>
+                <li><a href="#desktop">Desktop</a></li>
+                <li><a href="#file-dan-direktori">File dan Direktori</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/pengaturan">Pengaturan dan Pilihan</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#pengaturan-menu">Pengubahan Menu</a></li>
+                <li><a href="#pengubahan-informasi-personal">Pengubahan Informasi Personal</a></li>
+                <li><a href="#pengubahan-tampilan">Pengubahan Tampilan</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/aplikasi-tea">Pengenalan Aplikasi Bawaan</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#aplikasi-multimedia">Aplikasi Multimedia</a></li>
+                <li><a href="#aplikasi-perkantoran">Aplikasi Perkantoran</a></li>
+                <li><a href="#browser">Browser</a></li>
+                <li><a href="#sistem">Sistem</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/koneksi">Koneksi Jaringan dan Internet</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#menyambung-dan-memutuskan-jaringan">Menyambung dan Memutuskan jaringan</a></li>
+                <li><a href="#konfigurasi-koneksi">Konfigurasi koneksi</a></li>
+                <li><a href="#berbagi-koneksi-ke0komputer-lain">Berbagi koneksi ke komputer lain</a></li>
+                <li><a href="#troubleshooting-pada-jaringan">Troubleshooting pada jaringan</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/print-dan-scan">Print dan Scan</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#penggunaan-printer">Penggunaan Printer</a></li>
+                <li><a href="#penggunaan-scanner">Penggunaan Scanner</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/mengelola-aplikasi">Mengelola Aplikasi Terinstall</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#aplikasi-multimedia">Aplikasi Multimedia</a></li>
+                <li><a href="#aplikasi-perkantoran">Aplikasi Perkantoran</a></li>
+                <li><a href="#browser">Browser</a></li>
+                <li><a href="#sistem">Sistem</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/menjaga-keamanan">Menjaga Keamanan Komputer</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#tips-menjaga-keamanan-komputer">Tips Menjaga Keamanan Komputer</a></li>
+                <li><a href="#uninstall-software">Uninstall Software</a></li>
+                <li><a href="#menambah-repository">Menambah Repository</a></li>
+                <li><a href="#menginstall-melalui-tealinuxos-ide-installer">Menginstall melalui Tealinuxos IDE Installer</a></li>
+                <li><a href="#mengupdate-software">Mengupdate software</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/perangkat-keras">Perangkat Keras</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#pembatasan-beberapa-driver">Pembatasan Beberapa Driver</a></li>
+                <li><a href="#disk-dan-partition">Disk dan Partition</a></li>
+                <li><a href="#laptop">Laptop</a></li>
+                <li><a href="#suspend-dan-hibernate">Suspend dan Hibernate</a></li>
+                <li><a href="#mouse-dan-keyboard">Mouse dan keyboard</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/administrasi">Tugas-tugas administratif</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#user-dan-grub">User dan Grub</a></li>
+            </ul>
+        </li>
+        <li class="title-menu"><a href="/dokumentasi/perintah-baris">Perintah Baris</a>
+            <ul class="sidebar-submenu">
+                <li><a href="#daftar-perintah-umum">Daftar Perintah Umum</a></li>
+                <li><a href="#menjalankan-perintah-dengan-hak">Menjalankan Perintah dengan Hak </a></li>
+                <li><a href="#administrasi">Administrasi</a></li>
+            </ul>
+        </li>
+    </ul>
+
+</section>
+        </div>
+        <div class="column is-8">
+            <main id="content">
+                
+                
+                    
+
+<h2 id="panduan-instalasi-tealinuxos">Panduan Instalasi TealinuxOS</h2>
+
+<p>Ada 2 cara yang bisa Anda lakukan untuk instalisasi TealinuxOS pada perangkat Anda,yaitu:
+Untuk menginstall TealinuxOS pada perangkat anda dapat mengikuti 2 cara yaitu :
+- Melalui <em>bootable</em> flashdisk
+- Melalui <em>bootable</em> CD
+Jika Anda menggunakan CD, Anda dapat melewatkan bagian <strong>Unduh ISO TealinuxOS</strong> dan <strong>Membuat bootable ISO TealinuxOS ke Flashdisk</strong>.</p>
+
+<h3 id="unduh-tealinuxos">Unduh TealinuxOS</h3>
+
+<p>ISO tealinux dapat diunduh <a href="http://pinguin.dinus.ac.id/iso/tealinuxos/">di sini</a>.</p>
+
+<h3 id="membuat-bootable-iso-tealinuxos-ke-flashdisk">Membuat Bootable ISO TealinuxOS ke Flashdisk</h3>
+
+<p>Untuk membuat bootable ke flashdisk anda dapat menggunakan software <em>Third Party</em> seperti <a href="https://universal-usb-installer.en.uptodown.com">Universal USB Installer</a>, <a href="http://unetbootin.github.io">Unetbootin</a> atau <a href="https://rufus.akeo.ie/">Rufus</a>. Berikut adalah langkah-langkah untuk membuat bootable ISO TealinuxOS ke flashdisk menggunakan Universal USB Installer.
+<img src="https://cloud.githubusercontent.com/assets/22718275/23578142/c4eae682-0102-11e7-9d76-69cd286a4406.png" alt="Bootable_1" /></p>
+
+<p><img src="https://cloud.githubusercontent.com/assets/22718275/23578146/d6ebc932-0102-11e7-94c9-993dee8bcbe2.png" alt="Bootable_2" />
+Mengenai cara penggunaan, instalasi dan keterangan lainya dapat Anda lihat di Website resmi dari masing-masing software tersebut.</p>
+
+<h3 id="membuat-partisi-hardisk-untuk-tealinuxos">Membuat partisi hardisk untuk TealinuxOS</h3>
+
+<p>Untuk membuat partisi hardisk Anda dapat menggunakan <code>Create and format hard disk partition</code> milik Windows, <code>GParted</code> milik Linux, atau <em>tools</em> lain yang biasa Anda gunakan untuk membuat partisi.
+Ada 2 Macam partisi yang dibutuhkan oleh TealinuxOS yaitu :
+- Partisi dengan format <code>ext4</code>. Partisi ini berfungsi sebagai tempat setiap file system TealinuxOS.
+  Sebagai contoh kami membuat partisi sebesar 50GB atau 50000Mb. Klik kanan pada disk yang ingin di <em>shrink</em> (dipecah). Kenapa harus 50GB ?, karena ukuran 50GB itu ukuran yang ideal untuk sistem operasi linux. ukuran minimalnya untuk linux ialah 20GB.
+  <img src="https://cloud.githubusercontent.com/assets/22718275/23578147/e2c49112-0102-11e7-868e-611db63be0a2.png" alt="Partition_1" /></p>
+
+<p><img src="https://cloud.githubusercontent.com/assets/22718275/23578150/f11bd6d0-0102-11e7-815c-b4648866def9.png" alt="Partition_2" /></p>
+
+<ul>
+<li>Partisi dengan format <code>linux-swap</code>. Partisi ini berfungsi untuk membantu kerja RAM dalam memanajemen memori.
+Untuk ukuran partisi <code>linux-swap</code> kami merekomendasikan 2GB.</li>
+</ul>
+
+<h3 id="proses-instalasi-tealinuxos">Proses Instalasi TealinuxOS</h3>
+
+<ol>
+<li>Setelah Anda memiliki <em>bootable</em> TealinuxOS, pastikan Anda menghubungkan <em>bootable</em> tersebut ke perangkat anda.</li>
+<li>Restart perangkat Anda untuk memulai proses instalasi TealinuxOS.</li>
+<li>Arahkan <em>booting option</em> ke perangkat <em>bootable</em>. Anda dapat masuk ke BIOS kemudian ubah mode BIOS ke <code>Legacy</code> (jika sebelumnya menggunakan mode <code>UEFI/EFI</code>).</li>
+<li>Selanjutnya ubah boot priority USB HDD(): ke urutan pertama jika anda menggunakan flashdisk atau ubah boot priority CD(): ke urutan pertama jika Anda menggunakan CD.</li>
+<li>Simpan pengaturan pada BIOS Anda kemudian restart.</li>
+<li>Tunggu beberapa saat sampai muncul menu seperti berikut :
+<img src="https://cloud.githubusercontent.com/assets/22718275/23685947/5be6f430-03d9-11e7-89c0-d55cfb593f9e.png" alt="menu-install" /></li>
+<li>Pilih <code>Try TealinuxOS</code> untuk mencoba atau <code>Install TealinuxOS</code> untuk langsung menginstall. Apabila Anda memilih Install TealinuxOS Anda dapat melewati langkah ke 6 dan 7.</li>
+<li>Tunggu beberapa saat sampai muncul desktop TealinuxOS seperti berikut :
+<img src="https://cloud.githubusercontent.com/assets/22718275/23685964/736151be-03d9-11e7-9b11-23af4063ab3b.png" alt="try-install" />
+Anda dapat mencoba terlebih dahulu fitur-fitur yang terdapat pada TealinuxOS sebelum menginstallnya. Tetapi jika Anda langsung ingin memasang TealinuxOS, klik icon <em>Install TealinuxOS</em> pada desktop.</li>
+<li>Selanjutnya akan muncul antarmuka sebagai berikut.
+<img src="https://cloud.githubusercontent.com/assets/22718275/23685988/96e996fa-03d9-11e7-9cc0-b5664ed27a17.png" alt="language" />
+Anda diminta untuk memilih bahasa yang akan digunakan dalam TealinuxOS. Klik ok untuk lanjut.</li>
+<li>Selanjutnya Anda diminta untuk memilih untuk mendownload <em>software third party</em> atau tidak. Klik ok untuk lanjut.
+<img src="https://cloud.githubusercontent.com/assets/22718275/23685998/a811ae18-03d9-11e7-8c6f-1900f9a85b7d.png" alt="preparing" /></li>
+<li>Selanjutnya anda diminta untuk memilih prosedur penginstalan sebagai berikut :
+
+<ul>
+<li><em>Install TeaLinuxOS Alongside Them</em>
+Pilihan ini dapat menyimpan berkas anda seperti dokumen, dll.</li>
+<li><em>Erase disk and Install TeaLinuxOS</em>
+Pilihan ini menghapus semua Disk Anda. Pilihan ini dikhususkan bagi Anda yang tidak ingin dualboot, karena pilihan ini akan menghapus semua OS dan data yang ada.</li>
+<li><em>Something else</em>
+Pilihan ini dikhususkan bagi anda yang ingin dualboot. Karena didalam pilihan ini Anda dapat mengatur partisi yang telah kita buat diawal tadi.
+<img src="https://cloud.githubusercontent.com/assets/22718275/23686028/cd308aac-03d9-11e7-9fa7-217fd1f7ac08.png" alt="instalaltion" />
+Pilih something else lalu klik ok.</li>
+</ul></li>
+<li>Anda akan mendapatkan antarmuka seperti berikut :
+<img src="https://cloud.githubusercontent.com/assets/22718275/23686041/e39d8f38-03d9-11e7-8836-e749fb8b0794.png" alt="partiton_1" />
+Seperti yang anda lihat pada antarmuka tersebut, terdapat 2 buah partisi yang anda telah buat pada langkah sebelumnya yaitu <code>/dev/sda1</code> yang berukuran 50GB dan <code>/dev/sda5</code> yang berukuran 2GB. Sebagai informasi nama partisi dapat berbeda antara tutorial ini dan perangkat anda.</li>
+<li>Selanjutnya ubah tipe partisi <code>/dev/sda1</code> dengan cara klik tombol change. Atur menjadi <code>ext4</code>, format partisi dan juga arahkan mount point ke <code>/</code>. Klik OK untuk lanjut.
+<img src="https://cloud.githubusercontent.com/assets/22718275/23686049/f5030230-03d9-11e7-8834-7ecac4b9b6bb.png" alt="Partition_2" />
+<img src="https://cloud.githubusercontent.com/assets/22718275/23686061/03f969f0-03da-11e7-8bda-eb56c7c8cf04.png" alt="partition_3" /></li>
+<li>Selanjutnya ubah tipe partisi <code>/dev/sda5</code> dengan cara klik tombol change. Atur menjadi <code>swap area</code>. Klik OK untuk lanjut.
+<img src="https://cloud.githubusercontent.com/assets/22718275/23686081/1fbf6266-03da-11e7-8daa-4a60c06703e5.png" alt="Partition_4" />
+<img src="https://cloud.githubusercontent.com/assets/22718275/23686146/6dbf052a-03da-11e7-85e3-e844b273f694.png" alt="partition_5" /></li>
+<li>Selanjutnya akan tampil persetujuan sebagai berikut :
+<img src="https://cloud.githubusercontent.com/assets/22718275/23686161/857a51e2-03da-11e7-8011-a9fb063761b4.png" alt="Partition_6" />
+Klik continue untuk lanjut.</li>
+<li>Selanjutnya Anda diminta untuk memilih waktu dan tempat.
+<img src="https://cloud.githubusercontent.com/assets/22718275/23686187/a58ca03e-03da-11e7-827a-01f86abe8ec3.png" alt="time-and-region" /></li>
+<li>Selanjutnya Anda diminta untuk memilih tipe keyboard.
+<img src="https://cloud.githubusercontent.com/assets/22718275/23686208/b682f4ce-03da-11e7-8dcb-85c8ef2cbbad.png" alt="keyboard" /></li>
+<li>Selanjutnya Anda diminta untuk mengisi data diri.
+<img src="https://cloud.githubusercontent.com/assets/22718275/23686238/d5fdd5e4-03da-11e7-8387-626587c4ede8.png" alt="whoru" /></li>
+<li>Tunggu beberapa saat proses sampai proses instalasi tealinuxos selesai.
+<img src="https://cloud.githubusercontent.com/assets/22718275/23686286/31ab73ec-03db-11e7-8292-173401c6851a.png" alt="installaltion" /></li>
+<li>Restart dan nikmati tealinuxos.
+<img src="https://cloud.githubusercontent.com/assets/22718275/23686381/df3fda20-03db-11e7-9ee1-a811f1646f36.png" alt="success" /></li>
+</ol>
+
+                
+            </main>
+            <hr>
+            <div class="pagination">
+    
+    <div class="columns">
+        
+            <div class="column has-text-left">
+                <a class="previous" href="/dokumentasi/"><i class="fas fa-3x fa-arrow-circle-left"></i></a>
+            </div>
+            
+        
+        
+            
+            <div class="column has-text-right">
+                <a class="next" href="/dokumentasi/page/3/"><i class="fas fa-3x fa-arrow-circle-right"></i></a>
+            </div>
+        
+    </div>
+    
+</div>
+            <hr>
+                <section class="footer-doc">
+        <div class="text">
+            <p><small>Menemukan kesahalan atau ingin berkontribusi pada dokumentasi ini ?</small></p>
+            <a href="https://github.com/DOSCOM/tealinuxos.org/content/dokumentasi%5c_index.md"><small><strong>Sunting halaman ini secara langsung di Github</strong></small></a>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+<script src="http://localhost:1313/js/bundle.min.e6bf191e42b1313b2e427ee0d816633fd1152a8cb652e1d5d78425af7372220ea2e50b238f087e6184031b6d2797cf830039077e778866e64c3786446f924e9b.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        AOS.init({
+            
+            disable: false, 
+            startEvent: 'DOMContentLoaded', 
+            initClassName: 'aos-init', 
+            animatedClassName: 'aos-animate', 
+            useClassNames: false, 
+            disableMutationObserver: false, 
+            debounceDelay: 50, 
+            throttleDelay: 99, 
+            
+
+            
+            offset: 120, 
+            delay: 0, 
+            duration: 400, 
+            easing: 'ease', 
+            once: false, 
+            mirror: false, 
+            anchorPlacement: 'top-bottom', 
+
+        });
+                
+        
+        window.scroll({
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth'
+        });
+
+        
+        window.scrollBy({ 
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth' 
+        });
+    </script>
+        </div>
+    </div>
+</div>
+
+        
+    
+
+    </body>
+</html>
