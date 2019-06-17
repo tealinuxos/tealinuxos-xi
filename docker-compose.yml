@@ -1,0 +1,10 @@
+version: "3"
+services:
+  hugo-apps:
+    image: httpd:latest
+    container_name: hugo-apps
+    working_dir: /usr/local/apache2/htdocs
+    ports:
+      - 1313:80
+    volumes:
+      - ./public:/usr/local/apache2/htdocs
