@@ -1388,3 +1388,11 @@ body a{
         display: block;
         }
     .search-results a:hover {background-color: #ddd;}
+
+.bg-fitur2 video{
+    width: 60%;
+    bottom: 130px;
+    right: 130px;
+    position: absolute;
+    z-index: 10px;
+}
