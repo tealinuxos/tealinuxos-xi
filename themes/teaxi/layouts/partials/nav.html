@@ -20,21 +20,15 @@
                     <a class="navbar-item" href="/kontribusi/">Kontribusi</a>
                     <a class="navbar-item" target="blank" href="https://medium.com/tealinuxos">Blog</a>
                     <span class="navbar-item">
-                        <!-- <input class="input is-rounded" type="text"> -->
-                        <input id="search-input" class="input is-rounded" type="text" placeholder="What are you looking for?" name="search-input" class="form-control">
+                        <div class="search" id="search">
+                            <input id="search-input" class="input is-rounded form-control" type="text" placeholder="" v-model="txt" @keyup="search()" @blur="close()" maxlength="50">
+                            <div class="search-results" :style="{'display': showresult?'block':'none'}">
+                                <a v-for="item in result" :href="item.url">{{ printf "{{ item.title }}" }}</a>
+                            </div>
+                        </div>
                         <p class="center"><i class="fas fa-search align-items-center"></i></p>
-                        <!-- <form action="">
-                            <input type="search">
-                            <i class="fa fa-search"></i>
-                        </form> -->
                     </span>
 
-<div class="search" id="search">
-    <input type="text" placeholder="Search site..." v-model="txt" @keyup="search()" @blur="close()" maxlength="50">
-    <div class="search-results" :style="{'display': showresult?'block':'none'}">
-        <a v-for="item in result" :href="item.url">{{ printf "{{ item.title }}" }}</a>
-    </div>
-</div>
 
 
                 </div>

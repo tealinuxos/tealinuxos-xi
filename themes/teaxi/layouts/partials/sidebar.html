@@ -3,10 +3,18 @@
         <li class="judul"><a href="/dokumentasi/">Dokumentasi</a></li>
         <li class="judul"><a href="/kontribusi/">Kontribusi</a></li>
         <li class="judul"><a target="blank" href="https://medium.com/tealinuxos">Blog</a></li>
-        <span class="navbar-item">
-            <input class="input is-rounded" type="text">
-            <p class="center"><i class="fas fa-search align-items-center"></i></p>
-        </span>
+        
+<span class="navbar-item">
+                        <div class="search" id="search">
+                            <input id="search-input" class="input is-rounded form-control" type="text" placeholder="" v-model="txt" @keyup="search()" @blur="close()" maxlength="50">
+                            <div class="search-results" :style="{'display': showresult?'block':'none'}">
+                                <a v-for="item in result" :href="item.url">{{ printf "{{ item.title }}" }}</a>
+                            </div>
+                        </div>
+                        <p class="center"><i class="fas fa-search align-items-center"></i></p>
+                    </span>
+        
+
         {{ if and (ne .Title "TeaLinux OS") (ne .Title "Kontribusi") }}
         <li class="judul-menu"><a href="/dokumentasi">Kenalan dengan TealinuxOS</a>
             <ul class="submenu">
