@@ -1,3 +1,4 @@
+{{ partial "seo_schema" . }}
 <title>{{ .Title | default .Site.Title }}
 {{ if not .IsHome }} {{ .Site.Params.Shorttitle }}{{ end }}
 </title>

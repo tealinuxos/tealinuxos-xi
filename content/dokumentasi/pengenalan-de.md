@@ -8,7 +8,7 @@ position: 4
 
 # Pengenalan Dekstop Environment
 
- Tampilan lingkungan dekstop TeaLinuxOS Pappermint dengan tema elegan dan simple namun bersahabat dengan pengguna. Beberapa pengenalan tentang lingkungan dekstop di TeaLinuxOS sebagai berikut :
+ Tampilan lingkungan dekstop TeaLinuxOS Stevia dengan tema elegan dan simple namun bersahabat dengan pengguna. Beberapa pengenalan tentang lingkungan dekstop di TeaLinuxOS sebagai berikut :
 
 ## Panel
 
@@ -30,7 +30,7 @@ Pada bagian dekstop hanya terdapat tampilan wallpaper, anda dapat dapat menambah
 
 ![filemanager](https://cloud.githubusercontent.com/assets/26142091/23577653/6320e772-00f7-11e7-8b8e-d3e54d198839.png)
 
-TeaLinuxOS Pappermint menggunakan file manager Nautilus dari gnome. Untuk mengaksesnya dengan ![menu] (https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+TeaLinuxOS Stevia menggunakan file manager Nautilus dari gnome. Untuk mengaksesnya dengan ![menu] (https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
  → Accesories → File Manager.
 Membuat folder baru (new folder)
 

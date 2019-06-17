@@ -7,7 +7,7 @@ position: 1
 
 # Kenalan dengan Tealinux OS
 
-## Apa itu TealinuxOS?
+## Apa itu Tealinuxos?
 
 [TeaLinuxOS](http://tealinuxos.org/) adalah distro Linux turunan Ubuntu yang dikembangkan oleh [Dinus Open Source Community (DOSCOM)](http://doscom.org/) yang berorientasi pemrograman. Dengan menghadirkan filosofi,
 
@@ -23,7 +23,7 @@ Kami menggunakan nama distro TeaLinuxOS karena beberapa alasan, yaitu _tea_ yang
 
 ### Versi
 
-TealinuxOS telah diluncurkan sebanyak 9 versi diantaranya adalah :
+TealinuxOS telah diluncurkan sebanyak 11 versi diantaranya adalah :
 
 * TeaLinuxOS ver 1.0 Code Name : Green Tea, based on Ubuntu 8.04
 * TeaLinuxOS ver 2.0 Code Name : Black Tea, based on Ubuntu 9.10
@@ -39,7 +39,7 @@ TealinuxOS telah diluncurkan sebanyak 9 versi diantaranya adalah :
 
 ## Resep TealinuxOS
 
-Versi terakhir dari TealinuxOS adalah TealinuxOS 11 (XI) Stevia yang dibuat dari core Xbuntu 18.04, Xfce dan FOSS.
+Versi terakhir dari TealinuxOS adalah TealinuxOS 11 Stevia yang dibuat dari core Xubuntu 18.04, Xfce dan FOSS.
 
 ### Xubuntu 18.04 LTS
 

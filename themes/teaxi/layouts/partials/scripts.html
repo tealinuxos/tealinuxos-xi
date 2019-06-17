@@ -6,3 +6,4 @@
 {{ $js := $bundle | resources.Minify | resources.Fingerprint "sha512" }}
 
 <script src="{{ $js.Permalink }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js" integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>

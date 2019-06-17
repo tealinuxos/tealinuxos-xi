@@ -36,9 +36,10 @@ TealinuxOS telah diluncurkan sebanyak 11 versi diantaranya adalah :
 * TeaLinuxOS ver 10.0 Code Name : Dandelion Tea, based on Xubuntu 18.04
 * TeaLinuxOS ver 11.0 Code Name : Stevia Tea, based on Xubuntu 18.04
 
+
 ## Resep TealinuxOS
 
-Versi terakhir dari TealinuxOS adalah TealinuxOS 11 (XI) Stevia yang dibuat dari core Xbuntu 19.04, Xfce dan FOSS.
+Versi terakhir dari TealinuxOS adalah TealinuxOS 11 Stevia yang dibuat dari core Xubuntu 18.04, Xfce dan FOSS.
 
 ### Xubuntu 18.04 LTS
 
