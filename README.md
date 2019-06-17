@@ -10,4 +10,8 @@ Start a dev server at <code>localhost:1313</code>
   $ docker ps
   $ curl localhost:1313
 ```
- 
+
+## Docker-compose
+```sh
+  $ docker-compose up -d
+```
