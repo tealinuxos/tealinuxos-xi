@@ -1377,7 +1377,7 @@ body a{
         display: none;
         background-color: #fff;
         position: absolute;
-        min-width: 100px;
+        min-width: 300px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
         }

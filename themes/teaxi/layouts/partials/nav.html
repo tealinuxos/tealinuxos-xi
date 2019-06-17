@@ -20,7 +20,7 @@
                     <a class="navbar-item" href="/kontribusi/">Kontribusi</a>
                     <a class="navbar-item" target="blank" href="https://medium.com/tealinuxos">Blog</a>
                     <span class="navbar-item">
-                        <div class="search" id="search">
+                        <div class="search" >
                             <input id="search-input" class="input is-rounded form-control" type="text" placeholder="" v-model="txt" @keyup="search()" @blur="close()" maxlength="50">
                             <div class="search-results" :style="{'display': showresult?'block':'none'}">
                                 <a v-for="item in result" :href="item.url">{{ printf "{{ item.title }}" }}</a>
