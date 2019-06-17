@@ -39,7 +39,7 @@ TealinuxOS telah diluncurkan sebanyak 9 versi diantaranya adalah :
 
 ## Resep TealinuxOS
 
-Versi terakhir dari TealinuxOS adalah TealinuxOS 11 (XI) Stevia yang dibuat dari core Xbuntu 19.04, Xfce dan FOSS.
+Versi terakhir dari TealinuxOS adalah TealinuxOS 11 (XI) Stevia yang dibuat dari core Xbuntu 18.04, Xfce dan FOSS.
 
 ### Xubuntu 18.04 LTS
 
