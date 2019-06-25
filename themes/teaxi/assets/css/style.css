@@ -80,7 +80,7 @@ body a{
 /* Header */
 /* -------------------------------- */
 #bg-hero {
-    background-image: url("../img/hero.png") !important;
+    background-image: url("../img/hero.svg") !important;
     background-repeat: no-repeat !important;
     background-position: center !important; 
     background-size: cover !important;
@@ -219,7 +219,7 @@ body a{
 .fitur .fitur-body .columns .column .bg-fitur2{
     position: relative;
 }
-.fitur .fitur-body .columns .column .bg-fitur2 img:last-child{
+.fitur .fitur-body .columns .column .bg-fitur2 video{
     width: 60%;
     bottom: 120px;
     right: 130px;
@@ -751,7 +751,7 @@ body a{
         bottom: 60px;
         right: 96px;
     }
-    .fitur .fitur-body .columns .column .bg-fitur2 img:last-child{
+    .fitur .fitur-body .columns .column .bg-fitur2 video{
         bottom: 96px;
         right: 96px;
     }
@@ -1018,6 +1018,9 @@ body a{
     .navbar .navbar-menu .navbar-end .navbar-item p{
         bottom: 14px;
     }
+    #sidebar ul.menu span.navbar-item p{
+        right: 30px;
+    }
     .hero .hero-body{
         text-align: center;
     }
@@ -1086,7 +1089,7 @@ body a{
         bottom: 32px;
         right: 50px;
     }
-    .fitur .fitur-body .columns .column .bg-fitur2 img:last-child{
+    .fitur .fitur-body .columns .column .bg-fitur2 video{
         bottom: 52px;
         right: 50px;
     }
@@ -1374,10 +1377,12 @@ body a{
         display: inline-block;
         }
     .search-results {
+        border-radius: 15px;
         display: none;
         background-color: #fff;
         position: absolute;
         min-width: 300px;
+        padding: 24px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
         }
@@ -1385,6 +1390,8 @@ body a{
         color: black;
         padding: 12px 16px;
         text-decoration: none;
+        font-size: 14px;
+        border-bottom: 1px solid #d1e1e1ff;
         display: block;
         }
     .search-results a:hover {background-color: #ddd;}
